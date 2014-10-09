@@ -1,3 +1,21 @@
 * { margin:0; padding:0; }
-
+/* ################### HEADER ########################### */
 .header-container { position: relative; z-index: 3; padding-top: 40px; background:url(../images/bg_header.jpg) repeat-x scroll 0 0 #1b0a25; }
+
+/* ################### FOOTER ########################### */
+.footer-container {
+    border: none;
+    height: 346px;
+    background-repeat: repeat-x;
+    background-image: url(../images/bg_footer.jpg);
+}
+.footer_top_wrapper {
+    border-bottom: 1px solid #5d4969;
+    height: 120px;
+    width: 100%;
+}
+.footer {
+    width: 960px;;
+    margin: 0 auto;
+    padding: 25px 0 0;
+}
