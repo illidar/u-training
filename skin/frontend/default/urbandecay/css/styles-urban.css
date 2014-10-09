@@ -1,0 +1,3 @@
+* { margin:0; padding:0; }
+
+.header-container { position: relative; z-index: 3; padding-top: 40px; background:url(../images/bg_header.jpg) repeat-x scroll 0 0 #1b0a25; }
