@@ -1,36 +1,35 @@
-<?php
-/**
- * Magento
- *
- * NOTICE OF LICENSE
- *
- * This source file is subject to the Academic Free License (AFL 3.0)
- * that is bundled with this package in the file LICENSE_AFL.txt.
- * It is also available through the world-wide-web at this URL:
- * http://opensource.org/licenses/afl-3.0.php
- * If you did not receive a copy of the license and are unable to
- * obtain it through the world-wide-web, please send an email
- * to license@magentocommerce.com so we can send you a copy immediately.
- *
- * DISCLAIMER
- *
- * Do not edit or add to this file if you wish to upgrade Magento to newer
- * versions in the future. If you wish to customize Magento for your
- * needs please refer to http://www.magentocommerce.com for more information.
- *
- * @category    design
- * @package     base_default
- * @copyright   Copyright (c) 2014 Magento Inc. (http://www.magentocommerce.com)
- * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
- */
-?>
+
 <div class="footer-container">
     <div class="footer_top_wrapper">
-
+        <?php echo $this->getChildHtml('subscribe') ?>
+        <?php echo $this->getChildHtml('social') ?>
+        <div class="clear"></div>
     </div>
     <div class="footer">
-        <?php echo $this->getChildHtml() ?>
-        <p class="bugs"><?php echo $this->__('Help Us to Keep Magento Healthy') ?> - <a href="http://www.magentocommerce.com/bug-tracking" onclick="this.target='_blank'"><strong><?php echo $this->__('Report All Bugs') ?></strong></a> <?php echo $this->__('(ver. %s)', Mage::getVersion()) ?></p>
-        <address><?php echo $this->getCopyright() ?></address>
+        <div class="footer_about">
+            <h3 id="about_us">About Us</h3>
+            <p>Urban Decay is beauty with an edge.
+               Feminine, dangerous and fun, it appeals to women who relish their individuality and dare to express it.
+               From our insane range of velvety Eyeshadows—including the bestselling (and often-copied)
+               Naked Palettes—to our award-winning eye liners, budge-proof mascaras and legendary Makeup Setting Sprays,
+               we've been shaking up the industry for over 15 years.
+               <a href="#" rel="nofollow" title="Read more">More</a>
+            </p>
+            <div class="footer_bottom_logos_wrapper">
+                <a href="#">
+                    <div class="bt_logo" id="footer_bottom_logo1"></div>
+                    <div class="bt_logo" id="footer_bottom_logo2"></div>
+                    <div class="bt_logo" id="footer_bottom_logo3"></div>
+                    <div class="bt_logo" id="footer_bottom_logo4"></div>
+                </a>
+            </div>
+        </div>
+        <div class="footer_links">
+            <?php echo $this->getChildHtml('footer_links') ?>
+        </div>
+        <div class="copyright">
+            <address><?php echo $this->getCopyright() ?></address>
+        </div>
     </div>
+    <div class="clear"></div>
 </div>

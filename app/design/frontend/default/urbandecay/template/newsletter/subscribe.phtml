@@ -1,0 +1,24 @@
+
+
+<div class="subscribe_wrapper">
+    <div class="subscribe">
+    <form action="<?php echo $this->getFormActionUrl() ?>" method="post" id="newsletter-validate-detail">
+        <div class="block-content">
+            <h3 class="form_subscribe_header">
+                <label for="newsletter"><?php echo $this->__('Sign Up for Special Offers and More') ?></label>
+            </h3>
+            <div class="input_box">
+                <input type="email" placeholder="Enter your email" autocapitalize="off" autocorrect="off" spellcheck="false" name="email" id="newsletter" title="<?php echo $this->__('Sign up for our newsletter') ?>" class="input-text required-entry validate-email" />
+            </div>
+            <div class="actions">
+                <button type="submit" title="<?php echo $this->__('Subscribe') ?>" class="button" id="subscribe_button"><?php echo $this->__('Sign up') ?></button>
+            </div>
+        </div>
+    </form>
+    </div>
+    <script type="text/javascript">
+    //<![CDATA[
+        var newsletterSubscriberFormDetail = new VarienForm('newsletter-validate-detail');
+    //]]>
+    </script>
+</div>

@@ -1,4 +1,7 @@
 * { margin:0; padding:0; }
+.clear {
+    clear: both;
+}
 /* ################### HEADER ########################### */
 .header-container { position: relative; z-index: 3; padding-top: 40px; background:url(../images/bg_header.jpg) repeat-x scroll 0 0 #1b0a25; }
 
@@ -14,8 +17,101 @@
     height: 120px;
     width: 100%;
 }
+.subscribe_wrapper {
+    width: 960px;
+    margin: 0 auto;
+    padding-top: 25px;
+}
+.subscribe {
+    width: 480px;
+    float: left;
+}
+.form_subscribe_header{
+    color: #ffffff;
+    text-align: left;
+    line-height: normal;
+}
+.input_box {
+    width: 305px;
+    float: left;
+    margin: 0 15px 0 0;
+}
+#newsletter {
+    border: 1px solid #dacde1;
+    color: #919191;
+    width: 100%;
+    padding: 6px 12px;
+    height: 25px;
+    line-height: 20px;
+    outline: 0;
+    border-radius: 0;
+}
+#subscribe_button {
+    width: 103px;
+    height: 40px;
+    background: #46166b;
+    border: 0;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    margin: 0;
+    padding: 12px 24px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.social_wrapper {
+    width: 400px;
+    height: 100px;
+    background-color: #ffff00;
+}
 .footer {
     width: 960px;;
     margin: 0 auto;
     padding: 25px 0 0;
+}
+#about_us {
+    color: #ffffff;
+}
+.footer_about {
+    color: #b69fc5;
+    text-align: left;
+    float: left;
+    width: 475px;
+}
+#footer_bottom_logo1 {
+    width: 62px;
+    height: 40px;
+    background-image: url(../images/logo_footer_1.png);;
+}
+#footer_bottom_logo2 {
+    width: 32px;
+    height: 40px;
+    background-image: url(../images/logo_footer_2.png);;
+}
+#footer_bottom_logo3 {
+    width: 52px;
+    height: 49px;
+    background-image: url(../images/logo_footer_3.png);;
+}
+#footer_bottom_logo4 {
+    width: 36px;
+    height: 42px;
+    background-image: url(../images/logo_footer_4.png);;
+}
+.bt_logo {
+    float: left;
+    margin-top: 20px;
+    padding: 0 5px;
+    background-repeat: no-repeat;
+}
+.footer_links {
+    float: right;
+    width: 480px;
+}
+.footer_links .links {
+    width: 120px;
+}
+.footer_links .links ul li {
+    display: block;
+    text-align: left;
 }
