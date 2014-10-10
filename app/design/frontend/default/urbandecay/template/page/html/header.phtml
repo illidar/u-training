@@ -27,18 +27,19 @@
  * @var Mage_Page_Block_Html_Header $this
  */
 ?>
-<div class="header-container">
-    <div class="header">
+    <div class="header-top-box">
         <div class="quick-access">
-            <?php echo $this->getChildHtml('topLinks') ?>
+            <div class="header-utility-navigation-list"></div>
+            <div class="header-customer-info">
+                <?php echo $this->getChildHtml('topLinks') ?>
+            </div>
         </div>
-        <?php if ($this->getIsHomePage()):?>
-        <h1 class="logo"><strong><?php echo $this->getLogoAlt() ?></strong><a href="<?php echo $this->getUrl('') ?>" title="<?php echo $this->getLogoAlt() ?>" class="logo"><img src="<?php echo $this->getLogoSrc() ?>" alt="<?php echo $this->getLogoAlt() ?>" /></a></h1>
-        <?php else:?>
-        <a href="<?php echo $this->getUrl('') ?>" title="<?php echo $this->getLogoAlt() ?>" class="logo"><strong><?php echo $this->getLogoAlt() ?></strong><img src="<?php echo $this->getLogoSrc() ?>" alt="<?php echo $this->getLogoAlt() ?>" /></a>
-        <?php endif?>
-        <?php echo $this->getChildHtml('topSearch') ?>
-        <?php echo $this->getChildHtml('topContainer'); ?>
     </div>
-</div>
+    <div class="header-container">
+        <?php echo $this->getChildHtml('topSearch') ?>
+        <div class="header">
+            <h1 class="logo"><strong><?php echo $this->getLogoAlt() ?></strong><a href="<?php echo $this->getUrl('') ?>" title="<?php echo $this->getLogoAlt() ?>" class="logo"><img src="<?php echo $this->getLogoSrc() ?>" alt="<?php echo $this->getLogoAlt() ?>" /></a></h1>
+            <?php echo $this->getChildHtml('topContainer'); ?>
+        </div>
+    </div>
 <?php echo $this->getChildHtml('topMenu') ?>
