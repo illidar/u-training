@@ -140,9 +140,74 @@
 .copyright {
     text-align: left;
     position: absolute;
-    bottom: 0px;
+    bottom: 0;
 }
 .footer address {
     padding-left: 25px;
     margin-bottom: 5px;
+}
+.main {
+    width: 100%;
+    max-width: 1920px;
+    background: none;
+    background-color: #ffffff;
+    padding: 0;
+    margin: 0;
+}
+.main-container {
+    background-image: none;
+    margin: 0;
+    padding: 0;
+}
+.block_bacground {
+    display: block;
+    width: 100%;
+}
+.content_medium_items {
+    width: 1122px;
+    margin: 0 auto;
+}
+.medium_item {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 40px 15px 50px 15px;
+    text-align: center;
+    font-size: 13px;
+    float: left;
+}
+.medium_text p {
+    max-width: 185px;
+    min-height: 50px;
+    margin: 0 auto 8px;
+    font-size: 14px;
+    line-height: 17px;
+}
+.medium_image {
+    width: 100%;
+    position: relative;
+    margin: 0 0 20px;
+}
+.medium_text h2 {
+    font: 16px/16px "ProximaNova-Bold",sans-serif;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.button {
+    transition-property: all;
+    transition-duration: 150ms;
+    background: #fff;
+    border: solid 1px #46166b;
+    color: #46166b;
+    cursor: pointer;
+    display: inline-block;
+    padding: 5px 21px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+.button:hover {
+    text-decoration: none;
+    color: #fff;
+    background-color: #46166b;
 }
