@@ -33,7 +33,6 @@
 .subscribe_wrapper {
     width: 960px;
     margin: 0 auto;
-    padding-top: 25px;
 }
 .subscribe {
     width: 480px;
@@ -43,6 +42,7 @@
     color: #ffffff;
     text-align: left;
     line-height: normal;
+    padding-top: 25px;
 }
 .input_box {
     width: 305px;
@@ -74,13 +74,16 @@
 }
 .social_wrapper {
     width: 400px;
-    height: 100px;
-    background-color: #ffff00;
+    height: 90px;
+    color: #ffffff;
+    line-height: 50px;
+    float: right;
 }
 .footer {
     width: 960px;;
     margin: 0 auto;
     padding: 25px 0 0;
+    position: relative;
 }
 #about_us {
     color: #ffffff;
@@ -119,12 +122,27 @@
 }
 .footer_links {
     float: right;
-    width: 480px;
+    width: 470px;
 }
 .footer_links .links {
-    width: 120px;
+    width: 140px;
+    padding-left: 25px;
 }
 .footer_links .links ul li {
+    font-size: 14px;
+    line-height: 25px;
+    font-weight: bold;
     display: block;
     text-align: left;
+    background: none;
+    padding: 0;
+}
+.copyright {
+    text-align: left;
+    position: absolute;
+    bottom: 0px;
+}
+.footer address {
+    padding-left: 25px;
+    margin-bottom: 5px;
 }
