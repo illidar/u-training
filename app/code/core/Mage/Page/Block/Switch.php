@@ -85,6 +85,7 @@ class Mage_Page_Block_Switch extends Mage_Core_Block_Template
                 $baseUrl = $store->getUrl('', $params);
 
                 $store->setHomeUrl($baseUrl);
+
                 $stores[$store->getGroupId()][$store->getId()] = $store;
             }
             $this->setData('raw_stores', $stores);
