@@ -23,23 +23,18 @@
  * @copyright   Copyright (c) 2014 Magento Inc. (http://www.magentocommerce.com)
  * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
  */
+?>
+<?php
 /**
- * @var Mage_Page_Block_Html_Header $this
+ * @deprecated after 1.4.0.1
  */
 ?>
-    <div class="header-top-box">
-        <div class="quick-access">
-            <div class="header-utility-navigation-list"></div>
-            <div class="header-customer-info">
-                <?php echo $this->getChildHtml('topLinks') ?>
-            </div>
-        </div>
-    </div>
-    <div class="header-container">
-        <?php echo $this->getChildHtml('topSearch') ?>
-        <div class="header">
-            <h1 class="logo"><strong><?php echo $this->getLogoAlt() ?></strong><a href="<?php echo $this->getUrl('') ?>" title="<?php echo $this->getLogoAlt() ?>" class="logo"><img src="<?php echo $this->getSkinUrl('images/logo.png'); ?>" alt="<?php echo $this->getLogoAlt() ?>" /></a></h1>
-            <?php echo $this->getChildHtml('topContainer'); ?>
-        </div>
-        <?php echo $this->getChildHtml('topMenu') ?>
-    </div>
+<ul class="top-links">
+    <li><a class="login" href="<?php echo Mage::getUrl('customer/account/login') ?>" title="Sign in / Register">Sign in / Register</a> </li>
+    <li>
+        <a class="cart_link" href="<?php echo Mage::helper('checkout/cart')->getCartUrl(); ?>" title="View Cart">
+            <span class="mini_cart_label">My Bag </span>
+            <span class="mini_cart_quantity">(<?php echo Mage::helper('checkout/cart')->getItemsCount(); ?>)</span>
+        </a>
+    </li>
+</ul>
