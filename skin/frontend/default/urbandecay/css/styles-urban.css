@@ -141,6 +141,13 @@ ul#nav > li { display: inline-block; float: none; }
     text-transform: uppercase;
     text-align: center;
 }
+#subscribe_button:hover {
+    text-decoration: none;
+    background-color: #b69fc5;
+    border-color: #b69fc5;
+    color: #fff;
+}
+
 .social_wrapper {
     width: 400px;
     height: 90px;
@@ -437,4 +444,114 @@ ul#nav > li { display: inline-block; float: none; }
     text-decoration: none;
     color: #fff;
     background-color: #46166b;
+}
+/* ############## LOGIN FORM ################## */
+
+.account-login {
+    width: 960px;
+    margin: auto;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+.primary {
+    padding: 0 125px;
+}
+.b-myaccount-header {
+    position: relative;
+    padding: 0 0 11px;
+    border-bottom: 1px solid #dacce2;
+    margin-bottom: 20px;
+}
+.b-myaccount-header h1 {
+    font: 30px/1.2em "ProximaNova-Bold",sans-serif;
+    color: #000;
+    text-transform: uppercase;
+    font: 26px "ProximaNova-Bold",sans-serif;
+}
+.create-account-benefits h2 {
+    font: 16px/1.2em "ProximaNova-Bold",sans-serif;
+    color: #000;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.create-account-benefits ul {
+    margin: 5px 0 17px;
+    padding-left: 26px;
+    list-style: disc;
+}
+.button-color {
+    width: 100%;
+    font: 13px/1 "ProximaNova-Bold",sans-serif;
+    background: #46166b;
+    border: 0;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    margin: 0;
+    padding: 14px 0px;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    transition-property: all;
+    transition-duration: 150ms;
+}
+.button-color:hover {
+    text-decoration: none;
+    background-color: #b69fc5;
+    border-color: #b69fc5;
+    color: #fff;
+}
+.validation-advice {
+    padding: 1px 0 0;
+    background: none;
+    color: #ea0b8b;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 12px;
+    -webkit-animation-delay: 0;
+    -webkit-animation-duration: 300ms;
+    -webkit-animation-name: fadeIn;
+    -webkit-animation-fill-mode: forwards;
+    -webkit-animation-timing-function: ease-in-out;
+}
+.login_page {
+    width: 100%;
+}
+.input-text {
+    height: 30px;
+    line-height: 18px;
+    font: 13px "ProximaNova-Regular",sans-serif;
+    border: 1px solid #dacde1;
+    color: #919191;
+    padding: 6px 12px;
+    outline: 0;
+    -webkit-appearance: none;
+    border-radius: 0;
+}
+.input-box {
+    height: 55px;
+    padding-bottom: 5px;
+}
+
+#email {
+    width: 333px;
+}
+#pass {
+    width: 333px;
+}
+.f-left {
+    font-size: 12px;
+    padding-top: 5px;
+    transition-duration: 300ms;
+    border: 0;
+    color: #46166b;
+    cursor: pointer;
+}
+.fogot-pass-link-wrapper {
+    padding-left: 110px;
+}
+.f-left:hover {
+    text-decoration: none;
+    color: #000;
 }
