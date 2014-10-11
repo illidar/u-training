@@ -42,7 +42,6 @@ class Mage_Page_Helper_Layout extends Mage_Core_Helper_Abstract
     public function applyHandle($pageLayout)
     {
         $pageLayout = $this->_getConfig()->getPageLayout($pageLayout);
-
         if (!$pageLayout) {
             return $this;
         }

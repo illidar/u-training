@@ -32,7 +32,7 @@ Default layout, loads most of the pages
 
     <default translate="label" module="page">
         <label>All Pages</label>
-        <block type="page/html" name="root" output="toHtml" template="page/3columns.phtml">
+        <block type="page/html" name="root" output="toHtml" template="page/1column.phtml">
 
             <block type="page/html_head" name="head" as="head">
                 <action method="addJs"><script>prototype/prototype.js</script></action>
@@ -48,6 +48,12 @@ Default layout, loads most of the pages
                 <action method="addJs"><script>varien/menu.js</script></action>
                 <action method="addJs"><script>mage/translate.js</script></action>
                 <action method="addJs"><script>mage/cookies.js</script></action>
+                <action method="addItem"><type>skin_js</type><name>js/lib/jquery-1.10.2.min.js</name></action>
+                <action method="addItem"><type>skin_js</type><name>js/lib/enquire.js</name></action>
+                <action method="addItem"><type>skin_js</type><name>js/app.js</name></action>
+                <action method="addItem"><type>skin_js</type><name>js/lib/jquery.cycle2.min.js</name></action>
+                <action method="addItem"><type>skin_js</type><name>js/slideshow.js</name></action>
+
 
                 <block type="page/js_cookie" name="js_cookies" template="page/js/cookie.phtml"/>
 
@@ -91,8 +97,11 @@ Default layout, loads most of the pages
             <block type="core/messages" name="global_messages" as="global_messages"/>
             <block type="core/messages" name="messages" as="messages"/>
 
+
+
             <block type="core/text_list" name="content" as="content" translate="label">
                 <label>Main Content Area</label>
+                <block type="core/template" name="main_page_items" as="main_page_items" template="page/template/main_page_items.phtml"/>
             </block>
 
             <block type="core/text_list" name="right" as="right" translate="label">
@@ -102,6 +111,8 @@ Default layout, loads most of the pages
             <block type="page/html_footer" name="footer" as="footer" template="page/html/footer.phtml">
                 <block type="newsletter/subscribe" name="subscribe" as="subscribe" template="newsletter/subscribe.phtml"/>
                 <block type="page/template_links" name="footer_links" as="footer_links" template="page/template/links.phtml"/>
+                <block type="core/template" name="footer_about" as="footer_about" template="page/template/about.phtml"/>
+                <block type="core/template" name="social" as="social" template="page/template/social.phtml"/>
             </block>
 
             <block type="core/text_list" name="before_body_end" as="before_body_end" translate="label">

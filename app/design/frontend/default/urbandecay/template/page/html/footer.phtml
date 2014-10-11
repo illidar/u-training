@@ -1,34 +1,29 @@
+<?php
+/**
+* Footer
+*
+* @category    design
+* @package     base_default
+* @author      Oleksandr Kostynian
+*/
+/**
+* @var Mage_Page_Block_Html_Footer $this
+*/
+?>
 
 <div class="footer-container">
     <div class="footer_top_wrapper">
-        <?php echo $this->getChildHtml('subscribe') ?>
         <?php echo $this->getChildHtml('social') ?>
+        <?php echo $this->getChildHtml('subscribe') ?>
         <div class="clear"></div>
     </div>
     <div class="footer">
-        <div class="footer_about">
-            <h3 id="about_us">About Us</h3>
-            <p>Urban Decay is beauty with an edge.
-               Feminine, dangerous and fun, it appeals to women who relish their individuality and dare to express it.
-               From our insane range of velvety Eyeshadows—including the bestselling (and often-copied)
-               Naked Palettes—to our award-winning eye liners, budge-proof mascaras and legendary Makeup Setting Sprays,
-               we've been shaking up the industry for over 15 years.
-               <a href="#" rel="nofollow" title="Read more">More</a>
-            </p>
-            <div class="footer_bottom_logos_wrapper">
-                <a href="#">
-                    <div class="bt_logo" id="footer_bottom_logo1"></div>
-                    <div class="bt_logo" id="footer_bottom_logo2"></div>
-                    <div class="bt_logo" id="footer_bottom_logo3"></div>
-                    <div class="bt_logo" id="footer_bottom_logo4"></div>
-                </a>
-            </div>
-        </div>
+        <?php echo $this->getChildHtml('footer_about') ?>
         <div class="footer_links">
             <?php echo $this->getChildHtml('footer_links') ?>
-        </div>
-        <div class="copyright">
-            <address><?php echo $this->getCopyright() ?></address>
+            <div class="copyright">
+                <address><?php echo $this->getCopyright() ?></address>
+            </div>
         </div>
     </div>
     <div class="clear"></div>
