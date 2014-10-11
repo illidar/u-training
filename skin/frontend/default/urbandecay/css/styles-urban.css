@@ -21,25 +21,69 @@
 /* ################### HEADER ########################### */
 .header-top-box { border-bottom: 1px solid #473555; float: none; position: fixed; background: url(../images/bg_header.jpg) repeat-x 0 bottom; padding: 0 0 0 20px; width: 100%; height: 40px; z-index: 33 }
 .header-top-box .quick-access { width: 100%; margin:0 auto; padding: 0; position:relative; }
-.header-top-box .quick-access .header-customer-info { float: right; margin-right: 30px}
+.header-top-box .quick-access .header-customer-info { float: right; }
+.header-top-box .quick-access .header-customer-info ul.top-links  {margin: 10px 40px 0 0; list-style: none; }
+.header-top-box .quick-access .header-customer-info ul.top-links li { padding-left: 50px; float: left; }
+.header-top-box .quick-access .header-customer-info ul.top-links li a { text-decoration: none; color: #867592; }
 
 .header-container { border: 0; position: relative; z-index: 3; padding: 40px 0 0; background:url(../images/bg_header.jpg) repeat-x scroll 0 0 #1b0a25;}
 
 .header { width:930px; margin:0 auto; padding: 0; text-align:right; position:relative; z-index:10; }
-
 .header .logo { float:none; margin: 0; padding: 30px 0 0; text-align: center; text-decoration:none !important; }
-.header .form-search { position:absolute; top:0; right:29px; width:315px; height:30px; background:none; padding:1px 0 0 16px; }
-.header .form-search label { float:left; width:24px; height:21px; text-align:left; text-indent:-999em; overflow:hidden; }
-.header .form-search input.input-text { float:left; border-color:#5c7989; width:209px; margin-right:4px; }
-.header .form-search button.button { float:left; }
-.header .form-search button.button span { border:0; height:21px; background:url(../images/btn_search.gif) 0 0 no-repeat; padding:0 0 0 3px; font:bold 11px/21px Tahoma, Verdana, Arial, sans-serif; }
-.header .form-search button.button span span { background-position:100% 0; padding:0 6px 0 3px; }
-.header .form-search .search-autocomplete { z-index:999; left:40px !important; top:22px !important; }
-.header .form-search .search-autocomplete ul { border:1px solid #5c7989; background-color:#f9f5f0; }
-.header .form-search .search-autocomplete li { text-align:left; border-bottom:1px solid #f4eee7; padding:2px 8px 1px 8px; cursor:pointer; }
-.header .form-search .search-autocomplete li .amount { float:right; font-weight:bold; }
-.header .form-search .search-autocomplete li.odd { background-color:#fffefb; }
-.header .form-search .search-autocomplete li.selected { background-color:#f7e8dd; }
+
+/********** < Navigation */
+.nav-container { background:none; margin-top: 15px; }
+#nav { width:918px; height: 45px; margin:0 auto; padding:0 16px; font-size:13px; display: block; text-align: center; line-height: 60px; }
+/* All Levels */ /* Style consistent throughout all nav levels */
+ul#nav > li { display: inline-block; float: none; }
+
+#nav li { position:relative; text-align:left; }
+#nav li.over { z-index:998; }
+#nav a,
+#nav a:hover { display:block; line-height:1.3em; text-decoration:none; }
+#nav span { display:block; cursor:pointer; white-space:nowrap; font-size: 14px; }
+#nav li ul span {white-space:normal; }
+#nav ul li.parent a { background:none; }
+#nav ul li.parent li a { background-image:none; }
+
+/* 0 Level */
+#nav li { float:left; }
+#nav li.active a { color:#d96708; }
+#nav a { float:left; padding:5px 12px 6px 8px; color:#af8bbe; font-weight:bold; }
+#nav li.over a,
+#nav a:hover { color:#ffffff; }
+
+/* 1st Level */
+#nav ul li,
+#nav ul li.active { float:none; margin:0; padding-bottom:1px; background:#ecf3f6 url(../images/bkg_nav1.gif) 0 100% repeat-x; }
+#nav ul li.last { background:#ecf3f6; padding-bottom:0; }
+
+#nav ul a,
+#nav ul a:hover { float:none; padding:0; background:none; }
+#nav ul li a { font-weight:normal !important; }
+
+/* 2nd Level */
+#nav ul,
+#nav div { position:absolute; width:15em; top:27px; left:-10000px; border:1px solid #899ba5; }
+#nav div ul { position:static; width:auto; border:none; }
+
+/* 3rd+ Level */
+#nav ul ul,
+#nav ul div { top:5px; }
+
+#nav ul li a { background:#ecf3f6; }
+#nav ul li a:hover { background:#d5e4eb; }
+#nav ul li a,
+#nav ul li a:hover { color:#2f2f2f !important; }
+#nav ul span,
+#nav ul li.last li span { padding:3px 15px 4px 15px; }
+
+/* Show menu */
+#nav li ul.shown-sub,
+#nav li div.shown-sub { left:0; z-index:999; }
+#nav li .shown-sub ul.shown-sub,
+#nav li .shown-sub li div.shown-sub { left:100px; }
+/********** Navigation > */
 
 /* ################### FOOTER ########################### */
 .footer-container {
