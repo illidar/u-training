@@ -518,8 +518,7 @@ ul#nav > li { display: inline-block; float: none; }
 .login_page {
     width: 100%;
 }
-.input-text {
-    height: 30px;
+.log-in-form-input {
     line-height: 18px;
     font: 13px "ProximaNova-Regular",sans-serif;
     border: 1px solid #dacde1;
@@ -530,15 +529,15 @@ ul#nav > li { display: inline-block; float: none; }
     border-radius: 0;
 }
 .input-box {
-    height: 55px;
-    padding-bottom: 5px;
+    height: 48px;
+    padding-bottom: 3px;
 }
 
 #email {
-    width: 333px;
+    width: 319px;
 }
 #pass {
-    width: 333px;
+    width: 319px;
 }
 .f-left {
     font-size: 12px;
