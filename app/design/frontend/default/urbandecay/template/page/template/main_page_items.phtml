@@ -40,11 +40,11 @@ if(Mage::getSingleton('cms/page')->getIdentifier() == 'home' and Mage::app()->ge
                                      Matching Bag.  Get It Now &gt;" /> </a></div>
 <div class="content_medium_items">
     <div class="medium_item">
-        <div class="medium_image"><a href="#"> <img src="<?php echo $this->getSkinUrl('images/G1_Locked_v2.jpg') ?>" alt="" /> </a></div>
+        <div class="medium_image"><a href="<?php echo Mage::getUrl('customer/account/login') ?>"> <img src="<?php echo $this->getSkinUrl('images/G1_Locked_v2.jpg') ?>" alt="" /> </a></div>
         <div class="medium_text">
             <h2>Locked offer</h2>
             <p>Unlock an exclusive offer. Create an account<br />or log in now.</p>
-            <a class="button" href="#">create account / sign in</a></div>
+            <a class="button" href="<?php echo Mage::getUrl('customer/account/login') ?>">create account / sign in</a></div>
     </div>
 </div>
 <div class="content_medium_items">
