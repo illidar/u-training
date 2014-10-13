@@ -30,7 +30,13 @@
  */
 ?>
 <ul class="top-links">
-    <li><a class="login" href="<?php echo Mage::getUrl('customer/account/login') ?>" title="Sign in / Register">Sign in / Register</a> </li>
+    <li>
+        <?php if (! Mage::getSingleton('customer/session')->isLoggedIn()): ?>
+            <a class="login" href="<?php echo Mage::helper('customer')->getLoginUrl(); ?>" title="Sign in / Register">Sign in / Register</a>
+        <?php else: ?>
+            <a class="login" href="<?php echo Mage::helper('customer')->getLogoutUrl(); ?>" title="Sign Out">Sign Out</a>
+        <?php endif; ?>
+    </li>
     <li>
         <a class="cart_link" href="<?php echo Mage::helper('checkout/cart')->getCartUrl(); ?>" title="View Cart">
             <span class="mini_cart_label">My Bag </span>
