@@ -634,6 +634,7 @@ a:hover {
 }
 .left-reg-form {
     width: 335px;
+    float: left;
 }
 
 .form_registration .required {
@@ -660,4 +661,128 @@ a:hover {
 .is_subscribed {
     margin: 0 0 30px 20px;
 }
+.right-reg-form {
+    float: right;
+    width: 335px;
+    font: 14px "ProximaNova-Regular",sans-serif;
+}
+.right-reg-form h2 {
+    font: 16px/1.2em "ProximaNova-Bold",sans-serif;
+    color: #000;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.right-reg-form p {
+    margin: 0 0 14px;
+}
 
+/* ################ Checkout Cart ###################### */
+
+.cart-wrapper {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 960px;
+    margin: auto;
+}
+.continue_shopping_link {
+    font: 14px/1 "ProximaNova-Regular",sans-serif;
+    background: url(../images/arrow_left.png) no-repeat 0 center;
+    padding: 0 0 0 10px;
+    margin: 0 0 20px 0;
+    display: inline-block;
+    transition-duration: 300ms;
+    border: 0;
+    color: #46166b;
+    cursor: pointer;
+    text-decoration: none;
+}
+.cart {
+    width: 720px;
+    float: left;
+}
+.cart-item-title {
+    min-height: 40px;
+    padding: 8px 0 10px 0;
+}
+.cart-item-edit {
+    padding: 0 10px 10px 0;
+    float: left;
+}
+.cart-option-sep {
+    border-left: 1px solid #46166b;
+    height: 10px;
+    width: 1px;
+    float: left;
+    margin-top: 5px;
+    padding: 0 10px 0 0;
+}
+.item-option {
+    cursor: pointer;
+    color: #46166b;
+    font: 14px/20px "ProximaNova-Regular",sans-serif;
+    transition-duration: 300ms;
+}
+.item-name {
+    text-decoration: none;
+    font: 14px/16px "ProximaNova-Semibold",sans-serif;
+    cursor: pointer;
+    color: #46166b;
+}
+.cart-product-hr {
+    font: 20px/18px "ProximaNova-Bold",sans-serif;
+    width: 240px;
+    text-transform: uppercase;
+    color: #000;
+    padding: 0 0 7px 0;
+    vertical-align: bottom;
+}
+.cart-price-hr {
+    width: 90px;
+    color: #000;
+    font: 14px/18px "ProximaNova-Bold",sans-serif;
+    padding: 0 0 7px 0;
+    vertical-align: bottom;
+}
+.cart-qty-hr {
+    color: #000;
+    font: 14px/18px "ProximaNova-Bold",sans-serif;
+    padding: 0 0 7px 0;
+    width: 100px;
+    vertical-align: bottom;
+}
+.cart-total-hr {
+    color: #000;
+    font: 14px/18px "ProximaNova-Bold",sans-serif;
+    padding: 0 0 7px 0;
+    width: 70px;
+    vertical-align: bottom;
+}
+
+.cart-table thead th{
+    background: none;
+    border: none;
+}
+.data-table tr.first th {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #dacde1 !important;
+}
+.cart table {
+    border: none;
+}
+.cart-table .even, .cart-table .odd {
+    background: none;
+}
+.data-table tbody th, .data-table tbody td{
+    border: none;
+}
+.cart-price {
+    padding: 5px 0 0;
+    display: inline-block;
+    font: 14px/22px "ProximaNova-Regular",sans-serif;
+}
+.cart .a-right {
+    text-align: left !important;
+}
+.cart .a-center {
+    text-align: left !important;
+}
