@@ -123,7 +123,7 @@ ul#nav > li { display: inline-block; float: none; }
 .product-view .product-shop .availability { margin: 10px 0; display: inline-block; }
 .product-view .product-shop .availability span { color: #999; font: 12px/1.2em "ProximaNova-Regular",sans-serif; }
 
-.product-shop .add-to-link { margin: 10px 0; display: inline-block; position: absolute; right: 0; }
+.product-shop .add-to-link { margin: 10px 0; display: inline-block; float: right; clear: right; }
 .product-shop .add-to-link a:before {
     content: '';
     width: 14px;
@@ -151,7 +151,7 @@ ul#nav > li { display: inline-block; float: none; }
 /* Product Details */
 .product-collateral {
     background: none;
-    margin: 25px 0 0 0;
+    margin: 55px 0 0 0;
     padding: 0;
     border-top: 3px solid #46166b;
     border-bottom: 3px solid #46166b;
@@ -159,7 +159,7 @@ ul#nav > li { display: inline-block; float: none; }
 .product-collateral .box-collateral {
     position: relative;
     margin: 0;
-    padding: 18px 28px 18px 0;
+    padding: 18px 10px 18px 0;
     cursor: pointer;
     border-top: 1px solid #dacce2;
     background: none !important;
@@ -170,6 +170,17 @@ ul#nav > li { display: inline-block; float: none; }
     text-transform: uppercase;
     text-decoration: none;
     border: none;
+    margin: 0;
+    padding: 18px 28px 18px 0;
+}
+.product-collateral h2 span {
+    float: right;
+    font: 20px/0.7em "ProximaNova-Bold",sans-serif;
+    color: #46166b;
+}
+
+.box-collateral .std {
+    margin: 0 0 20px;
 }
 
 .product-pricing, .tier-prices {
@@ -228,8 +239,14 @@ ul#nav > li { display: inline-block; float: none; }
     float: none;
     clear: both;
     width: auto;
-    padding: 55px 0 0;
+    padding: 0;
     border-top: 1px solid #dacce2;
+}
+.product-view .box-up-sell {
+    padding: 55px 0 0 0 !important;
+}
+.box-collateral > div {
+    display: none;
 }
 .products-grid .product-image {
     display: block;
@@ -306,6 +323,17 @@ ul#nav > li { display: inline-block; float: none; }
     text-decoration: none;
     color: #fff;
     background-color: #46166b;
+}
+
+/* Category View ========================================================================== */
+.col1-layout .col-main .category-view {
+    width: 100%;
+    max-width: 960px;
+    background: none;
+    background-color: #ffffff;
+    padding: 0;
+    margin: 0 auto;
+    padding-bottom: 40px;
 }
 
 /* ################### FOOTER ########################### */

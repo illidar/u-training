@@ -2,72 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fb5ba036-a70d-4c9f-b35a-b7f244da6076" name="Default" comment="add content">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/catalog/product/view/additional.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/catalog/product/view/addto.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/catalog/product/view/addtocart.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/catalog/product/view/attributes.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/catalog/product/view/options/wrapper/bottom.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/layout/catalog.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/catalog/product/view/type/configurable.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/catalog/product/view/type/options/configurable.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/catalog/seo/sitemap/container.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/catalog/product/view/options/type/date.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/catalog/product/view/options/type/default.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/catalog/product/view/type/default.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/catalog/product/view/description.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/catalog/product/view/options/type/file.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/catalog/layer/filter.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/catalog/product/gallery.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/catalog/product/view/type/grouped.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/catalog/product/view/options/js.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/catalog/navigation/left.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/catalog/category/widget/link/link_block.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/catalog/product/widget/link/link_block.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/catalog/category/widget/link/link_inline.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/catalog/product/widget/link/link_inline.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/catalog/product/list.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/catalog/product/compare/list.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/persistent/customer/form/login.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/catalog/product/view/media.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/catalog/product/new.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/catalog/product/widget/new/column/new_default_list.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/catalog/product/widget/new/content/new_grid.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/catalog/product/widget/new/column/new_images_list.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/catalog/product/widget/new/content/new_list.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/catalog/product/widget/new/column/new_names_list.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/catalog/product/view/options.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/catalog/category/page.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/catalog/msrp/popup.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/catalog/product/price.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/catalog/product/view/price.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/catalog/rss/product/price.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/catalog/product/view/price_clone.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/catalog/product/price_msrp.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/catalog/product/price_msrp_item.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/catalog/product/price_msrp_noform.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/catalog/product/price_msrp_rss.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/catalog/product/view/product_social.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/persistent/customer/form/register.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/catalog/product/list/related.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/catalog/product/view/options/type/select.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/catalog/product/compare/sidebar.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/catalog/product/view/type/simple.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/catalog/seo/sitemap.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/catalog/layer/state.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/review/helper/summary.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/catalog/product/view/options/type/text.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/catalog/product/view/tierprices.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/catalog/product/list/toolbar.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/catalog/navigation/top.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/catalog/seo/tree.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/catalog/product/list/upsell.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/catalog/category/view.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/catalog/layer/view.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/catalog/product/view.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/catalog/product/view/type/virtual.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/catalog/product/view/options/wrapper.phtml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/session/sess_ggdobm1lrtdi276lo02ovmsa62" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/session/sess_lrqlts2nqbnl5mhnsbt43vbcf5" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/review/product/view/list.phtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/layout/review.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/catalog/product/view/attributes.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/catalog/product/view/attributes.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/layout/catalog.xml" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/layout/catalog.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--a/mage---1f5_ADMIN_NOTIFICATIONS_LASTCHECK" afterPath="$PROJECT_DIR$/var/cache/mage--a/mage---1f5_ADMIN_NOTIFICATIONS_LASTCHECK" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--a/mage---internal-metadatas---1f5_ADMIN_NOTIFICATIONS_LASTCHECK" afterPath="$PROJECT_DIR$/var/cache/mage--a/mage---internal-metadatas---1f5_ADMIN_NOTIFICATIONS_LASTCHECK" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--9/mage---internal-metadatas---1f5_DB_PDO_MYSQL_DDL_log_url_1" afterPath="$PROJECT_DIR$/var/cache/mage--9/mage---internal-metadatas---1f5_DB_PDO_MYSQL_DDL_log_url_1" />
@@ -246,10 +184,11 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--7/mage---internal-metadatas---1f5_Zend_LocaleL_en_US_month_gregorian_format_abbreviated" afterPath="$PROJECT_DIR$/var/cache/mage--7/mage---internal-metadatas---1f5_Zend_LocaleL_en_US_month_gregorian_format_abbreviated" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--a/mage---internal-metadatas---1f5_Zend_LocaleL_en_US_months_" afterPath="$PROJECT_DIR$/var/cache/mage--a/mage---internal-metadatas---1f5_Zend_LocaleL_en_US_months_" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---internal-metadatas---1f5_Zend_LocaleL_en_US_territory_2" afterPath="$PROJECT_DIR$/var/cache/mage--d/mage---internal-metadatas---1f5_Zend_LocaleL_en_US_territory_2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/page/template/main_page_items.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/page/template/main_page_items.phtml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/layout/page.xml" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/layout/page.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/skin/frontend/default/urbandecay/css/styles-urban.css" afterPath="$PROJECT_DIR$/skin/frontend/default/urbandecay/css/styles-urban.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/page/html/top.links.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/page/html/top.links.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/catalog/product/list/upsell.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/catalog/product/list/upsell.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/catalog/category/view.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/catalog/category/view.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/catalog/product/view.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/catalog/product/view.phtml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="urbandecay.iws" />
@@ -275,11 +214,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="styles-urban.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="styles-urban.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/skin/frontend/default/urbandecay/css/styles-urban.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.9133226" vertical-offset="4867" max-vertical-offset="14094">
-              <caret line="302" column="22" selection-start-line="302" selection-start-column="22" selection-end-line="302" selection-end-column="22" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="2761" max-vertical-offset="14598">
+              <caret line="177" column="51" selection-start-line="177" selection-start-column="51" selection-end-line="177" selection-end-column="51" />
               <folding />
             </state>
           </provider>
@@ -288,8 +227,28 @@
       <file leaf-file-name="catalog.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/design/frontend/default/urbandecay/layout/catalog.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.5" vertical-offset="4629" max-vertical-offset="7650">
-              <caret line="268" column="107" selection-start-line="268" selection-start-column="90" selection-end-line="268" selection-end-column="107" />
+            <state vertical-scroll-proportion="-44.766666" vertical-offset="5695" max-vertical-offset="7668">
+              <caret line="391" column="104" selection-start-line="391" selection-start-column="95" selection-end-line="391" selection-end-column="104" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="page.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/design/frontend/default/urbandecay/layout/page.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="566" max-vertical-offset="3744">
+              <caret line="37" column="110" selection-start-line="37" selection-start-column="110" selection-end-line="37" selection-end-column="110" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="view.phtml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/catalog/category/view.phtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-8.074074" vertical-offset="52" max-vertical-offset="936">
+              <caret line="42" column="25" selection-start-line="42" selection-start-column="12" selection-end-line="42" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -298,8 +257,8 @@
       <file leaf-file-name="view.phtml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/catalog/product/view.phtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="7.259259" vertical-offset="1582" max-vertical-offset="2934">
-              <caret line="77" column="58" selection-start-line="77" selection-start-column="58" selection-end-line="77" selection-end-column="58" />
+            <state vertical-scroll-proportion="-16.74074" vertical-offset="2626" max-vertical-offset="3330">
+              <caret line="171" column="62" selection-start-line="171" selection-start-column="62" selection-end-line="171" selection-end-column="62" />
               <folding>
                 <element signature="e#6#968#0#PHP" expanded="true" />
               </folding>
@@ -307,16 +266,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="upsell.phtml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="upsell.phtml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/catalog/product/list/upsell.phtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.263158" vertical-offset="0" max-vertical-offset="684">
-              <caret line="46" column="41" selection-start-line="46" selection-start-column="41" selection-end-line="46" selection-end-column="41" />
-              <folding>
-                <marker date="1413225907782" expanded="true" signature="1192:1763" placeholder="..." />
-                <marker date="1413225907782" expanded="true" signature="1444:1763" placeholder="..." />
-                <marker date="1413225907782" expanded="true" signature="1582:1763" placeholder="..." />
-              </folding>
+            <state vertical-scroll-proportion="0.12080537" vertical-offset="0" max-vertical-offset="684">
+              <caret line="27" column="25" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -342,7 +297,6 @@
         <option value="$PROJECT_DIR$/app/code/local/Urbandecay/Social/Block/Social.php" />
         <option value="$PROJECT_DIR$/app/code/local/Urbandecay/Social/etc/config.xml" />
         <option value="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/page/template/links.phtml" />
-        <option value="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/page/html/header.phtml" />
         <option value="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/newsletter/subscribe.phtml" />
         <option value="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/page/template/about.phtml" />
         <option value="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/newsletter/social.phtml" />
@@ -351,18 +305,22 @@
         <option value="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/page/1column.phtml" />
         <option value="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/page/html/top.links.phtml" />
         <option value="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/catalog/rss/product/price.phtml" />
-        <option value="$PROJECT_DIR$/app/design/frontend/default/urbandecay/layout/page.xml" />
         <option value="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/catalog/product/view/product_social.phtml" />
         <option value="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/catalog/product/view/media.phtml" />
         <option value="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/review/helper/summary.phtml" />
         <option value="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/catalog/product/view/type/options/select_options.phtml" />
-        <option value="$PROJECT_DIR$/app/design/frontend/default/urbandecay/layout/catalog.xml" />
         <option value="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/catalog/product/view/addtocart.phtml" />
         <option value="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/catalog/product/view/addto.phtml" />
         <option value="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/catalog/product/view/type/default.phtml" />
+        <option value="$PROJECT_DIR$/app/design/frontend/default/urbandecay/layout/review.xml" />
+        <option value="$PROJECT_DIR$/app/design/frontend/default/urbandecay/layout/catalog.xml" />
+        <option value="$PROJECT_DIR$/app/design/frontend/default/urbandecay/layout/page.xml" />
+        <option value="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/catalog/category/view.phtml" />
+        <option value="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/page/html/header.phtml" />
+        <option value="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/catalog/product/view/attributes.phtml" />
+        <option value="$PROJECT_DIR$/skin/frontend/default/urbandecay/css/styles-urban.css" />
         <option value="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/catalog/product/view.phtml" />
         <option value="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/catalog/product/list/upsell.phtml" />
-        <option value="$PROJECT_DIR$/skin/frontend/default/urbandecay/css/styles-urban.css" />
       </list>
     </option>
   </component>
@@ -618,48 +576,6 @@
               <option name="myItemId" value="template" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="review" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="helper" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="urbandecay" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="urbandecay" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="design" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="frontend" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="default" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="urbandecay" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="template" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -738,6 +654,52 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="product" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="urbandecay" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="urbandecay" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="design" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="default" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="urbandecay" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="template" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catalog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="product" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="view" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -902,11 +864,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/review/helper" />
+      <recent name="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/review/product/view" />
       <recent name="$PROJECT_DIR$/app/design/frontend/default/urbandecay/layout" />
+      <recent name="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/review/helper" />
       <recent name="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template" />
       <recent name="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/page" />
-      <recent name="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/page/html" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/page/template" />
@@ -958,17 +920,17 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="53" y="24" width="1867" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2669903" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28720483" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29049972" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31145832" sideWeight="0.5002746" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30625" sideWeight="0.49972543" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30625" sideWeight="0.49972543" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32847896" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -1005,95 +967,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Contacts/etc/config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.57345134" vertical-offset="324" max-vertical-offset="1980">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/layout/wishlist.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.173913" vertical-offset="648" max-vertical-offset="2610">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/skin/frontend/default/urbandecay/images/logo_footer_1.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/template/page/template/linksblock.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.24" vertical-offset="0" max-vertical-offset="525">
-          <caret line="32" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/rwd/default/template/page/html/footer.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="538">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/template/newsletter/subscribe.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6857143" vertical-offset="0" max-vertical-offset="990">
-          <caret line="20" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/page/template/links.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6514286" vertical-offset="0" max-vertical-offset="525">
-          <caret line="19" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/rwd/default/template/page/template/links.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5485714" vertical-offset="0" max-vertical-offset="525">
-          <caret line="41" column="26" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/skin/frontend/rwd/default/css/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3152174" vertical-offset="6450" max-vertical-offset="174942">
-          <caret line="368" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/page/template/about.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="612">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/newsletter/subscribe.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.4444447" vertical-offset="69" max-vertical-offset="702">
-          <caret line="15" column="44" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/rwd/default/layout/contacts.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="882">
-          <caret line="34" column="39" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/rwd/default/layout/catalog.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-63.724136" vertical-offset="1590" max-vertical-offset="8154">
-          <caret line="191" column="39" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/design/frontend/rwd/default/layout/page.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-106.17242" vertical-offset="413" max-vertical-offset="4446">
@@ -1157,13 +1030,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/page/html/header.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="486">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/layout/catalog.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="7632">
@@ -1189,14 +1055,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="631">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/default/urbandecay/layout/page.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1610" max-vertical-offset="3726">
-          <caret line="114" column="16" selection-start-line="114" selection-start-column="16" selection-end-line="114" selection-end-column="109" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1232,7 +1090,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="630">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1240,7 +1097,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="630">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1248,10 +1104,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.121107265" vertical-offset="88" max-vertical-offset="666">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding>
-            <element signature="e#6#968#0#PHP" expanded="false" />
-            <element signature="e#978#1040#0#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1267,7 +1119,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6053097" vertical-offset="0" max-vertical-offset="1062">
           <caret line="42" column="4" selection-start-line="42" selection-start-column="4" selection-end-line="42" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1275,7 +1126,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.21799308" vertical-offset="0" max-vertical-offset="578">
           <caret line="14" column="6" selection-start-line="0" selection-start-column="0" selection-end-line="14" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1283,7 +1133,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33559322" vertical-offset="0" max-vertical-offset="590">
           <caret line="34" column="128" selection-start-line="34" selection-start-column="128" selection-end-line="34" selection-end-column="128" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1291,15 +1140,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.7627119" vertical-offset="0" max-vertical-offset="590">
           <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/default/urbandecay/layout/catalog.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.5" vertical-offset="4629" max-vertical-offset="7650">
-          <caret line="268" column="107" selection-start-line="268" selection-start-column="90" selection-end-line="268" selection-end-column="107" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1307,7 +1147,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-7.3333335" vertical-offset="0" max-vertical-offset="558">
           <caret line="34" column="80" selection-start-line="34" selection-start-column="57" selection-end-line="34" selection-end-column="80" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1315,7 +1154,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-4.6666665" vertical-offset="0" max-vertical-offset="324">
           <caret line="30" column="23" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1323,7 +1161,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.17627119" vertical-offset="202" max-vertical-offset="792">
           <caret line="40" column="70" selection-start-line="40" selection-start-column="70" selection-end-line="40" selection-end-column="70" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1331,7 +1168,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.18305084" vertical-offset="0" max-vertical-offset="590">
           <caret line="29" column="29" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1339,7 +1175,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="630">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1351,21 +1186,143 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/catalog/product/list/upsell.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.263158" vertical-offset="0" max-vertical-offset="684">
-          <caret line="46" column="41" selection-start-line="46" selection-start-column="41" selection-end-line="46" selection-end-column="41" />
-          <folding>
-            <marker date="1413225907782" expanded="true" signature="1192:1763" placeholder="..." />
-            <marker date="1413225907782" expanded="true" signature="1444:1763" placeholder="..." />
-            <marker date="1413225907782" expanded="true" signature="1582:1763" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/catalog/product/price.phtml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-5.0738254" vertical-offset="3024" max-vertical-offset="8100">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/layout/review.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2520">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/default/urbandecay/layout/review.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1351" max-vertical-offset="2520">
+          <caret line="95" column="19" selection-start-line="95" selection-start-column="16" selection-end-line="95" selection-end-column="170" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/review/product/view/list.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="882">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/catalog/category/page.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="636">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/catalog/category/widget/link/link_inline.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="623">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/catalog/category/widget/link/link_block.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="623">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/catalog/product/view/type/grouped.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.295302" vertical-offset="772" max-vertical-offset="1368">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/default/urbandecay/layout/catalog.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-44.766666" vertical-offset="5695" max-vertical-offset="7668">
+          <caret line="391" column="104" selection-start-line="391" selection-start-column="95" selection-end-line="391" selection-end-column="104" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/default/urbandecay/layout/page.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="566" max-vertical-offset="3744">
+          <caret line="37" column="110" selection-start-line="37" selection-start-column="110" selection-end-line="37" selection-end-column="110" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/page/template/main_page_items.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1206">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/page/html/header.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.15100671" vertical-offset="0" max-vertical-offset="596">
+          <caret line="28" column="2" selection-start-line="28" selection-start-column="2" selection-end-line="28" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/catalog/product/view/description.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.3333335" vertical-offset="0" max-vertical-offset="396">
+          <caret line="34" column="42" selection-start-line="34" selection-start-column="42" selection-end-line="34" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/catalog/product/view/attributes.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.36453202" vertical-offset="30" max-vertical-offset="666">
+          <caret line="37" column="57" selection-start-line="37" selection-start-column="57" selection-end-line="37" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skin/frontend/default/urbandecay/css/styles-urban.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2761" max-vertical-offset="14598">
+          <caret line="177" column="51" selection-start-line="177" selection-start-column="51" selection-end-line="177" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/catalog/category/view.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.074074" vertical-offset="52" max-vertical-offset="936">
+          <caret line="42" column="25" selection-start-line="42" selection-start-column="12" selection-end-line="42" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/catalog/product/list/toolbar.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1350">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/catalog/product/list/related.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1386">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
@@ -1373,18 +1330,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/catalog/product/view.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="7.259259" vertical-offset="1582" max-vertical-offset="2934">
-          <caret line="77" column="58" selection-start-line="77" selection-start-column="58" selection-end-line="77" selection-end-column="58" />
+        <state vertical-scroll-proportion="-16.74074" vertical-offset="2626" max-vertical-offset="3330">
+          <caret line="171" column="62" selection-start-line="171" selection-start-column="62" selection-end-line="171" selection-end-column="62" />
           <folding>
             <element signature="e#6#968#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/skin/frontend/default/urbandecay/css/styles-urban.css">
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/catalog/product/list/upsell.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9133226" vertical-offset="4867" max-vertical-offset="14094">
-          <caret line="302" column="22" selection-start-line="302" selection-start-column="22" selection-end-line="302" selection-end-column="22" />
+        <state vertical-scroll-proportion="0.12080537" vertical-offset="0" max-vertical-offset="684">
+          <caret line="27" column="25" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
           <folding />
         </state>
       </provider>
