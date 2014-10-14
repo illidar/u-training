@@ -786,3 +786,33 @@ a:hover {
 .cart .a-center {
     text-align: left !important;
 }
+.cart .discount {
+    border: none;
+    background: none;
+    padding: 0;
+    margin: 0;
+}
+.cart .discount h2 {
+    color: #000000;
+    font: 20px/1.2em "ProximaNova-Bold",sans-serif;
+    border-bottom: 1px solid #dacde1;
+    padding: 0 0 5px 0;
+    margin: 0 0 20px 0;
+    background: none;
+}
+.totals {
+    background: #f5edf5 !important;
+    padding: 25px 20px;
+    border: none !important;
+}
+.cart .totals {
+    text-align: left;
+    width: 100%;
+}
+.totals-wrapper h2 {
+    font: 20px/1.2em "ProximaNova-Bold",sans-serif;
+    border-bottom: 1px solid #dacde1;
+    padding: 0 0 5px 0;
+    margin: 0 0 20px 0;
+    text-transform: uppercase;
+}
