@@ -67,8 +67,13 @@
         </div>
         <div class="totals-wrapper">
             <h2 class="order_summary_title">Subtotal</h2>
-            <div class="totals">
+        </div>
+        <div class="totals">
+            <div class="totals-pad">
             <?php echo $this->getChildHtml('totals'); ?>
+            </div>
+        </div>
+        <div class="total-button">
             <?php if(!$this->hasError()): ?>
                 <ul class="checkout-types">
                     <?php foreach ($this->getMethods('methods') as $method): ?>
@@ -78,7 +83,6 @@
                     <?php endforeach; ?>
                 </ul>
             <?php endif; ?>
-            </div>
         </div>
     </div>
     </div>
