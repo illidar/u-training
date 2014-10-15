@@ -2,14 +2,196 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fb5ba036-a70d-4c9f-b35a-b7f244da6076" name="Default" comment="add content">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/review/product/view/list.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/layout/review.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/catalog/product/view/attributes.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/catalog/product/view/attributes.phtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/layout/catalog.xml" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/layout/catalog.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--a/mage---1f5_ADMIN_NOTIFICATIONS_LASTCHECK" afterPath="$PROJECT_DIR$/var/cache/mage--a/mage---1f5_ADMIN_NOTIFICATIONS_LASTCHECK" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--a/mage---internal-metadatas---1f5_ADMIN_NOTIFICATIONS_LASTCHECK" afterPath="$PROJECT_DIR$/var/cache/mage--a/mage---internal-metadatas---1f5_ADMIN_NOTIFICATIONS_LASTCHECK" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/tag/list.phtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/skin/frontend/default/urbandecay/css/styles-i.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/skin/frontend/default/urbandecay/css/styles-s.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--9/mage---1f5_DB_PDO_MYSQL_DDL_log_url_1" afterPath="$PROJECT_DIR$/var/cache/mage--9/mage---1f5_DB_PDO_MYSQL_DDL_log_url_1" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---1f5_DB_PDO_MYSQL_DDL_log_url_info_1" afterPath="$PROJECT_DIR$/var/cache/mage--c/mage---1f5_DB_PDO_MYSQL_DDL_log_url_info_1" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--8/mage---1f5_Zend_LocaleL_en_US_day_" afterPath="$PROJECT_DIR$/var/cache/mage--8/mage---1f5_Zend_LocaleL_en_US_day_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--9/mage---1f5_Zend_LocaleL_en_US_month_" afterPath="$PROJECT_DIR$/var/cache/mage--9/mage---1f5_Zend_LocaleL_en_US_month_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--7/mage---1f5_Zend_LocaleL_en_US_month_gregorian_format_abbreviated" afterPath="$PROJECT_DIR$/var/cache/mage--7/mage---1f5_Zend_LocaleL_en_US_month_gregorian_format_abbreviated" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--9/mage---internal-metadatas---1f5_DB_PDO_MYSQL_DDL_log_url_1" afterPath="$PROJECT_DIR$/var/cache/mage--9/mage---internal-metadatas---1f5_DB_PDO_MYSQL_DDL_log_url_1" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---internal-metadatas---1f5_DB_PDO_MYSQL_DDL_log_url_info_1" afterPath="$PROJECT_DIR$/var/cache/mage--c/mage---internal-metadatas---1f5_DB_PDO_MYSQL_DDL_log_url_info_1" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--8/mage---internal-metadatas---1f5_Zend_LocaleL_en_US_day_" afterPath="$PROJECT_DIR$/var/cache/mage--8/mage---internal-metadatas---1f5_Zend_LocaleL_en_US_day_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--9/mage---internal-metadatas---1f5_Zend_LocaleL_en_US_month_" afterPath="$PROJECT_DIR$/var/cache/mage--9/mage---internal-metadatas---1f5_Zend_LocaleL_en_US_month_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--7/mage---internal-metadatas---1f5_Zend_LocaleL_en_US_month_gregorian_format_abbreviated" afterPath="$PROJECT_DIR$/var/cache/mage--7/mage---internal-metadatas---1f5_Zend_LocaleL_en_US_month_gregorian_format_abbreviated" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/layout/catalog.xml" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/layout/catalog.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/catalog/product/list.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/catalog/product/list.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--a/mage---1f5_ADMIN_NOTIFICATIONS_LASTCHECK" afterPath="$PROJECT_DIR$/var/cache/mage--a/mage---1f5_ADMIN_NOTIFICATIONS_LASTCHECK" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--4/mage---1f5_CORE_CACHE_OPTIONS" afterPath="$PROJECT_DIR$/var/cache/mage--4/mage---1f5_CORE_CACHE_OPTIONS" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--4/mage---1f5_FOOTER_LOCALEEN_US" afterPath="$PROJECT_DIR$/var/cache/mage--4/mage---1f5_FOOTER_LOCALEEN_US" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---1f5_Zend_LocaleC_af_ZA_country_ZA" afterPath="$PROJECT_DIR$/var/cache/mage--c/mage---1f5_Zend_LocaleC_af_ZA_country_ZA" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---1f5_Zend_LocaleC_af_ZA_language_af" afterPath="$PROJECT_DIR$/var/cache/mage--d/mage---1f5_Zend_LocaleC_af_ZA_language_af" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---1f5_Zend_LocaleC_ar_DZ_country_DZ" afterPath="$PROJECT_DIR$/var/cache/mage--c/mage---1f5_Zend_LocaleC_ar_DZ_country_DZ" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---1f5_Zend_LocaleC_ar_DZ_language_ar" afterPath="$PROJECT_DIR$/var/cache/mage--d/mage---1f5_Zend_LocaleC_ar_DZ_language_ar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---1f5_Zend_LocaleC_ar_EG_country_EG" afterPath="$PROJECT_DIR$/var/cache/mage--c/mage---1f5_Zend_LocaleC_ar_EG_country_EG" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---1f5_Zend_LocaleC_ar_EG_language_ar" afterPath="$PROJECT_DIR$/var/cache/mage--d/mage---1f5_Zend_LocaleC_ar_EG_language_ar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---1f5_Zend_LocaleC_ar_KW_country_KW" afterPath="$PROJECT_DIR$/var/cache/mage--c/mage---1f5_Zend_LocaleC_ar_KW_country_KW" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---1f5_Zend_LocaleC_ar_KW_language_ar" afterPath="$PROJECT_DIR$/var/cache/mage--d/mage---1f5_Zend_LocaleC_ar_KW_language_ar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---1f5_Zend_LocaleC_ar_MA_country_MA" afterPath="$PROJECT_DIR$/var/cache/mage--c/mage---1f5_Zend_LocaleC_ar_MA_country_MA" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---1f5_Zend_LocaleC_ar_MA_language_ar" afterPath="$PROJECT_DIR$/var/cache/mage--d/mage---1f5_Zend_LocaleC_ar_MA_language_ar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---1f5_Zend_LocaleC_ar_SA_country_SA" afterPath="$PROJECT_DIR$/var/cache/mage--c/mage---1f5_Zend_LocaleC_ar_SA_country_SA" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---1f5_Zend_LocaleC_ar_SA_language_ar" afterPath="$PROJECT_DIR$/var/cache/mage--d/mage---1f5_Zend_LocaleC_ar_SA_language_ar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---1f5_Zend_LocaleC_az_AZ_country_AZ" afterPath="$PROJECT_DIR$/var/cache/mage--c/mage---1f5_Zend_LocaleC_az_AZ_country_AZ" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---1f5_Zend_LocaleC_az_AZ_language_az" afterPath="$PROJECT_DIR$/var/cache/mage--d/mage---1f5_Zend_LocaleC_az_AZ_language_az" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---1f5_Zend_LocaleC_be_BY_country_BY" afterPath="$PROJECT_DIR$/var/cache/mage--c/mage---1f5_Zend_LocaleC_be_BY_country_BY" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---1f5_Zend_LocaleC_be_BY_language_be" afterPath="$PROJECT_DIR$/var/cache/mage--d/mage---1f5_Zend_LocaleC_be_BY_language_be" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---1f5_Zend_LocaleC_bg_BG_country_BG" afterPath="$PROJECT_DIR$/var/cache/mage--c/mage---1f5_Zend_LocaleC_bg_BG_country_BG" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---1f5_Zend_LocaleC_bg_BG_language_bg" afterPath="$PROJECT_DIR$/var/cache/mage--d/mage---1f5_Zend_LocaleC_bg_BG_language_bg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---1f5_Zend_LocaleC_bn_BD_country_BD" afterPath="$PROJECT_DIR$/var/cache/mage--c/mage---1f5_Zend_LocaleC_bn_BD_country_BD" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---1f5_Zend_LocaleC_bn_BD_language_bn" afterPath="$PROJECT_DIR$/var/cache/mage--d/mage---1f5_Zend_LocaleC_bn_BD_language_bn" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---1f5_Zend_LocaleC_bs_BA_country_BA" afterPath="$PROJECT_DIR$/var/cache/mage--c/mage---1f5_Zend_LocaleC_bs_BA_country_BA" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---1f5_Zend_LocaleC_bs_BA_language_bs" afterPath="$PROJECT_DIR$/var/cache/mage--d/mage---1f5_Zend_LocaleC_bs_BA_language_bs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---1f5_Zend_LocaleC_ca_ES_country_ES" afterPath="$PROJECT_DIR$/var/cache/mage--c/mage---1f5_Zend_LocaleC_ca_ES_country_ES" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---1f5_Zend_LocaleC_ca_ES_language_ca" afterPath="$PROJECT_DIR$/var/cache/mage--d/mage---1f5_Zend_LocaleC_ca_ES_language_ca" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---1f5_Zend_LocaleC_cs_CZ_country_CZ" afterPath="$PROJECT_DIR$/var/cache/mage--c/mage---1f5_Zend_LocaleC_cs_CZ_country_CZ" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---1f5_Zend_LocaleC_cs_CZ_language_cs" afterPath="$PROJECT_DIR$/var/cache/mage--d/mage---1f5_Zend_LocaleC_cs_CZ_language_cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---1f5_Zend_LocaleC_cy_GB_country_GB" afterPath="$PROJECT_DIR$/var/cache/mage--c/mage---1f5_Zend_LocaleC_cy_GB_country_GB" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---1f5_Zend_LocaleC_cy_GB_language_cy" afterPath="$PROJECT_DIR$/var/cache/mage--d/mage---1f5_Zend_LocaleC_cy_GB_language_cy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---1f5_Zend_LocaleC_da_DK_country_DK" afterPath="$PROJECT_DIR$/var/cache/mage--c/mage---1f5_Zend_LocaleC_da_DK_country_DK" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---1f5_Zend_LocaleC_da_DK_language_da" afterPath="$PROJECT_DIR$/var/cache/mage--d/mage---1f5_Zend_LocaleC_da_DK_language_da" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---1f5_Zend_LocaleC_de_AT_country_AT" afterPath="$PROJECT_DIR$/var/cache/mage--c/mage---1f5_Zend_LocaleC_de_AT_country_AT" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---1f5_Zend_LocaleC_de_AT_language_de" afterPath="$PROJECT_DIR$/var/cache/mage--d/mage---1f5_Zend_LocaleC_de_AT_language_de" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---1f5_Zend_LocaleC_de_CH_country_CH" afterPath="$PROJECT_DIR$/var/cache/mage--c/mage---1f5_Zend_LocaleC_de_CH_country_CH" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---1f5_Zend_LocaleC_de_CH_language_de" afterPath="$PROJECT_DIR$/var/cache/mage--d/mage---1f5_Zend_LocaleC_de_CH_language_de" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---1f5_Zend_LocaleC_de_DE_country_DE" afterPath="$PROJECT_DIR$/var/cache/mage--c/mage---1f5_Zend_LocaleC_de_DE_country_DE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---1f5_Zend_LocaleC_de_DE_language_de" afterPath="$PROJECT_DIR$/var/cache/mage--d/mage---1f5_Zend_LocaleC_de_DE_language_de" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---1f5_Zend_LocaleC_el_GR_country_GR" afterPath="$PROJECT_DIR$/var/cache/mage--c/mage---1f5_Zend_LocaleC_el_GR_country_GR" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---1f5_Zend_LocaleC_el_GR_language_el" afterPath="$PROJECT_DIR$/var/cache/mage--d/mage---1f5_Zend_LocaleC_el_GR_language_el" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---1f5_Zend_LocaleC_en_AU_country_AU" afterPath="$PROJECT_DIR$/var/cache/mage--c/mage---1f5_Zend_LocaleC_en_AU_country_AU" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---1f5_Zend_LocaleC_en_AU_language_en" afterPath="$PROJECT_DIR$/var/cache/mage--d/mage---1f5_Zend_LocaleC_en_AU_language_en" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---1f5_Zend_LocaleC_en_CA_country_CA" afterPath="$PROJECT_DIR$/var/cache/mage--c/mage---1f5_Zend_LocaleC_en_CA_country_CA" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---1f5_Zend_LocaleC_en_CA_language_en" afterPath="$PROJECT_DIR$/var/cache/mage--d/mage---1f5_Zend_LocaleC_en_CA_language_en" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---1f5_Zend_LocaleC_en_GB_country_GB" afterPath="$PROJECT_DIR$/var/cache/mage--c/mage---1f5_Zend_LocaleC_en_GB_country_GB" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---1f5_Zend_LocaleC_en_GB_language_en" afterPath="$PROJECT_DIR$/var/cache/mage--d/mage---1f5_Zend_LocaleC_en_GB_language_en" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---1f5_Zend_LocaleC_en_IE_country_IE" afterPath="$PROJECT_DIR$/var/cache/mage--c/mage---1f5_Zend_LocaleC_en_IE_country_IE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---1f5_Zend_LocaleC_en_IE_language_en" afterPath="$PROJECT_DIR$/var/cache/mage--d/mage---1f5_Zend_LocaleC_en_IE_language_en" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---1f5_Zend_LocaleC_en_NZ_country_NZ" afterPath="$PROJECT_DIR$/var/cache/mage--c/mage---1f5_Zend_LocaleC_en_NZ_country_NZ" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---1f5_Zend_LocaleC_en_NZ_language_en" afterPath="$PROJECT_DIR$/var/cache/mage--d/mage---1f5_Zend_LocaleC_en_NZ_language_en" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---1f5_Zend_LocaleC_en_US_country_US" afterPath="$PROJECT_DIR$/var/cache/mage--c/mage---1f5_Zend_LocaleC_en_US_country_US" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--b/mage---1f5_Zend_LocaleC_en_US_date_full" afterPath="$PROJECT_DIR$/var/cache/mage--b/mage---1f5_Zend_LocaleC_en_US_date_full" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--b/mage---1f5_Zend_LocaleC_en_US_date_long" afterPath="$PROJECT_DIR$/var/cache/mage--b/mage---1f5_Zend_LocaleC_en_US_date_long" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---1f5_Zend_LocaleC_en_US_date_medium" afterPath="$PROJECT_DIR$/var/cache/mage--d/mage---1f5_Zend_LocaleC_en_US_date_medium" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---1f5_Zend_LocaleC_en_US_language_en" afterPath="$PROJECT_DIR$/var/cache/mage--d/mage---1f5_Zend_LocaleC_en_US_language_en" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--1/mage---1f5_Zend_LocaleC_en_US_month_gregorian_format_wide_10" afterPath="$PROJECT_DIR$/var/cache/mage--1/mage---1f5_Zend_LocaleC_en_US_month_gregorian_format_wide_10" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---1f5_Zend_LocaleC_es_AR_country_AR" afterPath="$PROJECT_DIR$/var/cache/mage--c/mage---1f5_Zend_LocaleC_es_AR_country_AR" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---1f5_Zend_LocaleC_es_AR_language_es" afterPath="$PROJECT_DIR$/var/cache/mage--d/mage---1f5_Zend_LocaleC_es_AR_language_es" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---1f5_Zend_LocaleC_es_CL_country_CL" afterPath="$PROJECT_DIR$/var/cache/mage--c/mage---1f5_Zend_LocaleC_es_CL_country_CL" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---1f5_Zend_LocaleC_es_CL_language_es" afterPath="$PROJECT_DIR$/var/cache/mage--d/mage---1f5_Zend_LocaleC_es_CL_language_es" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---1f5_Zend_LocaleC_es_CO_country_CO" afterPath="$PROJECT_DIR$/var/cache/mage--c/mage---1f5_Zend_LocaleC_es_CO_country_CO" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---1f5_Zend_LocaleC_es_CO_language_es" afterPath="$PROJECT_DIR$/var/cache/mage--d/mage---1f5_Zend_LocaleC_es_CO_language_es" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---1f5_Zend_LocaleC_es_CR_country_CR" afterPath="$PROJECT_DIR$/var/cache/mage--c/mage---1f5_Zend_LocaleC_es_CR_country_CR" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---1f5_Zend_LocaleC_es_CR_language_es" afterPath="$PROJECT_DIR$/var/cache/mage--d/mage---1f5_Zend_LocaleC_es_CR_language_es" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---1f5_Zend_LocaleC_es_ES_country_ES" afterPath="$PROJECT_DIR$/var/cache/mage--c/mage---1f5_Zend_LocaleC_es_ES_country_ES" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---1f5_Zend_LocaleC_es_ES_language_es" afterPath="$PROJECT_DIR$/var/cache/mage--d/mage---1f5_Zend_LocaleC_es_ES_language_es" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---1f5_Zend_LocaleC_es_MX_country_MX" afterPath="$PROJECT_DIR$/var/cache/mage--c/mage---1f5_Zend_LocaleC_es_MX_country_MX" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---1f5_Zend_LocaleC_es_MX_language_es" afterPath="$PROJECT_DIR$/var/cache/mage--d/mage---1f5_Zend_LocaleC_es_MX_language_es" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---1f5_Zend_LocaleC_es_PA_country_PA" afterPath="$PROJECT_DIR$/var/cache/mage--c/mage---1f5_Zend_LocaleC_es_PA_country_PA" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---1f5_Zend_LocaleC_es_PA_language_es" afterPath="$PROJECT_DIR$/var/cache/mage--d/mage---1f5_Zend_LocaleC_es_PA_language_es" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---1f5_Zend_LocaleC_es_PE_country_PE" afterPath="$PROJECT_DIR$/var/cache/mage--c/mage---1f5_Zend_LocaleC_es_PE_country_PE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---1f5_Zend_LocaleC_es_PE_language_es" afterPath="$PROJECT_DIR$/var/cache/mage--d/mage---1f5_Zend_LocaleC_es_PE_language_es" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---1f5_Zend_LocaleC_es_VE_country_VE" afterPath="$PROJECT_DIR$/var/cache/mage--c/mage---1f5_Zend_LocaleC_es_VE_country_VE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---1f5_Zend_LocaleC_es_VE_language_es" afterPath="$PROJECT_DIR$/var/cache/mage--d/mage---1f5_Zend_LocaleC_es_VE_language_es" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---1f5_Zend_LocaleC_et_EE_country_EE" afterPath="$PROJECT_DIR$/var/cache/mage--c/mage---1f5_Zend_LocaleC_et_EE_country_EE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---1f5_Zend_LocaleC_et_EE_language_et" afterPath="$PROJECT_DIR$/var/cache/mage--d/mage---1f5_Zend_LocaleC_et_EE_language_et" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---1f5_Zend_LocaleC_fa_IR_country_IR" afterPath="$PROJECT_DIR$/var/cache/mage--c/mage---1f5_Zend_LocaleC_fa_IR_country_IR" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---1f5_Zend_LocaleC_fa_IR_language_fa" afterPath="$PROJECT_DIR$/var/cache/mage--d/mage---1f5_Zend_LocaleC_fa_IR_language_fa" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---1f5_Zend_LocaleC_fi_FI_country_FI" afterPath="$PROJECT_DIR$/var/cache/mage--c/mage---1f5_Zend_LocaleC_fi_FI_country_FI" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---1f5_Zend_LocaleC_fi_FI_language_fi" afterPath="$PROJECT_DIR$/var/cache/mage--d/mage---1f5_Zend_LocaleC_fi_FI_language_fi" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---1f5_Zend_LocaleC_fil_PH_country_PH" afterPath="$PROJECT_DIR$/var/cache/mage--d/mage---1f5_Zend_LocaleC_fil_PH_country_PH" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--f/mage---1f5_Zend_LocaleC_fil_PH_language_fil" afterPath="$PROJECT_DIR$/var/cache/mage--f/mage---1f5_Zend_LocaleC_fil_PH_language_fil" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---1f5_Zend_LocaleC_fr_CA_country_CA" afterPath="$PROJECT_DIR$/var/cache/mage--c/mage---1f5_Zend_LocaleC_fr_CA_country_CA" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---1f5_Zend_LocaleC_fr_CA_language_fr" afterPath="$PROJECT_DIR$/var/cache/mage--d/mage---1f5_Zend_LocaleC_fr_CA_language_fr" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---1f5_Zend_LocaleC_fr_FR_country_FR" afterPath="$PROJECT_DIR$/var/cache/mage--c/mage---1f5_Zend_LocaleC_fr_FR_country_FR" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---1f5_Zend_LocaleC_fr_FR_language_fr" afterPath="$PROJECT_DIR$/var/cache/mage--d/mage---1f5_Zend_LocaleC_fr_FR_language_fr" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---1f5_Zend_LocaleC_gl_ES_country_ES" afterPath="$PROJECT_DIR$/var/cache/mage--c/mage---1f5_Zend_LocaleC_gl_ES_country_ES" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---1f5_Zend_LocaleC_gl_ES_language_gl" afterPath="$PROJECT_DIR$/var/cache/mage--d/mage---1f5_Zend_LocaleC_gl_ES_language_gl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---1f5_Zend_LocaleC_gu_IN_country_IN" afterPath="$PROJECT_DIR$/var/cache/mage--c/mage---1f5_Zend_LocaleC_gu_IN_country_IN" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---1f5_Zend_LocaleC_gu_IN_language_gu" afterPath="$PROJECT_DIR$/var/cache/mage--d/mage---1f5_Zend_LocaleC_gu_IN_language_gu" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---1f5_Zend_LocaleC_he_IL_country_IL" afterPath="$PROJECT_DIR$/var/cache/mage--c/mage---1f5_Zend_LocaleC_he_IL_country_IL" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---1f5_Zend_LocaleC_he_IL_language_he" afterPath="$PROJECT_DIR$/var/cache/mage--d/mage---1f5_Zend_LocaleC_he_IL_language_he" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---1f5_Zend_LocaleC_hi_IN_country_IN" afterPath="$PROJECT_DIR$/var/cache/mage--c/mage---1f5_Zend_LocaleC_hi_IN_country_IN" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---1f5_Zend_LocaleC_hi_IN_language_hi" afterPath="$PROJECT_DIR$/var/cache/mage--d/mage---1f5_Zend_LocaleC_hi_IN_language_hi" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---1f5_Zend_LocaleC_hr_HR_country_HR" afterPath="$PROJECT_DIR$/var/cache/mage--c/mage---1f5_Zend_LocaleC_hr_HR_country_HR" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---1f5_Zend_LocaleC_hr_HR_language_hr" afterPath="$PROJECT_DIR$/var/cache/mage--d/mage---1f5_Zend_LocaleC_hr_HR_language_hr" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---1f5_Zend_LocaleC_hu_HU_country_HU" afterPath="$PROJECT_DIR$/var/cache/mage--c/mage---1f5_Zend_LocaleC_hu_HU_country_HU" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---1f5_Zend_LocaleC_hu_HU_language_hu" afterPath="$PROJECT_DIR$/var/cache/mage--d/mage---1f5_Zend_LocaleC_hu_HU_language_hu" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---1f5_Zend_LocaleC_id_ID_country_ID" afterPath="$PROJECT_DIR$/var/cache/mage--c/mage---1f5_Zend_LocaleC_id_ID_country_ID" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---1f5_Zend_LocaleC_id_ID_language_id" afterPath="$PROJECT_DIR$/var/cache/mage--d/mage---1f5_Zend_LocaleC_id_ID_language_id" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---1f5_Zend_LocaleC_is_IS_country_IS" afterPath="$PROJECT_DIR$/var/cache/mage--c/mage---1f5_Zend_LocaleC_is_IS_country_IS" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---1f5_Zend_LocaleC_is_IS_language_is" afterPath="$PROJECT_DIR$/var/cache/mage--d/mage---1f5_Zend_LocaleC_is_IS_language_is" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---1f5_Zend_LocaleC_it_CH_country_CH" afterPath="$PROJECT_DIR$/var/cache/mage--c/mage---1f5_Zend_LocaleC_it_CH_country_CH" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---1f5_Zend_LocaleC_it_CH_language_it" afterPath="$PROJECT_DIR$/var/cache/mage--d/mage---1f5_Zend_LocaleC_it_CH_language_it" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---1f5_Zend_LocaleC_it_IT_country_IT" afterPath="$PROJECT_DIR$/var/cache/mage--c/mage---1f5_Zend_LocaleC_it_IT_country_IT" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---1f5_Zend_LocaleC_it_IT_language_it" afterPath="$PROJECT_DIR$/var/cache/mage--d/mage---1f5_Zend_LocaleC_it_IT_language_it" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---1f5_Zend_LocaleC_ja_JP_country_JP" afterPath="$PROJECT_DIR$/var/cache/mage--c/mage---1f5_Zend_LocaleC_ja_JP_country_JP" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---1f5_Zend_LocaleC_ja_JP_language_ja" afterPath="$PROJECT_DIR$/var/cache/mage--d/mage---1f5_Zend_LocaleC_ja_JP_language_ja" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---1f5_Zend_LocaleC_ka_GE_country_GE" afterPath="$PROJECT_DIR$/var/cache/mage--c/mage---1f5_Zend_LocaleC_ka_GE_country_GE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---1f5_Zend_LocaleC_ka_GE_language_ka" afterPath="$PROJECT_DIR$/var/cache/mage--d/mage---1f5_Zend_LocaleC_ka_GE_language_ka" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---1f5_Zend_LocaleC_km_KH_country_KH" afterPath="$PROJECT_DIR$/var/cache/mage--c/mage---1f5_Zend_LocaleC_km_KH_country_KH" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---1f5_Zend_LocaleC_km_KH_language_km" afterPath="$PROJECT_DIR$/var/cache/mage--d/mage---1f5_Zend_LocaleC_km_KH_language_km" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---1f5_Zend_LocaleC_ko_KR_country_KR" afterPath="$PROJECT_DIR$/var/cache/mage--c/mage---1f5_Zend_LocaleC_ko_KR_country_KR" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---1f5_Zend_LocaleC_ko_KR_language_ko" afterPath="$PROJECT_DIR$/var/cache/mage--d/mage---1f5_Zend_LocaleC_ko_KR_language_ko" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---1f5_Zend_LocaleC_lo_LA_country_LA" afterPath="$PROJECT_DIR$/var/cache/mage--c/mage---1f5_Zend_LocaleC_lo_LA_country_LA" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---1f5_Zend_LocaleC_lo_LA_language_lo" afterPath="$PROJECT_DIR$/var/cache/mage--d/mage---1f5_Zend_LocaleC_lo_LA_language_lo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---1f5_Zend_LocaleC_lt_LT_country_LT" afterPath="$PROJECT_DIR$/var/cache/mage--c/mage---1f5_Zend_LocaleC_lt_LT_country_LT" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---1f5_Zend_LocaleC_lt_LT_language_lt" afterPath="$PROJECT_DIR$/var/cache/mage--d/mage---1f5_Zend_LocaleC_lt_LT_language_lt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---1f5_Zend_LocaleC_lv_LV_country_LV" afterPath="$PROJECT_DIR$/var/cache/mage--c/mage---1f5_Zend_LocaleC_lv_LV_country_LV" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---1f5_Zend_LocaleC_lv_LV_language_lv" afterPath="$PROJECT_DIR$/var/cache/mage--d/mage---1f5_Zend_LocaleC_lv_LV_language_lv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---1f5_Zend_LocaleC_mk_MK_country_MK" afterPath="$PROJECT_DIR$/var/cache/mage--c/mage---1f5_Zend_LocaleC_mk_MK_country_MK" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---1f5_Zend_LocaleC_mk_MK_language_mk" afterPath="$PROJECT_DIR$/var/cache/mage--d/mage---1f5_Zend_LocaleC_mk_MK_language_mk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---1f5_Zend_LocaleC_mn_MN_country_MN" afterPath="$PROJECT_DIR$/var/cache/mage--c/mage---1f5_Zend_LocaleC_mn_MN_country_MN" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---1f5_Zend_LocaleC_mn_MN_language_mn" afterPath="$PROJECT_DIR$/var/cache/mage--d/mage---1f5_Zend_LocaleC_mn_MN_language_mn" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---1f5_Zend_LocaleC_ms_MY_country_MY" afterPath="$PROJECT_DIR$/var/cache/mage--c/mage---1f5_Zend_LocaleC_ms_MY_country_MY" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---1f5_Zend_LocaleC_ms_MY_language_ms" afterPath="$PROJECT_DIR$/var/cache/mage--d/mage---1f5_Zend_LocaleC_ms_MY_language_ms" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---1f5_Zend_LocaleC_nb_NO_country_NO" afterPath="$PROJECT_DIR$/var/cache/mage--c/mage---1f5_Zend_LocaleC_nb_NO_country_NO" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---1f5_Zend_LocaleC_nb_NO_language_nb" afterPath="$PROJECT_DIR$/var/cache/mage--d/mage---1f5_Zend_LocaleC_nb_NO_language_nb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---1f5_Zend_LocaleC_nl_NL_country_NL" afterPath="$PROJECT_DIR$/var/cache/mage--c/mage---1f5_Zend_LocaleC_nl_NL_country_NL" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---1f5_Zend_LocaleC_nl_NL_language_nl" afterPath="$PROJECT_DIR$/var/cache/mage--d/mage---1f5_Zend_LocaleC_nl_NL_language_nl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---1f5_Zend_LocaleC_nn_NO_country_NO" afterPath="$PROJECT_DIR$/var/cache/mage--c/mage---1f5_Zend_LocaleC_nn_NO_country_NO" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---1f5_Zend_LocaleC_nn_NO_language_nn" afterPath="$PROJECT_DIR$/var/cache/mage--d/mage---1f5_Zend_LocaleC_nn_NO_language_nn" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---1f5_Zend_LocaleC_pl_PL_country_PL" afterPath="$PROJECT_DIR$/var/cache/mage--c/mage---1f5_Zend_LocaleC_pl_PL_country_PL" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---1f5_Zend_LocaleC_pl_PL_language_pl" afterPath="$PROJECT_DIR$/var/cache/mage--d/mage---1f5_Zend_LocaleC_pl_PL_language_pl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---1f5_Zend_LocaleC_pt_BR_country_BR" afterPath="$PROJECT_DIR$/var/cache/mage--c/mage---1f5_Zend_LocaleC_pt_BR_country_BR" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---1f5_Zend_LocaleC_pt_BR_language_pt" afterPath="$PROJECT_DIR$/var/cache/mage--d/mage---1f5_Zend_LocaleC_pt_BR_language_pt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---1f5_Zend_LocaleC_pt_PT_country_PT" afterPath="$PROJECT_DIR$/var/cache/mage--c/mage---1f5_Zend_LocaleC_pt_PT_country_PT" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---1f5_Zend_LocaleC_pt_PT_language_pt" afterPath="$PROJECT_DIR$/var/cache/mage--d/mage---1f5_Zend_LocaleC_pt_PT_language_pt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---1f5_Zend_LocaleC_ro_RO_country_RO" afterPath="$PROJECT_DIR$/var/cache/mage--c/mage---1f5_Zend_LocaleC_ro_RO_country_RO" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---1f5_Zend_LocaleC_ro_RO_language_ro" afterPath="$PROJECT_DIR$/var/cache/mage--d/mage---1f5_Zend_LocaleC_ro_RO_language_ro" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---1f5_Zend_LocaleC_ru_RU_country_RU" afterPath="$PROJECT_DIR$/var/cache/mage--c/mage---1f5_Zend_LocaleC_ru_RU_country_RU" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---1f5_Zend_LocaleC_ru_RU_language_ru" afterPath="$PROJECT_DIR$/var/cache/mage--d/mage---1f5_Zend_LocaleC_ru_RU_language_ru" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---1f5_Zend_LocaleC_sk_SK_country_SK" afterPath="$PROJECT_DIR$/var/cache/mage--c/mage---1f5_Zend_LocaleC_sk_SK_country_SK" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---1f5_Zend_LocaleC_sk_SK_language_sk" afterPath="$PROJECT_DIR$/var/cache/mage--d/mage---1f5_Zend_LocaleC_sk_SK_language_sk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---1f5_Zend_LocaleC_sl_SI_country_SI" afterPath="$PROJECT_DIR$/var/cache/mage--c/mage---1f5_Zend_LocaleC_sl_SI_country_SI" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---1f5_Zend_LocaleC_sl_SI_language_sl" afterPath="$PROJECT_DIR$/var/cache/mage--d/mage---1f5_Zend_LocaleC_sl_SI_language_sl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---1f5_Zend_LocaleC_sq_AL_country_AL" afterPath="$PROJECT_DIR$/var/cache/mage--c/mage---1f5_Zend_LocaleC_sq_AL_country_AL" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---1f5_Zend_LocaleC_sq_AL_language_sq" afterPath="$PROJECT_DIR$/var/cache/mage--d/mage---1f5_Zend_LocaleC_sq_AL_language_sq" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---1f5_Zend_LocaleC_sr_RS_country_RS" afterPath="$PROJECT_DIR$/var/cache/mage--c/mage---1f5_Zend_LocaleC_sr_RS_country_RS" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---1f5_Zend_LocaleC_sr_RS_language_sr" afterPath="$PROJECT_DIR$/var/cache/mage--d/mage---1f5_Zend_LocaleC_sr_RS_language_sr" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---1f5_Zend_LocaleC_sv_SE_country_SE" afterPath="$PROJECT_DIR$/var/cache/mage--c/mage---1f5_Zend_LocaleC_sv_SE_country_SE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---1f5_Zend_LocaleC_sv_SE_language_sv" afterPath="$PROJECT_DIR$/var/cache/mage--d/mage---1f5_Zend_LocaleC_sv_SE_language_sv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---1f5_Zend_LocaleC_sw_KE_country_KE" afterPath="$PROJECT_DIR$/var/cache/mage--c/mage---1f5_Zend_LocaleC_sw_KE_country_KE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---1f5_Zend_LocaleC_sw_KE_language_sw" afterPath="$PROJECT_DIR$/var/cache/mage--d/mage---1f5_Zend_LocaleC_sw_KE_language_sw" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---1f5_Zend_LocaleC_th_TH_country_TH" afterPath="$PROJECT_DIR$/var/cache/mage--c/mage---1f5_Zend_LocaleC_th_TH_country_TH" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---1f5_Zend_LocaleC_th_TH_language_th" afterPath="$PROJECT_DIR$/var/cache/mage--d/mage---1f5_Zend_LocaleC_th_TH_language_th" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---1f5_Zend_LocaleC_tr_TR_country_TR" afterPath="$PROJECT_DIR$/var/cache/mage--c/mage---1f5_Zend_LocaleC_tr_TR_country_TR" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---1f5_Zend_LocaleC_tr_TR_language_tr" afterPath="$PROJECT_DIR$/var/cache/mage--d/mage---1f5_Zend_LocaleC_tr_TR_language_tr" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---1f5_Zend_LocaleC_uk_UA_country_UA" afterPath="$PROJECT_DIR$/var/cache/mage--c/mage---1f5_Zend_LocaleC_uk_UA_country_UA" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---1f5_Zend_LocaleC_uk_UA_language_uk" afterPath="$PROJECT_DIR$/var/cache/mage--d/mage---1f5_Zend_LocaleC_uk_UA_language_uk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---1f5_Zend_LocaleC_vi_VN_country_VN" afterPath="$PROJECT_DIR$/var/cache/mage--c/mage---1f5_Zend_LocaleC_vi_VN_country_VN" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---1f5_Zend_LocaleC_vi_VN_language_vi" afterPath="$PROJECT_DIR$/var/cache/mage--d/mage---1f5_Zend_LocaleC_vi_VN_language_vi" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---1f5_Zend_LocaleC_zh_CN_country_CN" afterPath="$PROJECT_DIR$/var/cache/mage--c/mage---1f5_Zend_LocaleC_zh_CN_country_CN" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---1f5_Zend_LocaleC_zh_CN_language_zh" afterPath="$PROJECT_DIR$/var/cache/mage--d/mage---1f5_Zend_LocaleC_zh_CN_language_zh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---1f5_Zend_LocaleC_zh_HK_country_HK" afterPath="$PROJECT_DIR$/var/cache/mage--c/mage---1f5_Zend_LocaleC_zh_HK_country_HK" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---1f5_Zend_LocaleC_zh_HK_language_zh" afterPath="$PROJECT_DIR$/var/cache/mage--d/mage---1f5_Zend_LocaleC_zh_HK_language_zh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---1f5_Zend_LocaleC_zh_TW_country_TW" afterPath="$PROJECT_DIR$/var/cache/mage--c/mage---1f5_Zend_LocaleC_zh_TW_country_TW" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---1f5_Zend_LocaleC_zh_TW_language_zh" afterPath="$PROJECT_DIR$/var/cache/mage--d/mage---1f5_Zend_LocaleC_zh_TW_language_zh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--9/mage---1f5_Zend_LocaleL_en_US_days_" afterPath="$PROJECT_DIR$/var/cache/mage--9/mage---1f5_Zend_LocaleL_en_US_days_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--b/mage---1f5_Zend_LocaleL_en_US_language_" afterPath="$PROJECT_DIR$/var/cache/mage--b/mage---1f5_Zend_LocaleL_en_US_language_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--a/mage---1f5_Zend_LocaleL_en_US_months_" afterPath="$PROJECT_DIR$/var/cache/mage--a/mage---1f5_Zend_LocaleL_en_US_months_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---1f5_Zend_LocaleL_en_US_territory_2" afterPath="$PROJECT_DIR$/var/cache/mage--d/mage---1f5_Zend_LocaleL_en_US_territory_2" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--a/mage---internal-metadatas---1f5_ADMIN_NOTIFICATIONS_LASTCHECK" afterPath="$PROJECT_DIR$/var/cache/mage--a/mage---internal-metadatas---1f5_ADMIN_NOTIFICATIONS_LASTCHECK" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--4/mage---internal-metadatas---1f5_CORE_CACHE_OPTIONS" afterPath="$PROJECT_DIR$/var/cache/mage--4/mage---internal-metadatas---1f5_CORE_CACHE_OPTIONS" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--4/mage---internal-metadatas---1f5_FOOTER_LOCALEEN_US" afterPath="$PROJECT_DIR$/var/cache/mage--4/mage---internal-metadatas---1f5_FOOTER_LOCALEEN_US" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---internal-metadatas---1f5_Zend_LocaleC_af_ZA_country_ZA" afterPath="$PROJECT_DIR$/var/cache/mage--c/mage---internal-metadatas---1f5_Zend_LocaleC_af_ZA_country_ZA" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---internal-metadatas---1f5_Zend_LocaleC_af_ZA_language_af" afterPath="$PROJECT_DIR$/var/cache/mage--d/mage---internal-metadatas---1f5_Zend_LocaleC_af_ZA_language_af" />
@@ -177,16 +359,12 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---internal-metadatas---1f5_Zend_LocaleC_zh_HK_language_zh" afterPath="$PROJECT_DIR$/var/cache/mage--d/mage---internal-metadatas---1f5_Zend_LocaleC_zh_HK_language_zh" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---internal-metadatas---1f5_Zend_LocaleC_zh_TW_country_TW" afterPath="$PROJECT_DIR$/var/cache/mage--c/mage---internal-metadatas---1f5_Zend_LocaleC_zh_TW_country_TW" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---internal-metadatas---1f5_Zend_LocaleC_zh_TW_language_zh" afterPath="$PROJECT_DIR$/var/cache/mage--d/mage---internal-metadatas---1f5_Zend_LocaleC_zh_TW_language_zh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--8/mage---internal-metadatas---1f5_Zend_LocaleL_en_US_day_" afterPath="$PROJECT_DIR$/var/cache/mage--8/mage---internal-metadatas---1f5_Zend_LocaleL_en_US_day_" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--9/mage---internal-metadatas---1f5_Zend_LocaleL_en_US_days_" afterPath="$PROJECT_DIR$/var/cache/mage--9/mage---internal-metadatas---1f5_Zend_LocaleL_en_US_days_" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--b/mage---internal-metadatas---1f5_Zend_LocaleL_en_US_language_" afterPath="$PROJECT_DIR$/var/cache/mage--b/mage---internal-metadatas---1f5_Zend_LocaleL_en_US_language_" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--9/mage---internal-metadatas---1f5_Zend_LocaleL_en_US_month_" afterPath="$PROJECT_DIR$/var/cache/mage--9/mage---internal-metadatas---1f5_Zend_LocaleL_en_US_month_" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--7/mage---internal-metadatas---1f5_Zend_LocaleL_en_US_month_gregorian_format_abbreviated" afterPath="$PROJECT_DIR$/var/cache/mage--7/mage---internal-metadatas---1f5_Zend_LocaleL_en_US_month_gregorian_format_abbreviated" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--a/mage---internal-metadatas---1f5_Zend_LocaleL_en_US_months_" afterPath="$PROJECT_DIR$/var/cache/mage--a/mage---internal-metadatas---1f5_Zend_LocaleL_en_US_months_" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---internal-metadatas---1f5_Zend_LocaleL_en_US_territory_2" afterPath="$PROJECT_DIR$/var/cache/mage--d/mage---internal-metadatas---1f5_Zend_LocaleL_en_US_territory_2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/layout/page.xml" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/layout/page.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/skin/frontend/default/urbandecay/css/styles-urban.css" afterPath="$PROJECT_DIR$/skin/frontend/default/urbandecay/css/styles-urban.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/catalog/product/list/upsell.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/catalog/product/list/upsell.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/catalog/product/list/toolbar.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/catalog/product/list/toolbar.phtml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/catalog/category/view.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/catalog/category/view.phtml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/catalog/product/view.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/catalog/product/view.phtml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -214,11 +392,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="styles-urban.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/skin/frontend/default/urbandecay/css/styles-urban.css">
+      <file leaf-file-name="styles-i.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/skin/frontend/default/urbandecay/css/styles-i.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="2761" max-vertical-offset="14598">
-              <caret line="177" column="51" selection-start-line="177" selection-start-column="51" selection-end-line="177" selection-end-column="51" />
+            <state vertical-scroll-proportion="6.4580154" vertical-offset="0" max-vertical-offset="7596">
+              <caret line="329" column="14" selection-start-line="329" selection-start-column="14" selection-end-line="329" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -227,28 +405,8 @@
       <file leaf-file-name="catalog.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/design/frontend/default/urbandecay/layout/catalog.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-44.766666" vertical-offset="5695" max-vertical-offset="7668">
-              <caret line="391" column="104" selection-start-line="391" selection-start-column="95" selection-end-line="391" selection-end-column="104" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="page.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/design/frontend/default/urbandecay/layout/page.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="566" max-vertical-offset="3744">
-              <caret line="37" column="110" selection-start-line="37" selection-start-column="110" selection-end-line="37" selection-end-column="110" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="view.phtml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/catalog/category/view.phtml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.074074" vertical-offset="52" max-vertical-offset="936">
-              <caret line="42" column="25" selection-start-line="42" selection-start-column="12" selection-end-line="42" selection-end-column="25" />
+            <state vertical-scroll-proportion="-9.833333" vertical-offset="2315" max-vertical-offset="7704">
+              <caret line="145" column="10" selection-start-line="145" selection-start-column="8" selection-end-line="145" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -257,8 +415,8 @@
       <file leaf-file-name="view.phtml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/catalog/product/view.phtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-16.74074" vertical-offset="2626" max-vertical-offset="3330">
-              <caret line="171" column="62" selection-start-line="171" selection-start-column="62" selection-end-line="171" selection-end-column="62" />
+            <state vertical-scroll-proportion="-37.666668" vertical-offset="729" max-vertical-offset="3276">
+              <caret line="97" column="35" selection-start-line="97" selection-start-column="35" selection-end-line="97" selection-end-column="35" />
               <folding>
                 <element signature="e#6#968#0#PHP" expanded="true" />
               </folding>
@@ -266,11 +424,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="upsell.phtml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/catalog/product/list/upsell.phtml">
+      <file leaf-file-name="list.phtml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/tag/list.phtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.12080537" vertical-offset="0" max-vertical-offset="684">
-              <caret line="27" column="25" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
+            <state vertical-scroll-proportion="-2.0" vertical-offset="0" max-vertical-offset="828">
+              <caret line="26" column="31" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="view.phtml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/catalog/category/view.phtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-23.333334" vertical-offset="0" max-vertical-offset="864">
+              <caret line="62" column="42" selection-start-line="62" selection-start-column="42" selection-end-line="62" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="toolbar.phtml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/catalog/product/list/toolbar.phtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-4.962963" vertical-offset="28" max-vertical-offset="918">
+              <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -313,14 +491,20 @@
         <option value="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/catalog/product/view/addto.phtml" />
         <option value="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/catalog/product/view/type/default.phtml" />
         <option value="$PROJECT_DIR$/app/design/frontend/default/urbandecay/layout/review.xml" />
-        <option value="$PROJECT_DIR$/app/design/frontend/default/urbandecay/layout/catalog.xml" />
         <option value="$PROJECT_DIR$/app/design/frontend/default/urbandecay/layout/page.xml" />
-        <option value="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/catalog/category/view.phtml" />
         <option value="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/page/html/header.phtml" />
         <option value="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/catalog/product/view/attributes.phtml" />
-        <option value="$PROJECT_DIR$/skin/frontend/default/urbandecay/css/styles-urban.css" />
-        <option value="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/catalog/product/view.phtml" />
         <option value="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/catalog/product/list/upsell.phtml" />
+        <option value="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/catalog/product/view.phtml" />
+        <option value="$PROJECT_DIR$/app/design/frontend/default/urbandecay/layout/catalog.xml" />
+        <option value="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/catalog/product/list.phtml" />
+        <option value="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/catalog/product/list/toolbar.phtml" />
+        <option value="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/catalog/category/view.phtml" />
+        <option value="$PROJECT_DIR$/app/design/frontend/base/default/template/tag/list.phtml" />
+        <option value="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/tag/list.phtml" />
+        <option value="$PROJECT_DIR$/skin/frontend/default/urbandecay/css/styles-i.css" />
+        <option value="$PROJECT_DIR$/skin/frontend/default/urbandecay/css/styles-urban.css" />
+        <option value="$PROJECT_DIR$/skin/frontend/default/urbandecay/css/styles-s.css" />
       </list>
     </option>
   </component>
@@ -330,9 +514,9 @@
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
     <option name="x" value="53" />
-    <option name="y" value="24" />
+    <option name="y" value="-4" />
     <option name="width" value="1867" />
-    <option name="height" value="1056" />
+    <option name="height" value="1084" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -360,7 +544,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -432,6 +615,10 @@
               <option name="myItemId" value="default" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="urbandecay" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -455,33 +642,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="default" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
               <option name="myItemId" value="urbandecay" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="urbandecay" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="skin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="frontend" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="default" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="default" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -499,6 +660,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="skin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="default" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="urbandecay" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="urbandecay" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -576,42 +759,8 @@
               <option name="myItemId" value="template" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="urbandecay" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="urbandecay" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="design" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="frontend" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="default" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="urbandecay" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="template" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="catalog" />
+              <option name="myItemId" value="tag" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -646,106 +795,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="template" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="catalog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="product" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="urbandecay" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="urbandecay" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="design" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="frontend" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="default" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="urbandecay" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="template" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="catalog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="product" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="view" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="urbandecay" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="urbandecay" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="design" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="frontend" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="default" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="urbandecay" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="template" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="catalog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="product" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="list" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -834,6 +883,78 @@
               <option name="myItemId" value="default" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="template" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="urbandecay" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="urbandecay" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="design" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="base" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="default" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="template" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tag" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="urbandecay" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="urbandecay" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="design" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="base" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="default" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -855,6 +976,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -864,11 +986,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/tag" />
       <recent name="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/review/product/view" />
       <recent name="$PROJECT_DIR$/app/design/frontend/default/urbandecay/layout" />
       <recent name="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/review/helper" />
       <recent name="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template" />
-      <recent name="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/page" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/page/template" />
@@ -919,18 +1041,18 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="53" y="24" width="1867" height="1056" extended-state="6" />
+    <frame x="53" y="-4" width="1867" height="1084" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2669903" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29049972" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22460186" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31145832" sideWeight="0.5002746" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30625" sideWeight="0.49972543" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32594234" sideWeight="0.49972543" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32847896" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -967,41 +1089,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/rwd/default/layout/page.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-106.17242" vertical-offset="413" max-vertical-offset="4446">
-          <caret line="194" column="39" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/template/page/html/pager.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-18.0" vertical-offset="0" max-vertical-offset="2340">
-          <caret line="27" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/template/page/html/wrapper.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="558">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/template/page/3columns.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="6.0" vertical-offset="162" max-vertical-offset="792">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/template/page/1column.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="720">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Cms/Block/Block.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.19217081" vertical-offset="108" max-vertical-offset="774">
@@ -1111,7 +1198,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.588968" vertical-offset="18263" max-vertical-offset="32634">
           <caret line="1033" column="75" selection-start-line="1033" selection-start-column="75" selection-end-line="1033" selection-end-column="75" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1182,7 +1268,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="630">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1204,7 +1289,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1351" max-vertical-offset="2520">
           <caret line="95" column="19" selection-start-line="95" selection-start-column="16" selection-end-line="95" selection-end-column="170" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1212,23 +1296,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="882">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/catalog/category/page.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="636">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/catalog/category/widget/link/link_inline.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="623">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1236,7 +1303,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="623">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1244,15 +1310,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.295302" vertical-offset="772" max-vertical-offset="1368">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/default/urbandecay/layout/catalog.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-44.766666" vertical-offset="5695" max-vertical-offset="7668">
-          <caret line="391" column="104" selection-start-line="391" selection-start-column="95" selection-end-line="391" selection-end-column="104" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1260,7 +1317,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="566" max-vertical-offset="3744">
           <caret line="37" column="110" selection-start-line="37" selection-start-column="110" selection-end-line="37" selection-end-column="110" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1268,7 +1324,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1206">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1276,6 +1331,61 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.15100671" vertical-offset="0" max-vertical-offset="596">
           <caret line="28" column="2" selection-start-line="28" selection-start-column="2" selection-end-line="28" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/catalog/product/list/related.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1386">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/catalog/product/list/upsell.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.12080537" vertical-offset="0" max-vertical-offset="684">
+          <caret line="27" column="25" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/catalog/category/page.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="609">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/catalog/product/list.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-26.296297" vertical-offset="118" max-vertical-offset="1008">
+          <caret line="73" column="40" selection-start-line="73" selection-start-column="26" selection-end-line="73" selection-end-column="40" />
+          <folding>
+            <marker date="1413382590304" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1413382590304" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/catalog/product/list/toolbar.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.962963" vertical-offset="28" max-vertical-offset="918">
+          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/catalog/category/widget/link/link_inline.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="890">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/catalog/category/view.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-23.333334" vertical-offset="0" max-vertical-offset="864">
+          <caret line="62" column="42" selection-start-line="62" selection-start-column="42" selection-end-line="62" selection-end-column="42" />
           <folding />
         </state>
       </provider>
@@ -1290,58 +1400,68 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/catalog/product/view/attributes.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.36453202" vertical-offset="30" max-vertical-offset="666">
+        <state vertical-scroll-proportion="-9.333333" vertical-offset="0" max-vertical-offset="666">
           <caret line="37" column="57" selection-start-line="37" selection-start-column="57" selection-end-line="37" selection-end-column="57" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/skin/frontend/default/urbandecay/css/styles-urban.css">
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/tag/list.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2761" max-vertical-offset="14598">
-          <caret line="177" column="51" selection-start-line="177" selection-start-column="51" selection-end-line="177" selection-end-column="51" />
+        <state vertical-scroll-proportion="-2.0" vertical-offset="0" max-vertical-offset="828">
+          <caret line="26" column="31" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/catalog/category/view.phtml">
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/template/tag/list.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.074074" vertical-offset="52" max-vertical-offset="936">
-          <caret line="42" column="25" selection-start-line="42" selection-start-column="12" selection-end-line="42" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/catalog/product/list/toolbar.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1350">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/catalog/product/list/related.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1386">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.059800666" vertical-offset="0" max-vertical-offset="903">
+          <caret line="26" column="26" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/catalog/product/view.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.74074" vertical-offset="2626" max-vertical-offset="3330">
-          <caret line="171" column="62" selection-start-line="171" selection-start-column="62" selection-end-line="171" selection-end-column="62" />
+        <state vertical-scroll-proportion="-37.666668" vertical-offset="729" max-vertical-offset="3276">
+          <caret line="97" column="35" selection-start-line="97" selection-start-column="35" selection-end-line="97" selection-end-column="35" />
           <folding>
             <element signature="e#6#968#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/catalog/product/list/upsell.phtml">
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/default/urbandecay/layout/catalog.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.12080537" vertical-offset="0" max-vertical-offset="684">
-          <caret line="27" column="25" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
+        <state vertical-scroll-proportion="-9.833333" vertical-offset="2315" max-vertical-offset="7704">
+          <caret line="145" column="10" selection-start-line="145" selection-start-column="8" selection-end-line="145" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skin/frontend/default/urbandecay/css/styles-urban.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="162">
+          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+          <folding>
+            <marker date="1413406354251" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skin/frontend/default/urbandecay/css/styles-s.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9612903" vertical-offset="7494" max-vertical-offset="8496">
+          <caret line="466" column="1" selection-start-line="466" selection-start-column="1" selection-end-line="466" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skin/frontend/default/urbandecay/css/styles-i.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="6.4580154" vertical-offset="0" max-vertical-offset="7596">
+          <caret line="329" column="14" selection-start-line="329" selection-start-column="14" selection-end-line="329" selection-end-column="14" />
           <folding />
         </state>
       </provider>
