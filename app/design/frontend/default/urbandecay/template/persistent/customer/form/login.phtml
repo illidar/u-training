@@ -42,7 +42,7 @@
                     <span><?php echo $this->__('Sign in') ?></span>
                 </button>
                 <div class="fogot-pass-link-wrapper">
-                  <a href="<?php echo $this->getForgotPasswordUrl() ?>" class="f-left"><?php echo $this->__('Forgot Your Password?') ?></a>
+                  <a href="#" onclick="div_show()" class="f-left"><?php echo $this->__('Forgot Your Password?') ?></a>
                 </div>
             </div>
             <div class="col-2">
@@ -76,6 +76,50 @@
     //]]>
     </script>
     </div>
+
+<div id="popup"></div>
+<div id="popupContent">
+    <!-- Contact Us Form -->
+    <div class="forgotpass-wrapper">
+        <a href="#" onclick ="div_hide()">
+            <div class="close-popup-wrapper">
+                <div class="close-popup">
+                    &times;
+                </div>
+            </div>
+        </a>
+        <div class="request_password_page">
+            <h1>
+                Forgot password
+            </h1>
+            <?php echo $this->getMessagesBlock()->getGroupedHtml() ?>
+            <p class="message">Give us the email address you use to log in to Urban Decay and we'll send you instructions for resetting your password.</p>
+            <p class="b-request_password-signature">Thanks, <br><span>Team UD</span></p>
+            <form action="<?php echo $this->getUrl('*/*/forgotpasswordpost') ?>" tabindex="1" method="post" id="form-validate" name="dwfrm_requestpassword">
+                <fieldset>
+                    <div class="f_field f_field_email" data-required-text="Please enter your email address">
+                        <input type="text" name="email" alt="email" id="email_address"  class="textinput f_email   required" placeholder="Email" maxlength="50" value="<?php echo $this->escapeHtml($this->getEmailValue()) ?>">
+                        <?php echo $this->getChildHtml('form.additional.info'); ?>
+                    </div>
+                    <div class="formfield formfield_button">
+                        <button type="submit" title="<?php echo $this->__('Submit') ?>" class="button submit_button" value="Submit" name="dwfrm_requestpassword_send">
+                            Submit
+                        </button>
+                    </div>
+                    <input type="hidden" name="dwfrm_requestpassword_securekey" value="398748497">
+                </fieldset>
+            </form>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+    //<![CDATA[
+    var dataForm = new VarienForm('form-validate', true);
+    //]]>
+</script>
+
+
 <div class="b-customer_service-assets">
     <div class="b-customer_service-item">
         <div class=" content_asset">
