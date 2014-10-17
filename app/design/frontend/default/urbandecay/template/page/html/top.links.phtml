@@ -34,6 +34,10 @@
         <?php if (! Mage::getSingleton('customer/session')->isLoggedIn()): ?>
             <a class="login" href="<?php echo Mage::helper('customer')->getLoginUrl(); ?>" title="Sign in / Register">Sign in / Register</a>
         <?php else: ?>
+            <?php $customer = Mage::getSingleton('customer/session')->getCustomer(); ?>
+            <?php $name = $customer->getFirstname(); ?>
+            <span>Hi, </span>
+            <a class="customer-page-link" href="<?php echo Mage::getUrl('customer/account'); ?>" title="Account"><?php echo $name; ?></a>
             <a class="login" href="<?php echo Mage::helper('customer')->getLogoutUrl(); ?>" title="Sign Out">Sign Out</a>
         <?php endif; ?>
     </li>
