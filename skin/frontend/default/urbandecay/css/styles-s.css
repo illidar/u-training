@@ -920,5 +920,95 @@ div #popupContent {
     text-align: center;
     color: #ffffff;
 }
+.formfield .button:hover {
+    background-color: #b69fc5;
+}
 
+/* ############## USER Account ###################### */
 
+.col2-left-layout .main {
+    width: 960px;
+    margin: auto;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+.main-container, .col2-left-layout {
+    background-color: #ffffff;
+}
+.block-account {
+    border: none;
+}
+.block-user-avatar {
+    width: 114px;
+    border-radius: 57px;
+    overflow: hidden;
+}
+.edit-avatar {
+    border: none;
+    background-image: url("../images/edit_logo.png");
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    bottom: 3px;
+    right: 3px;
+    display: none;
+}
+.block-user-avatar-wrapper:hover .edit-avatar {
+    display: block;
+}
+.block-user-avatar-wrapper {
+    position: relative;
+    width: 114px;
+    height: 114px;
+}
+.block-account .block-title {
+  background: none;
+    border: none;
+    overflow: hidden;
+    white-space: nowrap;
+    font: 18px/1.2em "ProximaNova-Semibold",sans-serif;
+    padding: 27px 0;
+}
+.block-account .block-title span {
+    color: #b69fc5;
+}
+.block-account .block-title span a {
+    transition-duration: 300ms;
+    color: #46166b;
+}
+.block-account .block-title span a:hover {
+    color: #000000;
+    text-decoration: underline !important;
+}
+.block-user-avatar-wrapper .block-content {
+    background: none;
+}
+.block .block-content {
+    background: none;
+    margin: 0;
+    padding: 0;
+}
+.block .block-content ul li {
+font-family: "ProximaNova-Semibold",sans-serif;
+text-transform: uppercase;
+margin: 0 0 12px;
+}
+
+.block .block-content ul li a {
+    border: none;
+    margin: 0;
+    padding: 0;
+    transition-duration: 300ms;
+    color: #46166b;
+}
+
+.block .block-content ul li a:hover {
+    color: #000000;
+    text-decoration: underline !important;
+}
+.block-account .block-content li.current {
+    border: none;
+    margin: 0 0 12px;
+    padding: 0;
+    color: #000000;
+}
