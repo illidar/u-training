@@ -925,6 +925,7 @@ div #popupContent {
 }
 
 /* ############## USER Account ###################### */
+/* ############## Personal info ##################### */
 
 .col2-left-layout .main {
     width: 960px;
@@ -1011,4 +1012,156 @@ margin: 0 0 12px;
     margin: 0 0 12px;
     padding: 0;
     color: #000000;
+}
+.page-title h2 {
+    text-transform: none;
+    font: 14px "ProximaNova-Regular",sans-serif;
+    color: #000;
+    margin-bottom: 20px;
+}
+.customer-account-edit .col-main {
+    width: 720px;
+    min-height: 181px;
+    padding: 0 0 0 58px;
+    border-left: 2px solid #dacce2;
+}
+.customer-account-edit #email {
+    width: 314px;
+    padding: 5px 12px;
+}
+.customer-account-edit #lastname {
+    width: 314px;
+    padding: 5px 12px;
+}
+.customer-account-edit #firstname {
+    width: 314px;
+    padding: 5px 12px;
+}
+.customer-account-edit .col-left {
+    width: 180px;
+}
+.customer-account-edit .legend {
+    display: block;
+    margin-bottom: 5px;
+}
+.customer-account-edit .first-name-account-edit {
+    margin-bottom: 20px;
+}
+.customer-account-edit .input-box {
+    width: 340px;
+    height: 30px;
+}
+.customer-account-edit .form_registration {
+    width: 346px;
+    padding-right: 20px;
+    float: left;
+}
+.change-pass-show-button {
+    float: right;
+}
+.button-account {
+    font: 13px/1 "ProximaNova-Bold",sans-serif;
+    -moz-transition-property: all;
+    -webkit-transition-property: all;
+    transition-property: all;
+    -moz-transition-duration: 150ms;
+    -webkit-transition-duration: 150ms;
+    transition-duration: 150ms;
+    background: #46166b;
+    border: 0;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    margin: 0;
+    padding: 14px 26px;
+    text-transform: uppercase;
+    text-align: center;
+    width: 340px;
+}
+.button-account:hover {
+    background: #b69fc5;
+}
+.customer-account-edit .change-pass-div {
+    float: right;
+}
+.form-list input.input-text {
+    width: 314px;
+    padding: 5px 12px;
+}
+.customer-account-edit .field {
+    width: 340px;
+}
+.new-pass {
+    margin-bottom: 20px;
+}
+
+/* ################## Order History ################## */
+
+.sales-order-history .col-main {
+    margin-bottom: 80px;
+    width: 705px;
+    min-height: 181px;
+    padding: 0 0 0 58px;
+    border-left: 2px solid #dacce2;
+}
+.sales-order-history .col-main .my-account {
+    margin-bottom: 60px;
+}
+.no_orders {
+    height: 350px;
+    position: relative;
+}
+.no_orders .content_no_orders {
+    position: relative;
+    display: inline-block;
+    width: 90%;
+    font: 18px/24px "ProximaNova-Regular",sans-serif;
+    background-image: url("../images/bg_empty_cart.png");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 190px ;
+    height: 100%;
+}
+.no_orders .content_no_orders p {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+}
+
+/* ##################  Favorites  ################## */
+
+.wishlist-index-index .col-main {
+    margin-bottom: 80px;
+    width: 705px;
+    min-height: 181px;
+    padding: 0 0 0 58px;
+    border-left: 2px solid #dacce2;
+}
+.wishlist-index-index .col-main .my-account {
+    margin-bottom: 60px;
+}
+
+.b-favorites_empty {
+    height: 350px;
+    position: relative;
+}
+
+.b-favorites_empty .b-fav-content {
+    position: relative;
+    display: inline-block;
+    width: 90%;
+    font: 18px/24px "ProximaNova-Regular",sans-serif;
+    background-image: url("../images/bg_empty_cart.png");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    height: 100%;
+}
+.b-favorites_empty .b-fav-content .wishlist-empty-notice {
+    position: absolute;
+    top: 43%;
+    left: 25%;
+    text-align: center;
+}
+.wishlist-index-index .buttons-set {
+    border: none;
 }

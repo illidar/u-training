@@ -2,26 +2,72 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="64ed53c4-332f-4743-85ee-ebb1433f7ed6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/customer/account/dashboard/address.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/customer/account/link/back.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/layout/sales/billing_agreement.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/layout/checkout.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/cms/content_heading.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/layout/customer.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/customer/account/dashboard.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/layout/downloadable.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/customer/account/dashboard/hello.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/customer/account/dashboard/info.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/tag/list.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/customer/account/navigation.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/customer/account/dashboard/newsletter.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/layout/newsletter.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/layout/oauth.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/layout/sales/recurring_profile.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/layout/sales.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/layout/tag.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/layout/wishlist.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/page/template/main_page_items.phtml" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/customer/form/address.phtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/wishlist/item/configure/addto.phtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/sales/payment/form/billing/agreement.phtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/sales/billing/agreements.phtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/sales/order/info/buttons.phtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/wishlist/item/column/cart.phtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/customer/form/changepassword.phtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/sales/order/comments.phtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/customer/form/confirmation.phtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/sales/order/creditmemo.phtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/sales/order/print/creditmemo.phtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/sales/order/creditmemo/items/renderer/default.phtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/sales/order/invoice/items/renderer/default.phtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/sales/order/items/renderer/default.phtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/sales/order/shipment/items/renderer/default.phtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/sales/order/details.phtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/customer/form/edit.phtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/customer/form/forgotpassword.phtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/sales/guest/form.phtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/sales/widget/guest/form.phtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/sales/recurring/grid.phtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/sales/order/history.phtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/wishlist/item/column/image.phtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/sales/order/info.phtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/sales/recurring/profile/view/info.phtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/wishlist/item/column/info.phtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/sales/order/invoice.phtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/sales/order/print/invoice.phtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/sales/order/items.phtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/sales/order/creditmemo/items.phtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/sales/order/invoice/items.phtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/sales/order/shipment/items.phtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/wishlist/email/items.phtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/callouts/left_col.phtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/wishlist/item/list.phtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/customer/form/login.phtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/customer/form/mini.login.phtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/customer/form/newsletter.phtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/wishlist/options_list.phtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/customer/orders.phtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/wishlist/render/item/price.phtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/wishlist/render/item/price_msrp_item.phtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/wishlist/render/item/price_msrp_rss.phtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/sales/order/print.phtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/sales/recurring/profiles.phtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/sales/order/recent.phtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/customer/form/register.phtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/wishlist/item/column/remove.phtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/customer/form/resetforgottenpassword.phtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/callouts/right_col.phtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/wishlist/email/rss.phtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/wishlist/button/share.phtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/wishlist/shared.phtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/wishlist/sharing.phtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/sales/order/shipment.phtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/sales/order/print/shipment.phtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/sales/reorder/sidebar.phtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/wishlist/sidebar.phtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/wishlist/button/tocart.phtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/sales/order/totals.phtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/sales/order/trackinginfo.phtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/wishlist/button/update.phtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/sales/billing/agreement/view.phtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/sales/order/view.phtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/sales/recurring/profile/view.phtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/wishlist/view.phtml" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--8/mage---1f5_Zend_LocaleL_en_US_day_" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--a/mage---internal-metadatas---1f5_ADMIN_NOTIFICATIONS_LASTCHECK" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--b/mage---1f5_Zend_LocaleC_en_US_date_full" afterPath="" />
@@ -262,18 +308,10 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--f/mage---internal-metadatas---1f5_Zend_LocaleC_fil_PH_language_fil" afterPath="$PROJECT_DIR$/var/cache/mage--f/mage---internal-metadatas---1f5_Zend_LocaleC_fil_PH_language_fil" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--9/mage---internal-metadatas---1f5_Zend_LocaleL_en_US_days_" afterPath="$PROJECT_DIR$/var/cache/mage--9/mage---internal-metadatas---1f5_Zend_LocaleL_en_US_days_" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--7/mage---internal-metadatas---1f5_Zend_LocaleL_en_US_month_gregorian_format_abbreviated" afterPath="$PROJECT_DIR$/var/cache/mage--7/mage---internal-metadatas---1f5_Zend_LocaleL_en_US_month_gregorian_format_abbreviated" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/layout/catalog.xml" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/layout/catalog.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/catalog/product/list.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/catalog/product/list.phtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/persistent/customer/form/login.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/persistent/customer/form/login.phtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/layout/review.xml" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/layout/review.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/catalog/product/compare/sidebar.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/catalog/product/compare/sidebar.phtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/checkout/cart/sidebar.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/checkout/cart/sidebar.phtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/skin/frontend/default/urbandecay/css/styles-i.css" afterPath="$PROJECT_DIR$/skin/frontend/default/urbandecay/css/styles-i.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/customer/account/link/back.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/customer/account/link/back.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/customer/widget/name.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/customer/widget/name.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/skin/frontend/default/urbandecay/js/popup.js" afterPath="$PROJECT_DIR$/skin/frontend/default/urbandecay/js/popup.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/skin/frontend/default/urbandecay/css/styles-s.css" afterPath="$PROJECT_DIR$/skin/frontend/default/urbandecay/css/styles-s.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/skin/frontend/default/urbandecay/css/styles-urban.css" afterPath="$PROJECT_DIR$/skin/frontend/default/urbandecay/css/styles-urban.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/catalog/product/list/toolbar.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/catalog/product/list/toolbar.phtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/catalog/category/view.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/catalog/category/view.phtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/catalog/product/view.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/catalog/product/view.phtml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="urbandecay.iws" />
@@ -297,37 +335,73 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="styles-s.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="styles-s.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/skin/frontend/default/urbandecay/css/styles-s.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="980" column="41" selection-start="19527" selection-end="19527" vertical-scroll-proportion="0.38879457" vertical-offset="17411" max-vertical-offset="18342">
+            <state line="1167" column="0" selection-start="23569" selection-end="23569" vertical-scroll-proportion="0.0" vertical-offset="20531" max-vertical-offset="21114">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="navigation.phtml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/customer/account/navigation.phtml">
+      <file leaf-file-name="edit.phtml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/template/customer/form/edit.phtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="68" selection-start="1381" selection-end="1381" vertical-scroll-proportion="-8.666667" vertical-offset="0" max-vertical-offset="684">
+            <state line="57" column="373" selection-start="2861" selection-end="3218" vertical-scroll-proportion="-8.777778" vertical-offset="375" max-vertical-offset="1800">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="hello.phtml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/customer/account/dashboard/hello.phtml">
+      <file leaf-file-name="changepassword.phtml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/template/customer/form/changepassword.phtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="108" selection-start="1038" selection-end="1106" vertical-scroll-proportion="-2.6666667" vertical-offset="0" max-vertical-offset="234">
+            <state line="34" column="12" selection-start="1338" selection-end="1338" vertical-scroll-proportion="-7.3333335" vertical-offset="0" max-vertical-offset="900">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="content_heading.phtml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/cms/content_heading.phtml">
+      <file leaf-file-name="back.phtml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/customer/account/link/back.phtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="115" selection-start="858" selection-end="929" vertical-scroll-proportion="-8.0" vertical-offset="0" max-vertical-offset="1134">
+            <state line="26" column="0" selection-start="976" selection-end="1190" vertical-scroll-proportion="-2.0" vertical-offset="0" max-vertical-offset="216">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cart.phtml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/wishlist/item/column/cart.phtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="720">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="view.phtml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/wishlist/view.phtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="92" column="0" selection-start="4145" selection-end="4371" vertical-scroll-proportion="0.72" vertical-offset="864" max-vertical-offset="1422">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="popup.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/skin/frontend/default/urbandecay/js/popup.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="1" selection-start="612" selection-end="612" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="414">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="name.phtml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/customer/widget/name.phtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="65" column="53" selection-start="3305" selection-end="3305" vertical-scroll-proportion="-2.0" vertical-offset="702" max-vertical-offset="1512">
               <folding />
             </state>
           </provider>
@@ -349,7 +423,6 @@
         <option value="$PROJECT_DIR$/skin/frontend/default/urbandecay/css/styles-urban.css" />
         <option value="$PROJECT_DIR$/skin/frontend/default/urbandecay/css/styles-i.css" />
         <option value="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/persistent/customer/form/login.phtml" />
-        <option value="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/customer/account/dashboard.phtml" />
         <option value="$PROJECT_DIR$/app/design/frontend/base/default/layout/customer.xml" />
         <option value="$PROJECT_DIR$/app/design/frontend/default/urbandecay/layout/downloadable.xml" />
         <option value="$PROJECT_DIR$/app/design/frontend/base/default/layout/newsletter.xml" />
@@ -373,7 +446,16 @@
         <option value="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/page/template/main_page_items.phtml" />
         <option value="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/cms/content_heading.phtml" />
         <option value="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/customer/account/navigation.phtml" />
+        <option value="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/callouts/left_col.phtml" />
+        <option value="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/customer/account/dashboard.phtml" />
+        <option value="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/customer/widget/name.phtml" />
+        <option value="$PROJECT_DIR$/skin/frontend/default/urbandecay/js/popup.js" />
+        <option value="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/customer/form/edit.phtml" />
+        <option value="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/sales/order/history.phtml" />
+        <option value="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/customer/orders.phtml" />
+        <option value="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/customer/account/link/back.phtml" />
         <option value="$PROJECT_DIR$/skin/frontend/default/urbandecay/css/styles-s.css" />
+        <option value="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/wishlist/view.phtml" />
       </list>
     </option>
   </component>
@@ -507,36 +589,6 @@
               <option name="myItemId" value="default" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="urbandecay" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="urbandecay" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="urbandecay" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="skin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="frontend" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="default" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -625,42 +677,8 @@
               <option name="myItemId" value="template" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="urbandecay" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="urbandecay" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="design" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="frontend" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="default" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="urbandecay" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="template" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="customer" />
+              <option name="myItemId" value="wishlist" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -697,60 +715,6 @@
               <option name="myItemId" value="template" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="customer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="account" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="urbandecay" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="urbandecay" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="design" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="frontend" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="default" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="urbandecay" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="template" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="customer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="account" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dashboard" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -801,36 +765,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="frontend" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="default" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="urbandecay" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="urbandecay" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="design" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="frontend" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="default" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -869,86 +803,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="template" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="urbandecay" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="urbandecay" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="design" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="frontend" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="base" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="default" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="template" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="page" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="urbandecay" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="urbandecay" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="design" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="frontend" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="base" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="default" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="template" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="page" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="html" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1000,6 +854,84 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="urbandecay" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="urbandecay" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="code" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="urbandecay" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="urbandecay" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="code" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Mage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="urbandecay" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="urbandecay" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="code" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Mage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Customer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -1011,10 +943,10 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/cms" />
       <recent name="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template" />
-      <recent name="$PROJECT_DIR$/app/design/frontend/default/urbandecay/layout" />
       <recent name="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/customer" />
+      <recent name="$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/cms" />
+      <recent name="$PROJECT_DIR$/app/design/frontend/default/urbandecay/layout" />
     </key>
   </component>
   <component name="RunManager">
@@ -1047,14 +979,14 @@
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25718608" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2647504" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2669903" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1083,153 +1015,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/layout/moneybookers.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.11089866" vertical-offset="58" max-vertical-offset="846">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/layout/newsletter.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="12" selection-start="1491" selection-end="1491" vertical-scroll-proportion="-6.62069" vertical-offset="708" max-vertical-offset="1350">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/layout/oauth.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="119" column="52" selection-start="5428" selection-end="5455" vertical-scroll-proportion="0.33266532" vertical-offset="1976" max-vertical-offset="2574">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/layout/page.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.11623246" vertical-offset="58" max-vertical-offset="3564">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/default/urbandecay/layout/oauth.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="120" column="12" selection-start="5474" selection-end="5730" vertical-scroll-proportion="0.4003623" vertical-offset="1939" max-vertical-offset="2574">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/default/urbandecay/layout/newsletter.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="12" selection-start="1676" selection-end="1676" vertical-scroll-proportion="0.7826087" vertical-offset="486" max-vertical-offset="1350">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/layout/pagecache.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.108208954" vertical-offset="58" max-vertical-offset="738">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/layout/payment.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.05544933" vertical-offset="29" max-vertical-offset="846">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/layout/paypal.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.05544933" vertical-offset="29" max-vertical-offset="3744">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/layout/paypaluk.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.05544933" vertical-offset="29" max-vertical-offset="2898">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/layout/persistent.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.05544933" vertical-offset="29" max-vertical-offset="1224">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/layout/poll.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.05544933" vertical-offset="29" max-vertical-offset="1134">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/layout/productalert.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.05544933" vertical-offset="29" max-vertical-offset="954">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/default/urbandecay/layout/review.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="11" selection-start="1308" selection-end="1308" vertical-scroll-proportion="0.40152964" vertical-offset="402" max-vertical-offset="2520">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/layout/review.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="52" selection-start="1098" selection-end="1125" vertical-scroll-proportion="0.3152174" vertical-offset="402" max-vertical-offset="2520">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/layout/rss.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.05544933" vertical-offset="29" max-vertical-offset="1962">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/layout/sales.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="52" selection-start="1695" selection-end="1722" vertical-scroll-proportion="0.332696" vertical-offset="744" max-vertical-offset="9576">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/default/urbandecay/layout/sales.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="52" selection-start="1695" selection-end="1722" vertical-scroll-proportion="0.6424474" vertical-offset="582" max-vertical-offset="9576">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/layout/sendfriend.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.054104477" vertical-offset="29" max-vertical-offset="846">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/layout/shipping.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.05544933" vertical-offset="29" max-vertical-offset="1044">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/layout/tag.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="52" selection-start="1413" selection-end="1440" vertical-scroll-proportion="0.332696" vertical-offset="690" max-vertical-offset="2520">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/design/frontend/default/urbandecay/layout/tag.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="50" column="12" selection-start="1605" selection-end="1605" vertical-scroll-proportion="0.40152964" vertical-offset="690" max-vertical-offset="2520">
@@ -1239,16 +1024,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/layout/weee.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.054104477" vertical-offset="29" max-vertical-offset="1062">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.054104477" vertical-offset="29" max-vertical-offset="1062" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/layout/wishlist.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="52" selection-start="1694" selection-end="1721" vertical-scroll-proportion="0.332696" vertical-offset="762" max-vertical-offset="2610">
-          <folding />
-        </state>
+        <state line="52" column="52" selection-start="1694" selection-end="1721" vertical-scroll-proportion="0.332696" vertical-offset="762" max-vertical-offset="2610" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/design/frontend/default/urbandecay/layout/wishlist.xml">
@@ -1260,74 +1041,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/layout/bml.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="57" selection-start="372" selection-end="372" vertical-scroll-proportion="0.35869566" vertical-offset="0" max-vertical-offset="2430">
-          <folding />
-        </state>
+        <state line="11" column="57" selection-start="372" selection-end="372" vertical-scroll-proportion="0.35869566" vertical-offset="0" max-vertical-offset="2430" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/design/frontend/default/urbandecay/layout/sales/recurring_profile.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="12" selection-start="1284" selection-end="1284" vertical-scroll-proportion="0.40152964" vertical-offset="366" max-vertical-offset="3186">
-          <folding />
-        </state>
+        <state line="32" column="12" selection-start="1284" selection-end="1284" vertical-scroll-proportion="0.40152964" vertical-offset="366" max-vertical-offset="3186" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/design/frontend/default/urbandecay/layout/sales/billing_agreement.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="12" selection-start="2232" selection-end="2232" vertical-scroll-proportion="0.69024855" vertical-offset="575" max-vertical-offset="1098">
-          <folding />
-        </state>
+        <state line="52" column="12" selection-start="2232" selection-end="2232" vertical-scroll-proportion="0.69024855" vertical-offset="575" max-vertical-offset="1098" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/layout/reports.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="366" max-vertical-offset="918">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="366" max-vertical-offset="918" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/layout/checkout.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="14" selection-start="2367" selection-end="2367" vertical-scroll-proportion="-9.448276" vertical-offset="680" max-vertical-offset="8946">
-          <folding />
-        </state>
+        <state line="53" column="14" selection-start="2367" selection-end="2367" vertical-scroll-proportion="-9.448276" vertical-offset="680" max-vertical-offset="8946" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/checkout/cart/sidebar/default.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="120" column="19" selection-start="7793" selection-end="7793" vertical-scroll-proportion="-70.333336" vertical-offset="261" max-vertical-offset="2718">
-          <folding>
-            <element signature="e#6#968#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/customer/account/link/back.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="630">
-          <folding />
-        </state>
+        <state line="120" column="19" selection-start="7793" selection-end="7793" vertical-scroll-proportion="-70.333336" vertical-offset="261" max-vertical-offset="2718" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/checkout/cart/sidebar.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="79" column="10" selection-start="4069" selection-end="4069" vertical-scroll-proportion="-37.333332" vertical-offset="0" max-vertical-offset="1134">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/customer/account/dashboard.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="12" selection-start="984" selection-end="1001" vertical-scroll-proportion="0.0" vertical-offset="468" max-vertical-offset="936">
-          <folding />
-        </state>
+        <state line="79" column="10" selection-start="4069" selection-end="4069" vertical-scroll-proportion="-37.333332" vertical-offset="0" max-vertical-offset="1134" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/catalog/product/compare/sidebar.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="10" selection-start="1178" selection-end="3556" vertical-scroll-proportion="1.2342857" vertical-offset="0" max-vertical-offset="774">
-          <folding />
-        </state>
+        <state line="59" column="10" selection-start="1178" selection-end="3556" vertical-scroll-proportion="1.2342857" vertical-offset="0" max-vertical-offset="774" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/design/frontend/default/urbandecay/layout/checkout.xml">
@@ -1339,35 +1088,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/template/cms/content_heading.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="565">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="565" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/template/cms/default/home.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="565">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="565" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/persistent/customer/form/login.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="107" column="26" selection-start="5358" selection-end="5358" vertical-scroll-proportion="-0.24" vertical-offset="1926" max-vertical-offset="2826">
-          <folding />
-        </state>
+        <state line="107" column="26" selection-start="5358" selection-end="5358" vertical-scroll-proportion="-0.24" vertical-offset="1926" max-vertical-offset="2826" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/design/frontend/default/urbandecay/layout/downloadable.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="26" column="0" selection-start="990" selection-end="990" vertical-scroll-proportion="0.0" vertical-offset="54" max-vertical-offset="4266">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/default/urbandecay/layout/customer.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="235" column="25" selection-start="9433" selection-end="9799" vertical-scroll-proportion="0.7717391" vertical-offset="3804" max-vertical-offset="5382">
           <folding />
         </state>
       </provider>
@@ -1381,9 +1117,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/template/page/html/head.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="589">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="589" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/design/frontend/default/urbandecay/layout/page.xml">
@@ -1395,49 +1129,216 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/template/page/html/topmenu.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="565">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="565" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/template/page/html/header.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="576">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="576" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/page/html/top.links.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="34" selection-start="1084" selection-end="1084" vertical-scroll-proportion="0.2742857" vertical-offset="0" max-vertical-offset="525">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/cms/content_heading.phtml">
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/template/callouts/left_col.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="115" selection-start="858" selection-end="929" vertical-scroll-proportion="-8.0" vertical-offset="0" max-vertical-offset="1134">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/customer/account/dashboard/hello.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="108" selection-start="1038" selection-end="1106" vertical-scroll-proportion="-2.6666667" vertical-offset="0" max-vertical-offset="234">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Mage.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="541" column="27" selection-start="14145" selection-end="14145" vertical-scroll-proportion="0.24761905" vertical-offset="9194" max-vertical-offset="17514">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="552">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/customer/account/navigation.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="68" selection-start="1381" selection-end="1381" vertical-scroll-proportion="-8.666667" vertical-offset="0" max-vertical-offset="684">
+        <state line="36" column="112" selection-start="1425" selection-end="1425" vertical-scroll-proportion="-4.6666665" vertical-offset="108" max-vertical-offset="684">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/customer/account/dashboard/info.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="77" selection-start="1178" selection-end="1230" vertical-scroll-proportion="0.28742516" vertical-offset="0" max-vertical-offset="846">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/default/urbandecay/layout/customer.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="229" column="108" selection-start="9055" selection-end="9077" vertical-scroll-proportion="0.60227275" vertical-offset="3804" max-vertical-offset="5382">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/customer/account/dashboard.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="2" selection-start="971" selection-end="971" vertical-scroll-proportion="-1.3333334" vertical-offset="0" max-vertical-offset="522">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/customer/account/dashboard/hello.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="108" selection-start="1038" selection-end="1106" vertical-scroll-proportion="0.13714285" vertical-offset="0" max-vertical-offset="525">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/cms/content_heading.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="115" selection-start="858" selection-end="929" vertical-scroll-proportion="-0.24" vertical-offset="342" max-vertical-offset="1134">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/callouts/left_col.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="0" selection-start="1922" selection-end="1922" vertical-scroll-proportion="-10.666667" vertical-offset="0" max-vertical-offset="396">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/persistent/customer/form/register.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="24" selection-start="437" selection-end="454" vertical-scroll-proportion="-6.0" vertical-offset="54" max-vertical-offset="2160">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/customer/widget/name.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="65" column="53" selection-start="3305" selection-end="3305" vertical-scroll-proportion="-2.0" vertical-offset="702" max-vertical-offset="1512">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Mage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="989" column="1" selection-start="27986" selection-end="27986" vertical-scroll-proportion="31.67213" vertical-offset="0" max-vertical-offset="17514">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Customer/Block/Form/Login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.802974" vertical-offset="432" max-vertical-offset="1314">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Customer/Block/Form/Edit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="565">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Customer/Block/Account.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="552">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Customer/Model/Form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.28825623" vertical-offset="162" max-vertical-offset="810">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skin/frontend/default/urbandecay/js/popup.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="1" selection-start="612" selection-end="612" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="414">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/template/customer/orders.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="864">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/customer/form/edit.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="64" column="112" selection-start="3624" selection-end="3624" vertical-scroll-proportion="0.37714285" vertical-offset="540" max-vertical-offset="1728">
+          <folding>
+            <element signature="n#style#0;n#input#0;n#div#1;n#form#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#form#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/sales/guest/form.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1746">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/sales/order/history.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="68" column="28" selection-start="3079" selection-end="3079" vertical-scroll-proportion="0.3467742" vertical-offset="638" max-vertical-offset="1134">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/customer/form/newsletter.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="29" selection-start="1969" selection-end="1969" vertical-scroll-proportion="0.61714286" vertical-offset="0" max-vertical-offset="648">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/customer/account/link/back.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="0" selection-start="976" selection-end="1190" vertical-scroll-proportion="-2.0" vertical-offset="0" max-vertical-offset="216">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/customer/orders.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="62" column="0" selection-start="2390" selection-end="2568" vertical-scroll-proportion="0.76" vertical-offset="303" max-vertical-offset="864">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/template/customer/form/changepassword.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="12" selection-start="1338" selection-end="1338" vertical-scroll-proportion="-7.3333335" vertical-offset="0" max-vertical-offset="900">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/template/customer/form/edit.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="57" column="373" selection-start="2861" selection-end="3218" vertical-scroll-proportion="-8.777778" vertical-offset="375" max-vertical-offset="1800">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/wishlist/item/column/cart.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="720">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/skin/frontend/default/urbandecay/css/styles-s.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="980" column="41" selection-start="19527" selection-end="19527" vertical-scroll-proportion="0.38879457" vertical-offset="17411" max-vertical-offset="18342">
+        <state line="1167" column="0" selection-start="23569" selection-end="23569" vertical-scroll-proportion="0.0" vertical-offset="20531" max-vertical-offset="21114">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/default/urbandecay/template/wishlist/view.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="92" column="0" selection-start="4145" selection-end="4371" vertical-scroll-proportion="0.72" vertical-offset="864" max-vertical-offset="1422">
           <folding />
         </state>
       </provider>
