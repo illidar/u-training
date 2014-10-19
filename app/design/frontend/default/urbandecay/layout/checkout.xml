@@ -69,7 +69,7 @@ Default layout, loads most of the pages
                 <action method="addItemRender"><type>simple</type><block>checkout/cart_item_renderer</block><template>checkout/cart/item/default.phtml</template></action>
                 <action method="addItemRender"><type>grouped</type><block>checkout/cart_item_renderer_grouped</block><template>checkout/cart/item/default.phtml</template></action>
                 <action method="addItemRender"><type>configurable</type><block>checkout/cart_item_renderer_configurable</block><template>checkout/cart/item/default.phtml</template></action>
-
+                <block type="core/template" name="product.random.four" as="random_four" template="catalog/product/list/random_four.phtml"/>
                 <block type="core/text_list" name="checkout.cart.top_methods" as="top_methods" translate="label">
                     <label>Payment Methods Before Checkout Button</label>
                     <block type="checkout/onepage_link" name="checkout.cart.methods.onepage" template="checkout/onepage/link.phtml"/>

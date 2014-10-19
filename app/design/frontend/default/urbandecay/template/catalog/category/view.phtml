@@ -66,4 +66,10 @@
     <?php else: ?>
         <?php echo $this->getProductListHtml() ?>
     <?php endif; ?>
+
+    <div class="recommendations-block ">
+        <h2 class="recommendation-title"><span>Recently Viewed</span></h2>
+
+        <?php echo $this->getChildHtml('random_four') ?>
+    </div>
 </div>

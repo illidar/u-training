@@ -102,7 +102,6 @@ Default layout, loads most of the pages
 
             <block type="core/text_list" name="content" as="content" translate="label">
                 <label>Main Content Area</label>
-                <block type="core/template" name="main_page_items" as="main_page_items" template="page/template/main_page_items.phtml"/>
             </block>
 
             <block type="core/text_list" name="right" as="right" translate="label">

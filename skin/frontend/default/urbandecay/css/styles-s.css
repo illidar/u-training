@@ -356,6 +356,13 @@
     color: #fff;
     background-color: #46166b;
 }
+.rand-prod h2 {
+    font: 30px/1.2em "ProximaNova-Bold",sans-serif;
+    color: #000;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 25px 0;
+}
 /* ############## LOGIN FORM ################## */
 
 .account-login {
@@ -819,7 +826,12 @@
 .btn-proceed-checkout  span {
     border: none !important;
 }
-
+.checkout-cart-index .rand-prod {
+    border-top: 1px solid #dacce2;
+}
+.second-column {
+    width: 150px;
+}
 
 /* ############ POPUP FORM ForgotPass #################### */
 div #popup {
@@ -1165,3 +1177,67 @@ margin: 0 0 12px;
 .wishlist-index-index .buttons-set {
     border: none;
 }
+.my-wishlist .product-image {
+    width: 215px;
+    height: 215px;
+    overflow: hidden;
+}
+.fav-list {
+    float: left;
+    text-align: center;
+    font: 12px/1.2em "ProximaNova-Regular",sans-serif;
+    margin-bottom: 20px;
+    padding-right: 20px;
+}
+.my-wishlist  .product-name a {
+    text-decoration: none;
+    color: #46166b;
+    margin-bottom: 3px;
+    transition-duration: 300ms;
+    font: 18px/24px "ProximaNova-Regular",sans-serif;
+    font-weight: bold;
+}
+.my-wishlist  .product-name a:hover {
+    color: #611c97;
+}
+.price-box .price {
+    font: 14px/18px "ProximaNova-Regular",sans-serif;
+    color: #000;
+}
+.my-wishlist .remove-favorite {
+    color: #46166b;
+    transition-duration: 300ms;
+}
+.my-wishlist .remove-favorite:hover {
+    text-decoration: none;
+    color: #000000;
+}
+.my-wishlist .buttons-set {
+    position: absolute;
+    right: 0;
+    margin: 0;
+    padding: 0;
+}
+.fav-title {
+    float: left;
+}
+
+/* ################## Adresses ##################### */
+
+.customer-address-index .button {
+    font: 13px/1.2em "ProximaNova-Bold",sans-serif;
+    transition-duration: 150ms;
+    border: 0;
+    cursor: pointer;
+    display: inline-block;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    padding: 9px 25px;
+    margin: 0;
+    background: #46166b;
+}
+.customer-address-index .button:hover {
+    background: #b69fc5;
+}
+
