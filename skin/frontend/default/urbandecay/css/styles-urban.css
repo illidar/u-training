@@ -1,3 +1,9 @@
 @import url("fonts.css");
 @import url("styles-i.css");
 @import url("styles-s.css");
+
+* { margin:0; padding:0; }
+.clear {
+    clear: both;
+}
+

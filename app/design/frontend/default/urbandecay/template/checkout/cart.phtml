@@ -1,0 +1,92 @@
+<?php
+/**
+ *
+ *
+ * @category    design
+ * @package     base_default
+ *
+ * @author      Oleksandr Kostynian
+ */
+?>
+<?php
+/**
+ * Shopping cart template
+ *
+ * @see Mage_Checkout_Block_Cart
+ */
+?>
+
+<div class="cart-wrapper">
+    <div><a href="#" class="continue_shopping_link">Back to Shopping </a></div>
+    <div class="cart">
+        <?php echo $this->getMessagesBlock()->getGroupedHtml() ?>
+        <?php echo $this->getChildHtml('form_before') ?>
+        <form action="<?php echo $this->getUrl('checkout/cart/updatePost') ?>" method="post">
+                <div class="dymanic-cart-content">
+                    <?php echo $this->getBlockHtml('formkey'); ?>
+                    <fieldset>
+                    <table id="shopping-cart-table" class="data-table cart-table">
+                        <?php if ($this->helper('wishlist')->isAllowInCart()) : ?>
+                            <col width="1" />
+                        <?php endif ?>
+                        <?php if ($this->helper('tax')->displayCartPriceExclTax() || $this->helper('tax')->displayCartBothPrices()): ?>
+                            <col width="1" />
+                        <?php endif; ?>
+                        <?php $mergedCells = ($this->helper('tax')->displayCartBothPrices() ? 2 : 1); ?>
+                        <thead>
+                        <tr>
+                            <th rowspan="<?php echo $mergedCells; ?>"  colspan="2" class="cart-product-hr"><span><?php echo $this->__('Shoping bag') ?></span></th>
+                            <th rowspan="<?php echo $mergedCells; ?>" class="cart-price-hr"><span><?php echo $this->__('Price') ?></span></th>
+                            <th rowspan="<?php echo $mergedCells; ?>" class="cart-qty-hr"><?php echo $this->__('Qty') ?></th>
+                            <th class="cart-total-hr" colspan="<?php echo $mergedCells; ?>"><?php echo $this->__('Subtotal') ?></th>
+                        </tr>
+                        <?php if ($this->helper('tax')->displayCartBothPrices()): ?>
+                            <tr>
+                                <th class="a-right"><?php echo $this->helper('tax')->getIncExcTaxLabel(false) ?></th>
+                                <th><?php echo $this->helper('tax')->getIncExcTaxLabel(true) ?></th>
+                                <th class="a-right"><?php echo $this->helper('tax')->getIncExcTaxLabel(false) ?></th>
+                                <th><?php echo $this->helper('tax')->getIncExcTaxLabel(true) ?></th>
+                            </tr>
+                        <?php endif; ?>
+                        </thead>
+                        <tbody>
+                        <?php foreach($this->getItems() as $_item): ?>
+                            <?php echo $this->getItemHtml($_item) ?>
+                        <?php endforeach ?>
+                        </tbody>
+                    </table>
+                    </fieldset>
+                </div>
+        </form>
+        <div class="clear"></div>
+        <div class="cart-collaterals">
+            <?php echo $this->getChildHtml('crosssell') ?>
+            <?php /* Extensions placeholder */ ?>
+            <?php echo $this->getChildHtml('checkout.cart.extra') ?>
+            <?php echo $this->getChildHtml('coupon') ?>
+        </div>
+        <div class="totals-wrapper">
+            <h2 class="order_summary_title">Subtotal</h2>
+        </div>
+        <div class="totals">
+            <div class="totals-pad">
+            <?php echo $this->getChildHtml('totals'); ?>
+            </div>
+        </div>
+        <div class="total-button">
+            <?php if(!$this->hasError()): ?>
+                <ul class="checkout-types">
+                    <?php foreach ($this->getMethods('methods') as $method): ?>
+                        <?php if ($methodHtml = $this->getMethodHtml($method)): ?>
+                            <li><?php echo $methodHtml; ?></li>
+                        <?php endif; ?>
+                    <?php endforeach; ?>
+                </ul>
+            <?php endif; ?>
+        </div>
+    </div>
+    </div>
+
+</div>
+
+
