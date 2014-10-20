@@ -16,3 +16,13 @@ function div_change_pass_show(){
     document.getElementById('account-button-pass-div-show').style.display = "none";
     document.getElementById('change_password').checked = true;
 }
+
+function div_add_address_show(){
+    document.getElementById('modal-window-address-bg').style.display = "block";
+    document.getElementById('modal-window-address').style.display = "block";
+}
+
+function div_edit_address_hide(){
+    document.getElementById('modal-window-address-bg').style.display = "none";
+    document.getElementById('modal-window-address').style.display = "none";
+}

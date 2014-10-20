@@ -833,7 +833,7 @@
     width: 150px;
 }
 
-/* ############ POPUP FORM ForgotPass #################### */
+/* ############ ForgotPass modal window #################### */
 div #popup {
     width:100%;
     height:100%;
@@ -854,7 +854,7 @@ div #popup {
     width: 24px;
     height: 24px;
     padding: 4px 1px 0 3px;
-    transition-duration: 150ms;
+    transition-duration: 300ms;
     line-height: 24px;
 }
 .close-popup-wrapper:hover {
@@ -863,7 +863,7 @@ div #popup {
 .close-popup {
     font-size: 46px;
     color: #46166b;
-    transition-duration: 150ms;
+    transition-duration: 300ms;
 }
 .close-popup:hover {
     color: #ffffff;
@@ -1240,4 +1240,123 @@ margin: 0 0 12px;
 .customer-address-index .button:hover {
     background: #b69fc5;
 }
+.addresses-list h2 {
+    color: #46166b;
+}
+.addresses-list li.item {
+    border: none;
+    background: none;
+    padding: 10px 0;
+}
+.addresses-list a {
+    text-decoration: none;
+    color: #46166b;
+    transition-duration: 300ms;
+    font: 12px/14px "ProximaNova-Regular",sans-serif;
+    font-weight: bold;
+}
+.addresses-list a:hover {
+    color: #000000;
+    text-decoration: underline;
+}
 
+/* ############### Address edit modal window ################### */
+
+.customer-address-index #modal-window-address-bg {
+    width:100%;
+    height:100%;
+    opacity:0.7;
+    top:0;
+    left:0;
+    display:none;
+    position:fixed;
+    background-color:#000;
+    overflow:auto;
+    z-index: 10000;
+}
+.customer-address-index  #modal-window-address {
+    display: none;
+    position:absolute;
+    left:50%;
+    top: 0;
+    max-width: 420px;
+    margin: 0 0 0 -210px;
+    font-family:'Raleway',sans-serif;
+    z-index: 10100;
+    overflow: hidden;
+    max-height: none !important;
+}
+.add-address-wrapper {
+    background-color: white;
+}
+.customer-address-index .fields-div {
+    background: #fff;
+    padding: 80px 60px 60px 60px;
+    overflow: hidden;
+    max-height: none;
+    height: auto;
+}
+.customer-address-index h1 {
+    font: 20px/1em "ProximaNova-Bold",sans-serif;
+    color: #000;
+    padding: 5px 0;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+}
+.customer-address-index .customer-name {
+    margin-top: 8px;
+}
+.customer-address-index fieldset {
+    width: 300px;
+}
+.customer-address-index .form-list {
+    width: 300px;
+}
+.customer-address-index .form-list input.input-text {
+    width: 274px;
+}
+.customer-address-index .form-list li.wide input.input-text {
+    width: 274px;
+}
+.customer-address-index .form-list li.wide .input-box {
+    width: 300px;
+}
+.customer-address-index #zip {
+    width: 124px;
+}
+.customer-address-index .input-box {
+    height: 30px;
+}
+.customer-address-index .first-name-account-edit {
+    margin-bottom: 18px;
+}
+.customer-address-index .field-phone {
+    margin-bottom: 18px;
+}
+.customer-address-index .field-city {
+    margin-bottom: 18px;
+}
+.customer-address-index .form-list select {
+    width: 300px;
+    height: 30px;
+    border-color: #dacce2;
+}
+.customer-address-index .close-popup-wrapper {
+    padding: 1px 0 1px 2px;
+}
+
+.customer-address-index .close-popup {
+    font-size: 40px;
+}
+.customer-address-form .button {
+    font: 13px/1.2em "ProximaNova-Bold",sans-serif;
+    padding: 9px 25px;
+    background-color: #46166b;
+    color: #ffffff;
+}
+.customer-address-form .button:hover {
+    background: #b69fc5;
+}
+.customer-address-index .addresses-additional {
+    margin-bottom: 20px;
+}
