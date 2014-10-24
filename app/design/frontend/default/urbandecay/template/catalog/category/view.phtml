@@ -32,6 +32,15 @@
  */
 ?>
 <?php
+    $currentCat = Mage::registry('current_category');
+    if ( $currentCat->getParentId() == Mage::app()->getStore()->getRootCategoryId() )
+    {
+        $loadCategory = $currentCat;
+    }
+    else
+    {
+        $loadCategory = Mage::getModel('catalog/category')->load($currentCat->getParentId());
+    }
     $_helper    = $this->helper('catalog/output');
     $_category  = $this->getCurrentCategory();
     $_imgHtml   = '';
@@ -46,7 +55,8 @@
     <?php endif; ?>
 
     <div class="page-title category-title">
-        <h1><?php echo $_helper->categoryAttribute($_category, $_category->getName(), 'name') ?></h1>
+        <h1><?php echo $loadCategory->getName(); ?></h1>
+        <?php echo $this->getChildHtml('category_list') ?>
     </div>
 
     <?php echo $this->getMessagesBlock()->getGroupedHtml() ?>

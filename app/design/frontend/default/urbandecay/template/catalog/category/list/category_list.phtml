@@ -1,0 +1,33 @@
+<?php
+$currentCat = Mage::registry('current_category');
+
+if ( $currentCat->getParentId() == Mage::app()->getStore()->getRootCategoryId() )
+{
+    $loadCategory = $currentCat;
+}
+else
+{
+    $loadCategory = Mage::getModel('catalog/category')->load($currentCat->getParentId());
+}
+$subCategories = explode(',', $loadCategory->getChildren());
+$CurrentUrl = Mage::helper('core/url')->getCurrentUrl();
+$count = count($subCategories);
+$i = 0;
+?>
+<ul class="category-list">
+<?php foreach ( $subCategories as $subCategoryId ): ?>
+    <?php $cat = Mage::getModel('catalog/category')->load($subCategoryId); ?>
+
+    <?php if($cat->getIsActive()): ?>
+        <li class="category-list-item <?php if ($cat->getURL() == $CurrentUrl): ?> active <?php endif; ?>">
+            <a class="category-list-link <?php if ($cat->getURL() == $CurrentUrl): ?> active <?php endif; ?>" href="<?php echo $cat->getURL()?>"><?php echo $cat->getName()?></a>
+        </li>
+        <?php if ($i == $count - 1): ?>
+            <li class="category-list-item <?php if ($loadCategory->getURL() == $CurrentUrl): ?> active <?php endif; ?>">
+                <a class="category-list-link <?php if ($loadCategory->getURL() == $CurrentUrl): ?> active <?php endif; ?>" href="<?php echo $loadCategory->getURL() ?>"> <?php echo $this->__('View All') ?> </a>
+            </li>
+        <?php endif; ?>
+        <?php $i++ ?>
+    <?php endif; ?>
+<?php endforeach ?>
+</ul>

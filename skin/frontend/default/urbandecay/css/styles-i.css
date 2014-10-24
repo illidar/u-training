@@ -28,7 +28,7 @@
 .header-top-box .quick-access .header-customer-info ul.top-links li a.customer-page-link { padding-right: 10px; border-right: 1px solid #b69fc5; }
 .header-top-box .quick-access .header-customer-info ul.top-links li a.login { padding-left: 10px; }
 
-.header-container { border: 0; position: relative; z-index: 9; padding: 35px 0 0; background:url(../images/bg_header.jpg) repeat-x scroll 0 0 #1b0a25;}
+.header-container { border: 0; position: relative; z-index: 999999; padding: 35px 0 0; background:url(../images/bg_header.jpg) repeat-x scroll 0 0 #1b0a25;}
 
 .header { width:930px; margin:0 auto; padding: 0; text-align:right; position:relative; z-index:10; }
 .header .logo { float:none; margin: 0; padding: 30px 0 0; text-align: center; text-decoration:none !important; }
@@ -397,7 +397,7 @@ ul#nav > li { display: inline-block; float: none; }
     font-weight: normal;
 }
 .review-rating-box {
-    width: 105px;
+    width: 100px;
     height: 13px;
     font-size: 0;
     line-height: 0;
@@ -437,6 +437,63 @@ ul#nav > li { display: inline-block; float: none; }
     padding-top: 30px;
     overflow: hidden;
 }
+.page-title h1 {
+    width: 25%;
+    float: left;
+    font: 30px/normal "ProximaNova-Bold",sans-serif;
+    color: #000000;
+    padding-bottom: 10px;
+    position: relative;
+    text-transform: uppercase;
+}
+.page-title .category-list {
+    width: 75%;
+    float: left;
+    -webkit-transform: translatez(0);
+    -moz-transform: translatez(0);
+    -ms-transform: translatez(0);
+    transform: translatez(0);
+    display: block;
+    padding: 0 0 11px;
+}
+.page-title .category-list .category-list-item  {
+    width: 33.33333%;
+    float: left;
+    padding-left: 0;
+    padding-right: 0;
+    font-family: "ProximaNova-Regular",sans-serif;
+    line-height: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 20px;
+    position: relative;
+    text-transform: uppercase;
+}
+.page-title .category-list .category-list-item a {
+    text-decoration: none;
+    color: #46166b;
+    line-height: 2;
+}
+.page-title .category-list .category-list-item a:hover { text-decoration: underline; }
+
+.page-title .category-list .category-list-item.active:before {
+    position: absolute;
+    right: 100%;
+    content: '';
+    display: block;
+    width: 0;
+    height: 0;
+    border: 5px solid transparent;
+    border-left-color: #46166b;
+    border-left-width: 7px;
+    border-right-width: 7px;
+    margin-top: -6px;
+    top: 50%;
+}
+.page-title .category-list .category-list-link.active {
+    color: #000;
+}
+
 .col1-layout .products-grid {
     width: 790px;
     margin: 0 auto;
