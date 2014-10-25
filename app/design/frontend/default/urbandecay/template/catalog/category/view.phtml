@@ -32,6 +32,7 @@
  */
 ?>
 <?php
+    $loadCategory = $this->getCurrentTopCategory();
     $_helper    = $this->helper('catalog/output');
     $_category  = $this->getCurrentCategory();
     $_imgHtml   = '';
@@ -46,30 +47,17 @@
     <?php endif; ?>
 
     <div class="page-title category-title">
-        <h1><?php echo $_helper->categoryAttribute($_category, $_category->getName(), 'name') ?></h1>
+        <h1><?php echo $loadCategory->getName(); ?></h1>
+        <?php echo $this->getCategoryList(); ?>
     </div>
 
     <?php echo $this->getMessagesBlock()->getGroupedHtml() ?>
 
-    <?php if($_description=$this->getCurrentCategory()->getDescription()): ?>
-        <div class="category-description std">
-            <?php echo $_helper->categoryAttribute($_category, $_description, 'description') ?>
-        </div>
-    <?php endif; ?>
+    <?php echo $this->getProductListHtml() ?>
 
-    <?php if($this->isContentMode()): ?>
-        <?php echo $this->getCmsBlockHtml() ?>
+    <div class="recently-viewed-block ">
+        <h2 class="recently-viewed-title"><span>Recently Viewed</span></h2>
 
-    <?php elseif($this->isMixedMode()): ?>
-        <?php echo $this->getProductListHtml() ?>
-
-    <?php else: ?>
-        <?php echo $this->getProductListHtml() ?>
-    <?php endif; ?>
-
-    <div class="recommendations-block ">
-        <h2 class="recommendation-title"><span>Recently Viewed</span></h2>
-
-        <?php echo $this->getChildHtml('random_four') ?>
+        <?php echo $this->getChildHtml('recently_viewed') ?>
     </div>
 </div>

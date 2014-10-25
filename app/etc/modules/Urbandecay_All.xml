@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+
+<config>
+    <modules>
+        <Urbandecay_Catalog>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Urbandecay_Catalog>
+    </modules>
+</config>

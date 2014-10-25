@@ -151,6 +151,7 @@
     </div>
     <?php echo $this->getChildHtml('upsell_products') ?>
     <?php echo $this->getChildHtml('product_additional_data') ?>
+    <?php echo $this->getChildHtml('product_review_list') ?>
 
     <script type="text/javascript">
         //<![CDATA[
@@ -172,5 +173,11 @@
         });
         //]]>
     </script>
+
+    <div class="recently-viewed-block ">
+        <h2 class="recently-viewed-title"><span>Recently Viewed</span></h2>
+
+        <?php echo $this->getChildHtml('recently_viewed') ?>
+    </div>
 
 </div>

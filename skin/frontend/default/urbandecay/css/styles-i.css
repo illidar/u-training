@@ -1,9 +1,7 @@
-
 * { margin:0; padding:0; }
 .clear {
     clear: both;
 }
-
 /* ============================================ *
  * Search Input
  * ============================================ */
@@ -30,7 +28,7 @@
 .header-top-box .quick-access .header-customer-info ul.top-links li a.customer-page-link { padding-right: 10px; border-right: 1px solid #b69fc5; }
 .header-top-box .quick-access .header-customer-info ul.top-links li a.login { padding-left: 10px; }
 
-.header-container { border: 0; position: relative; z-index: 9; padding: 35px 0 0; background:url(../images/bg_header.jpg) repeat-x scroll 0 0 #1b0a25;}
+.header-container { border: 0; position: relative; z-index: 999; padding: 35px 0 0; background:url(../images/bg_header.jpg) repeat-x scroll 0 0 #1b0a25;}
 
 .header { width:930px; margin:0 auto; padding: 0; text-align:right; position:relative; z-index:10; }
 .header .logo { float:none; margin: 0; padding: 30px 0 0; text-align: center; text-decoration:none !important; }
@@ -114,6 +112,15 @@ ul#nav > li { display: inline-block; float: none; }
 .ratings .rating-links a { font: 12px "ProximaNova-Semibold",sans-serif; color: #46166b; text-decoration: none; }
 .ratings .rating-links a:hover { color: #000000; text-decoration: underline; }
 .rating-box .rating { float: left; height: 13px; background: url(../images/bkg_rating.gif) 0 100% repeat-x; }
+.rating-box {
+    width: 69px;
+    height: 13px;
+    font-size: 0;
+    line-height: 0;
+    background: url(../images/bkg_rating.gif) 0 0 repeat-x;
+    text-indent: -999em;
+    overflow: hidden;
+}
 
 .regular-price .price { font: 20px/1em "ProximaNova-Bold",sans-serif; color: #000; text-transform: capitalize; padding: 0; }
 
@@ -186,7 +193,6 @@ ul#nav > li { display: inline-block; float: none; }
     margin: 0 0 20px;
     overflow-y: auto;
     max-height: 300px;
->>>>>>> 4a135d461dccde7fe4ecc6ee7581bd3a63e5108f
 }
 
 .product-pricing, .tier-prices {
@@ -250,10 +256,6 @@ ul#nav > li { display: inline-block; float: none; }
     padding: 0;
     border-top: 1px solid #dacce2;
 }
-.product-view .box-up-sell {
-    padding: 55px 0 0 0 !important;
-}
-
 
 .box-collateral > div {
     display: none;
@@ -338,10 +340,92 @@ ul#nav > li { display: inline-block; float: none; }
 .box-like-list, .box-collateral-tags {
     display: block !important;
     border-top: 1px solid #dacce2 !important;
-    margin: 0 -500% !important;
-    padding: 0 500% !important;
+    /*margin: 0 -500% !important;*/
+    /*padding: 0 500% !important;*/
     padding-top: 30px !important;
     overflow: hidden !important;
+}
+/**** tags ****/
+.product-view .box-tags .product-tags li {
+    margin: 0 14px 5px 0 !important;
+    background-image: none !important;
+    background-color: #d5c7dd !important;
+    border: 1px solid #F2F1F4 !important;
+    padding: 0 10px 0 0 !important;
+}
+.box-collateral-tags h2 {
+    font-size: 12px;
+    line-height: 1.5;
+    color: #563167;
+    padding: 0px 0 20px 3px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.box-collateral-tags .product-tags li a {
+    background-image: url(../images/iconText.gif);
+    background-repeat: no-repeat;
+    text-decoration: none;
+    background-position: 0 -118px;
+    padding-left: 13px;
+    display: inline-block;
+    font-family: Helvetica,Arial,sans-serif;
+    line-height: 1.5em;
+    color: #5D3479;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+.box-collateral-tags .product-tags li a span {
+    white-space: nowrap;
+    padding-left: 5px;
+}
+/**** reviews ****/
+.box-reviews .review {
+    background-color: #ffffff;
+    border-style: solid;
+    border-color: #e7e7e7;
+    border-width: 0 0 2px 0;
+    margin: 10px 0;
+    padding: 15px 0;
+    text-align: justify;
+}
+.box-reviews .review:after {
+    content: '';
+    display: inline-block;
+    width: 100%;
+    height: 0;
+    font-size:0;
+    line-height:0;
+}
+.box-reviews .review .review-right-block { display: inline-block; width: 20%; vertical-align: top }
+.box-reviews .review .review-left-block { display: inline-block; width: 75%; text-align: justify; vertical-align: top }
+.box-reviews .review .review-left-block .review-title {
+    text-transform: none;
+    font-size: 24px;
+    color: #0e0e0e;
+    font-family: ProximaNova-Bold,sans-serif;
+    font-weight: normal;
+}
+.review-rating-box {
+    width: 100px;
+    height: 13px;
+    font-size: 0;
+    line-height: 0;
+    background: url(../images/bkg_rating_2.gif) 0 0 repeat-x;
+    text-indent: -999em;
+    overflow: hidden;
+}
+.review-rating-box .rating { float: left; height: 13px; background: url(../images/bkg_rating_2.gif) 0 100% repeat-x; }
+.ratings-table th {
+    font-weight: normal;
+    line-height: 1em;
+    color: #0e0e0e;
+    text-transform: uppercase;
+    font-size: 11px;
+    display: block;
+}
+.ratings-table td {
+    padding: 0;
+    display: block;
 }
 
 /* Category View ========================================================================== */
@@ -354,15 +438,71 @@ ul#nav > li { display: inline-block; float: none; }
     margin: 0 auto;
     padding-bottom: 40px;
 }
-
 .category-view .category-title {
     display: block;
     border-bottom: 1px solid #dacce2;
-    margin: 0 -500%;
-    padding: 0 500%;
+    /*margin: 0 -500%;*/
+    /*padding: 0 500%;*/
     padding-top: 30px;
     overflow: hidden;
 }
+.page-title h1 {
+    width: 25%;
+    float: left;
+    font: 30px/normal "ProximaNova-Bold",sans-serif;
+    color: #000000;
+    padding-bottom: 10px;
+    position: relative;
+    text-transform: uppercase;
+}
+.page-title .category-list {
+    width: 75%;
+    float: left;
+    -webkit-transform: translatez(0);
+    -moz-transform: translatez(0);
+    -ms-transform: translatez(0);
+    transform: translatez(0);
+    display: block;
+    padding: 0 0 11px;
+}
+.page-title .category-list .category-list-item  {
+    width: 33.33333%;
+    float: left;
+    padding-left: 0;
+    padding-right: 0;
+    font-family: "ProximaNova-Regular",sans-serif;
+    line-height: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 20px;
+    position: relative;
+    text-transform: uppercase;
+}
+.page-title .category-list .category-list-item a {
+    text-decoration: none;
+    color: #46166b;
+    line-height: 2;
+}
+.page-title .category-list .category-list-item a:hover { text-decoration: underline; }
+
+.page-title .category-list .category-list-item.active:before {
+    position: absolute;
+    right: 100%;
+    content: '';
+    display: block;
+    width: 0;
+    height: 0;
+    border: 5px solid transparent;
+    border-left-color: #46166b;
+    border-left-width: 7px;
+    border-right-width: 7px;
+    margin-top: -6px;
+    top: 50%;
+}
+.page-title .category-list .category-list-link.active {
+    color: #000;
+}
+
 .col1-layout .products-grid {
     width: 790px;
     margin: 0 auto;
@@ -373,17 +513,14 @@ ul#nav > li { display: inline-block; float: none; }
 .products-grid li.item {
     float: left;
     margin: 0 0 35px 0;
-    padding: 0;
-    width: 25%;
     width: 25%;
     position: relative;
     padding: 0 0 30px 0;
-    min-height: 315px;
+    min-height: 290px;
 }
 .products-grid .item span.amount { display: none; }
 .products-grid .item .ratings { float: none; }
 .products-grid .item .ratings .rating-box { float: none; display: block; margin: 0 auto; }
-.products-grid .actions { position: relative; bottom: 0; }
 .products-grid .actions { position: absolute; bottom: 0; left: 0; right: 0; }
 .products-grid .actions button.button { width: 120px; line-height: 25px; }
 button.button > span {
@@ -452,17 +589,17 @@ button.button > span:hover {
     font: 12px/16px "ProximaNova-Bold",sans-serif;
 }
 
-.recommendations-block {
+.recently-viewed-block {
     display: block !important;
     border-top: 1px solid #dacce2 !important;
-    margin: 0 -500% !important;
-    padding: 0 500% !important;
+    /*margin: 0 -500% !important;*/
+    /*padding: 0 500% !important;*/
     padding-top: 55px !important;
     overflow: hidden !important;
     float: none;
     clear: both;
 }
-.recommendation-title {
+.recently-viewed-title {
     font: 30px/1.2em "ProximaNova-Bold",sans-serif;
     color: #000;
     text-transform: uppercase;
