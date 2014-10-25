@@ -16,7 +16,7 @@ class Urbandecay_Catalog_Block_Category_View extends Mage_Catalog_Block_Category
         }
         else
         {
-            $loadCategory = $this->load($currentCat->getParentId());
+            $loadCategory = $currentCat->getParentCategory();
         }
         return $loadCategory;
     }
