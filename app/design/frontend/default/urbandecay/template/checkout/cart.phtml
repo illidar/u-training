@@ -83,10 +83,73 @@
                     <?php endforeach; ?>
                 </ul>
             <?php endif; ?>
+            <div class="divider">
+                <div class="sep"></div>
+                <div class="or"> or </div>
+                <div class="sep"></div>
+            </div>
+            <div class="paypal-checkout">
+                <a href="#">
+                    <img src="<?php echo $this->getSkinUrl('images/paypal.png') ?>">
+                </a>
+            </div>
+        </div>
+
+    </div>
+    <div class="right-column">
+        <div class="total-button">
+            <?php if(!$this->hasError()): ?>
+                <ul class="checkout-types">
+                    <?php foreach ($this->getMethods('methods') as $method): ?>
+                        <?php if ($methodHtml = $this->getMethodHtml($method)): ?>
+                            <li><?php echo $methodHtml; ?></li>
+                        <?php endif; ?>
+                    <?php endforeach; ?>
+                </ul>
+            <?php endif; ?>
+            <div class="divider">
+                <div class="sep"></div>
+                <div class="or"> or </div>
+                <div class="sep"></div>
+            </div>
+            <div class="paypal-checkout">
+                <a href="#">
+                    <img src="<?php echo $this->getSkinUrl('images/paypal.png') ?>">
+                </a>
+            </div>
+            <div class="customer-service">
+                <?php echo $this->getLayout()->createBlock('cms/block')->setBlockId('customer_service')->toHtml(); ?>
+            </div>
+            <h2 class="right-items-title"><?php echo $this->__('Best Sellers') ?></h2>
+            <?php echo $this->getChildHtml('right_four_items') ?>
         </div>
     </div>
     </div>
+<div id="popup"></div>
+<div id="edit-cart-modal">
 
 </div>
+<!--<script type="text/javascript">-->
+<!--//<![CDATA[-->
+<!---->
+<!--var $j = jQuery.noConflict();-->
+<!--    $j(document).ready(function(){-->
+<!--        $j('.cart-edit').click(function(e) {-->
+<!--            e = e || window.event;-->
+<!--            var el = e.target || e.srcElement;-->
+<!--document.getElementById('popup').style.display = "block";-->
+<!--document.getElementById('edit-cart-modal').style.display = "block";-->
+<!--$url = el.id;-->
+<!---->
+<!--$j("#edit-cart-modal").load($url);-->
+<!---->
+<!---->
+<!--});-->
+<!--    });-->
+<!--//]]>-->
+<!--</script>-->
+
+
+
 
 

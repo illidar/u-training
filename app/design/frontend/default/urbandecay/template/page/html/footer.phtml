@@ -13,8 +13,12 @@
 
 <div class="footer-container">
     <div class="footer_top_wrapper">
-        <?php echo $this->getChildHtml('social') ?>
+        <div class="footer_top">
         <?php echo $this->getChildHtml('subscribe') ?>
+            <div class="social_footer">
+                <?php echo $this->getLayout()->createBlock('cms/block')->setBlockId('social_block_footer')->toHtml(); ?>
+            </div>
+        </div>
         <div class="clear"></div>
     </div>
     <div class="footer">

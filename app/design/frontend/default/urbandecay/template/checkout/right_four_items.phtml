@@ -1,0 +1,45 @@
+<?php
+/**
+ * Right column items
+ *
+ * @category    design
+ * @package     core_template
+ *
+ * @author      Oleksandr Kostynian
+ */
+?>
+<?php
+$products = Mage::getModel('catalog/product')->getCollection();
+$products->addAttributeToSelect(array('name', 'small_image', 'price', 'product_id'));
+Mage::getSingleton('catalog/product_status')->addVisibleFilterToCollection($products);
+Mage::getSingleton('catalog/product_visibility')->addVisibleInCatalogFilterToCollection($products);
+$products->getSelect()->order('RAND()');
+$products->getSelect()->limit(4);
+?>
+
+<div class="right_four_items">
+    <?php foreach ($products as $product)  : ?>
+            <div class="item">
+                <a href="<?php echo $product->getProductUrl()?>"><img src="<?php echo Mage::helper('catalog/image')->init($product, 'small_image')
+                        ->constrainOnly(false)
+                        ->keepAspectRatio(true)
+                        ->keepFrame(true)
+                        ->keepTransparency(true)
+                        ->backgroundColor(array(255,255,255))
+                        ->resize(65, 65); ?>" alt="" class="product-image">
+                </a>
+                <h2 class="product-name"><a href="<?php echo $product->getProductUrl()?>"><?php echo $product->getName()?></a></h2>
+
+                <div class="price-box">
+                    <span class="regular-price">
+                        <?php echo Mage::app()->getStore()->getCurrentCurrency()->format($product->getFinalPrice());?>
+                    </span>
+                </div>
+                <div class="small-button-wrapper">
+                    <button type="button" title="Shop Now" class="small-button" onclick="setLocation('<?php echo Mage::helper('checkout/cart')->getAddUrl($product)?> ?>')"><span><?php echo $this->__('Shop now') ?></span></button>
+                </div>
+            </div>
+        <div class="clear"></div>
+    <?php
+    endforeach; ?>
+</div>

@@ -10,6 +10,22 @@
     height: 120px;
     width: 100%;
 }
+.footer_top {
+    width: 960px;
+    height: 120px;
+    margin: 0 auto;
+}
+.social_footer {
+    float: left;
+    width: 400px;
+    text-align: left;
+    padding: 50px 0 0 30px;
+}
+.social_footer img:hover {
+    width: 40px;
+    height: 40px;
+
+}
 .subscribe_wrapper {
     width: 960px;
     margin: 0 auto;
@@ -782,23 +798,55 @@
     width: 170px;
 }
 .total-button {
-    text-align: right;
+    width: 205px;
+    float: right;
+    margin-bottom: 15px;
 }
 .total-button .btn-proceed-checkout {
     background-image: url("../images/btn-cart.jpg");
     font: 17px "ProximaNova-Semibold",sans-serif;
-    padding: 15px 0;
+    padding: 17px 15px;
     letter-spacing: 1px;
+    color: #ffffff;
     background-position: 50%;
+    margin: 0 0 15px 0;
 }
 .total-button .btn-proceed-checkout:hover {
     background-image: url("../images/btn-cart--hover.jpg");
 }
-.total-button .btn-proceed-checkout span {
+.divider {
+    margin: 0 0 15px 0;
     background: none;
+    width: 204px;
+    height: 18px;
+    color: #909090;
+    font: 13px/1.3em "ProximaNova-Bold",sans-serif;
 }
-.total-button .btn-proceed-checkout span span {
-    background: none;
+.divider .sep {
+    height: 1px;
+    width: 90px;
+    background-color: #dbdbdb;
+    float: left;
+    margin-top: 6px;
+}
+.divider .or {
+    margin: 0 5px;
+    float: left;
+    text-indent: 0;
+}
+.paypal-checkout {
+    width: 204px;
+    text-align: center;
+}
+.right-column {
+    width: 230px;
+    float: right;
+}
+.customer-service {
+    width: 165px;
+    background-image: url("../images/bg_widget.png");
+    padding: 20px;
+    margin-top: 20px;
 }
 .cart-empty {
     font: 18px/24px "ProximaNova-Regular",sans-serif;
@@ -832,7 +880,103 @@
 .second-column {
     width: 150px;
 }
+.wrap {
+    display: none;
+    position:absolute;
+    left:50%;
+    top:50%;
+    width: 800px;
+    margin: -200px 0 0 -400px;
+    font-family:'Raleway',sans-serif;
+    z-index: 10100;
+    overflow: hidden;
+    max-height: none !important;
+    height: 400px;
+}
+.right_four_items{
+    width: 204px;
+}
 
+.right_four_items .product-image {
+    float: left;
+    padding-right: 15px;
+}
+.right_four_items .item a {
+    font: 13px/1.2em "ProximaNova-Bold",sans-serif;
+    text-transform: uppercase;
+    color: #46166b;
+    text-decoration: none;
+}
+.right_four_items .item {
+    min-height: 70px;
+    margin-bottom: 10px;
+    position: relative;
+}
+.right-items-title {
+    font: 30px/1.2em "ProximaNova-Bold",sans-serif;
+    color: #000;
+    text-transform: uppercase;
+    font-size: 14px;
+    text-align: left;
+    margin: 25px 0;
+}
+.right_four_items .product-name {
+    padding-top: 10px;
+}
+.right_four_items .small-button {
+    background-color: #ffffff;
+    color: #46166b;
+    border: 1px solid #dbdbdb;
+    opacity: 0.8;
+    padding: 3px 5px 2px 5px;
+    left: 0;
+    top: 20px;
+    position: absolute;
+    font: 13px "ProximaNova-Bold",sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+.right_four_items .small-button:hover {
+    background-color: #46166b;
+    color: #ffffff;
+    border: 1px solid #46166b;
+}
+.right_four_items .small-button-wrapper {
+    display: none;
+}
+.right_four_items .item:hover .small-button-wrapper{
+    display: block;
+}
+.checkout-cart-index #edit-cart-modal {
+    display: none;
+    width: 800px;
+    height: 600px;
+    background-color: #ffffff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -200px 0 0 -400px;
+    z-index: 10001;
+}
+.checkout-cart-configure .add-to-cart .qty{
+    float: right;
+    padding: 0 0 0 15px;
+    margin: 0 0 15px 0;
+    width: 50px !important;
+    height: 38px;
+    border: solid 1px #b69fc5;
+    color: #000;
+    text-transform: uppercase !important;
+    font: 13px/38px "ProximaNova-Semibold",sans-serif;
+}
+.checkout-cart-configure .add-to-cart label {
+    color: #000;
+    text-transform: uppercase !important;
+    font: 13px/38px "ProximaNova-Semibold",sans-serif;
+}
+.checkout-cart-configure .product-select-options {
+    display: none;
+}
 /* ############ ForgotPass modal window #################### */
 div #popup {
     width:100%;
@@ -1359,4 +1503,27 @@ margin: 0 0 12px;
 }
 .customer-address-index .addresses-additional {
     margin-bottom: 20px;
+}
+
+#up-div {
+    display: none;
+    position: fixed;
+    width: 65px;
+    height: 65px;
+    right: 0;
+    bottom: 20px;
+    background-color: #46166b;
+    color: #fff;
+    font-size: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    cursor: pointer;
+}
+.to_top_arrow {
+    width: 15px;
+    height: 15px;
+    background-image: url("../images/to_top.png");
+    background-size:  cover;
+    margin: 15px auto 0 auto;
 }
