@@ -1,0 +1,11 @@
+<config>
+    <global>
+        <blocks>
+            <catalog>
+                <rewrite>
+                    <category_view>Urbandecay_Catalog_Block_Category_View</category_view>
+                </rewrite>
+            </catalog>
+        </blocks>
+    </global>
+</config>
