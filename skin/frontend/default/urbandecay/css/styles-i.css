@@ -37,19 +37,40 @@
 
 /********** < Navigation */
 .nav-container { background:none; margin-top: 15px; }
-#nav { width:918px; height: 45px; margin:0 auto; padding:0 16px; font-size:13px; display: block; text-align: center; line-height: 70px; }
+#nav { width:918px; height: 45px; margin:0 auto; padding:0 16px; font-size:13px; display: block; text-align: center; line-height: 70px; position: relative; }
 /* All Levels */ /* Style consistent throughout all nav levels */
-ul#nav > li { display: inline-block; float: none; }
+ul#nav > li { display: inline-block; float: none; position: relative; }
 
 #nav li { position:relative; text-align:left; }
 #nav li.over { z-index:998; }
 #nav a,
 #nav a:hover { display:block; line-height:1.3em; text-decoration:none; }
 #nav span { display:block; cursor:pointer; white-space:nowrap; font-size: 14px; }
-#nav li ul span {white-space:normal; }
+#nav li ul span {
+    white-space:normal;
+    padding: 5px 30px;
+    font-size: 14px;
+    line-height: 15px;
+    font-family: "ProximaNova-Semibold",sans-serif;
+    color: #46166b;
+}
 #nav ul li.parent a { background:none; }
 #nav ul li.parent li a { background-image:none; }
 
+#nav > li { height: 100%; }
+#nav > li > a { height: 100%; padding: 0 12px 0 8px; }
+#nav > li > a > span { text-transform: uppercase; line-height: 45px; }
+#nav > li > ul:after {
+    content: '';
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -60px;
+    width: 0; height: 0;
+    border-bottom: 8px solid #FFFFFF;
+    border-right: 8px solid transparent;
+    border-left: 8px solid transparent;
+}
 /* 0 Level */
 #nav li { float:left; }
 #nav li.active a { color: #af8bbe; }
@@ -68,24 +89,39 @@ ul#nav > li { display: inline-block; float: none; }
 #nav ul li a { font-weight:normal !important; }
 
 /* 2nd Level */
-#nav ul,
-#nav div { position:absolute; width:15em; top:27px; left:-10000px; border:1px solid #899ba5; }
+#nav ul, #nav div {
+    position:absolute;
+    width:15em; top:45px;
+    left:-10000px;
+    border:none;
+    -webkit-box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2);
+    -moz-box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2);
+    background-color: #ffffff;
+}
 #nav div ul { position:static; width:auto; border:none; }
 
 /* 3rd+ Level */
 #nav ul ul,
 #nav ul div { top:5px; }
 
-#nav ul li a { background:#ffffff; }
-#nav ul li a:hover { background:#d5e4eb; }
+#nav ul li a {
+    background:#ffffff;
+    -moz-transition-property: all;
+    -webkit-transition-property: all;
+    transition-property: all;
+    -moz-transition-duration: 300ms;
+    -webkit-transition-duration: 300ms;
+    transition-duration: 300ms; }
+#nav ul li a:hover { background-color: #46166b; }
 #nav ul li a,
-#nav ul li a:hover { color:#2f2f2f !important; }
+#nav ul li a:hover span { color:#ffffff !important; }
 #nav ul span,
-#nav ul li.last li span { padding:3px 15px 4px 15px; }
+#nav ul li.last li span { padding: 5px 30px; }
 
 /* Show menu */
 #nav li ul.shown-sub,
-#nav li div.shown-sub { left:0; z-index:999; }
+#nav li div.shown-sub { left:0; z-index:999; padding: 25px 0; }
 #nav li .shown-sub ul.shown-sub,
 #nav li .shown-sub li div.shown-sub { left:100px; }
 /********** Navigation > */
