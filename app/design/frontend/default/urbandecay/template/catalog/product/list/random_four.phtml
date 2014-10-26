@@ -37,7 +37,7 @@ $products->getSelect()->limit(4);
                     ->setStoreId($storeId)
                     ->load($product->getId());
 
-                if ($summaryData['rating_summary']):?>
+                if ($summaryData['rating_summary']): ?>
                     <div class="ratings">
                         <div class="rating-box">
                             <div class="rating" style="width:<?php echo $summaryData['rating_summary']; ?>%"></div>

@@ -18,7 +18,8 @@ $products = Mage::getSingleton('Mage_Reports_Block_Product_Viewed')->getItemsCol
     <ul class="products-grid">
         <?php foreach ($products as $product)  : ?>
             <li class="item">
-                <a class="product-image" href="<?php echo $product->getProductUrl()?>"><img src="<?php echo Mage::helper('catalog/image')->init($product, 'small_image')
+                <a class="product-image" href="<?php echo $product->getProductUrl()?>">
+                    <img src="<?php echo Mage::helper('catalog/image')->init($product, 'small_image')
                         ->constrainOnly(false)
                         ->keepAspectRatio(true)
                         ->keepFrame(true)
@@ -34,7 +35,7 @@ $products = Mage::getSingleton('Mage_Reports_Block_Product_Viewed')->getItemsCol
                     ->setStoreId($storeId)
                     ->load($product->getId());
 
-                if ($summaryData['rating_summary']):?>
+                if ($summaryData['rating_summary']): ?>
                     <div class="ratings">
                         <div class="rating-box">
                             <div class="rating" style="width:<?php echo $summaryData['rating_summary']; ?>%"></div>
