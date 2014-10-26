@@ -1527,3 +1527,75 @@ margin: 0 0 12px;
     background-size:  cover;
     margin: 15px auto 0 auto;
 }
+
+/* ############ SELECT ######################### */
+
+
+.slct {
+    display: block;
+    border-radius: 0;
+    border: 1px solid #dacce2;
+    background-color: #ffffff;
+    width: 45px;
+    padding: 0 9px 0 9px;
+    color: #444;
+    font: 13px/28px "ProximaNova-Regular",sans-serif;
+    overflow: hidden;
+    white-space:nowrap;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+
+}
+div.select:hover .slct {
+    border-color: #b69fc5;
+}
+div.select:hover .drop {
+    border-color: #b69fc5;
+}
+.slct.active {
+    border-radius: 0;
+    border-bottom: none;
+}
+.drop {
+    margin: 0;
+    padding: 0;
+    width: 63px;
+    border: 1px solid #dacce2;
+    border-top: none;
+    display: none;
+    position: absolute;
+    background: #fff;
+}
+.first_li {
+    border-top: 1px solid #dacce2;
+}
+.drop li {
+    list-style: none;
+    cursor: pointer;
+    display: block;
+    color: #444;
+    padding: 0 0 0 9px;
+    font: 13px/28px "ProximaNova-Regular",sans-serif;
+}
+.drop li:hover {
+    background-color: #f4f0f6;
+    color: #222;
+}
+div.select {
+    position: relative;
+    z-index: 100;
+}
+div.select a {
+    text-decoration: none;
+}
+#slct_arrow {
+    position: absolute;
+    border: 4px solid transparent;
+    border-top-color: #46166b;
+    top: 13px;
+    left: 49px;
+    width: 0;
+    height: 0;
+    padding: 0;
+    cursor: pointer;
+}

@@ -166,7 +166,19 @@ $canApplyMsrp = Mage::helper('catalog')->canApplyMsrp($_item->getProduct(), Mage
         <?php endif; ?>
     <?php endif; ?>
     <td class="a-center" rowspan="2">
-        <input name="cart[<?php echo $_item->getId() ?>][qty]" value="<?php echo $this->getQty() ?>" size="4" title="<?php echo $this->__('Qty') ?>" class="input-text qty" maxlength="12" />
+
+        <div class="select">
+            <div id="slct_arrow" class="slct"></div>
+            <a href="#" class="slct"><?php echo $this->getQty() ?></a>
+            <ul class="drop">
+                <li class="first_li">1</li>
+                <li>2</li>
+                <li>3</li>
+                <li>4</li>
+                <li>5</li>
+            </ul>
+        <input type="hidden" id="select" name="cart[<?php echo $_item->getId() ?>][qty]" value="<?php echo $this->getQty() ?>" size="4" title="<?php echo $this->__('Qty') ?>" class="input-text qty" maxlength="12" />
+        </div>
     </td>
 
     <!--Sub total starts here -->
