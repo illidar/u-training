@@ -21,7 +21,7 @@
     <div class="cart">
         <?php echo $this->getMessagesBlock()->getGroupedHtml() ?>
         <?php echo $this->getChildHtml('form_before') ?>
-        <form action="<?php echo $this->getUrl('checkout/cart/updatePost') ?>" method="post">
+        <form action="<?php echo $this->getUrl('checkout/cart/updatePost') ?>" method="post" id="update-cart">
                 <div class="dymanic-cart-content">
                     <?php echo $this->getBlockHtml('formkey'); ?>
                     <fieldset>
@@ -60,9 +60,6 @@
         </form>
         <div class="clear"></div>
         <div class="cart-collaterals">
-            <?php echo $this->getChildHtml('crosssell') ?>
-            <?php /* Extensions placeholder */ ?>
-            <?php echo $this->getChildHtml('checkout.cart.extra') ?>
             <?php echo $this->getChildHtml('coupon') ?>
         </div>
         <div class="totals-wrapper">
@@ -83,10 +80,129 @@
                     <?php endforeach; ?>
                 </ul>
             <?php endif; ?>
+            <div class="divider">
+                <div class="sep"></div>
+                <div class="or"> or </div>
+                <div class="sep"></div>
+            </div>
+            <div class="paypal-checkout">
+                <a href="#">
+                    <img src="<?php echo $this->getSkinUrl('images/paypal.png') ?>">
+                </a>
+            </div>
+        </div>
+
+    </div>
+    <div class="right-column">
+        <div class="total-button">
+            <?php if(!$this->hasError()): ?>
+                <ul class="checkout-types">
+                    <?php foreach ($this->getMethods('methods') as $method): ?>
+                        <?php if ($methodHtml = $this->getMethodHtml($method)): ?>
+                            <li><?php echo $methodHtml; ?></li>
+                        <?php endif; ?>
+                    <?php endforeach; ?>
+                </ul>
+            <?php endif; ?>
+            <div class="divider">
+                <div class="sep"></div>
+                <div class="or"> or </div>
+                <div class="sep"></div>
+            </div>
+            <div class="paypal-checkout">
+                <a href="#">
+                    <img src="<?php echo $this->getSkinUrl('images/paypal.png') ?>">
+                </a>
+            </div>
+            <div class="customer-service">
+                <?php echo $this->getLayout()->createBlock('cms/block')->setBlockId('customer_service')->toHtml(); ?>
+            </div>
+            <h2 class="right-items-title"><?php echo $this->__('Best Sellers') ?></h2>
+            <?php echo $this->getChildHtml('right_four_items') ?>
         </div>
     </div>
     </div>
+<div id="popup"></div>
+<div id="edit-cart-modal">
 
 </div>
+<script type="text/javascript">
+//<![CDATA[
+
+var $j = jQuery.noConflict();
+$j(document).ready(function(){
+
+    // Select
+    $j('.slct').click(function(){
+        /* Заносим выпадающий список в переменную */
+        var dropBlock = $j(this).parent().find('.drop');
+
+        /* Делаем проверку: Если выпадающий блок скрыт то делаем его видимым*/
+        if( dropBlock.is(':hidden') ) {
+            dropBlock.slideDown();
+
+            /* Выделяем ссылку открывающую select */
+            $j(this).addClass('active');
+
+            /* Работаем с событием клика по элементам выпадающего списка */
+            $j('.drop').find('li').click(function(){
+
+                /* Заносим в переменную HTML код элемента
+                 списка по которому кликнули */
+                var selectResult = $j(this).html();
+
+                /* Находим наш скрытый инпут и передаем в него
+                 значение из переменной selectResult */
+                $j(this).parent().parent().find('input').val(selectResult);
+
+                /* Передаем значение переменной selectResult в ссылку которая
+                 открывает наш выпадающий список и удаляем активность */
+                  $j('.slct').removeClass('active');
+//                $j('.slct').removeClass('active').html(selectResult);
+
+                /* Скрываем выпадающий блок */
+                dropBlock.slideUp();
+
+                /* Отправка формы */
+                document.getElementById('update-cart').submit();
+            });
+
+            /* Продолжаем проверку: Если выпадающий блок не скрыт то скрываем его */
+        } else {
+            $j(this).removeClass('active');
+            dropBlock.slideUp();
+        }
+
+        /* Предотвращаем обычное поведение ссылки при клике */
+        return false;
+    });
+
+});
+
+//]]>
+</script>
+
+<!--<script type="text/javascript">-->
+<!--//<![CDATA[-->
+<!---->
+<!--var $j = jQuery.noConflict();-->
+<!--    $j(document).ready(function(){-->
+<!--        $j('.cart-edit').click(function(e) {-->
+<!--            e = e || window.event;-->
+<!--            var el = e.target || e.srcElement;-->
+<!--document.getElementById('popup').style.display = "block";-->
+<!--document.getElementById('edit-cart-modal').style.display = "block";-->
+<!--$url = el.id;-->
+<!---->
+<!--$j("#edit-cart-modal").load($url);-->
+<!---->
+<!---->
+<!--});-->
+<!--    });-->
+<!--//]]>-->
+<!--</script>-->
+
+
+
 
 

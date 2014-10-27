@@ -27,15 +27,17 @@
 ?>
 <?php if ($this->helper('wishlist')->isAllow()) : ?>
     <div class="my-wishlist">
-        <div class="page-title title-buttons">
-            <?php if ($this->helper('wishlist')->isRssAllow() && $this->hasWishlistItems()): ?>
-                <a href="<?php echo $this->helper('wishlist')->getRssUrl($this->getWishlistInstance()->getId()); ?>" class="link-rss"><?php echo $this->__('RSS Feed') ?></a>
-            <?php endif; ?>
-            <h1><?php echo $this->getTitle(); ?></h1>
-        </div>
         <?php echo $this->getMessagesBlock()->getGroupedHtml() ?>
-
         <form id="wishlist-view-form" action="<?php echo $this->getUrl('*/*/update', array('wishlist_id' => $this->getWishlistInstance()->getId())) ?>" method="post">
+            <div class="page-title title-buttons">
+                <div class="fav-title">
+                <h1><?php echo $this->__('Favorites'); ?></h1>
+                </div>
+                <div class="buttons-set buttons-set2">
+                    <?php echo $this->getChild('control_buttons')->toHtml();?>
+                </div>
+
+            </div>
             <?php echo $this->getChildHtml('top'); ?>
             <fieldset>
                 <?php if ($this->hasWishlistItems()): ?>
@@ -50,9 +52,6 @@
                         </div>
                     </div>
                 <?php endif ?>
-                <div class="buttons-set buttons-set2">
-                    <?php echo $this->getChild('control_buttons')->toHtml();?>
-                </div>
             </fieldset>
         </form>
 

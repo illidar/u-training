@@ -10,6 +10,22 @@
     height: 120px;
     width: 100%;
 }
+.footer_top {
+    width: 960px;
+    height: 120px;
+    margin: 0 auto;
+}
+.social_footer {
+    float: left;
+    width: 400px;
+    text-align: left;
+    padding: 50px 0 0 30px;
+}
+.social_footer img:hover {
+    width: 40px;
+    height: 40px;
+
+}
 .subscribe_wrapper {
     width: 960px;
     margin: 0 auto;
@@ -356,6 +372,13 @@
     color: #fff;
     background-color: #46166b;
 }
+.rand-prod h2 {
+    font: 30px/1.2em "ProximaNova-Bold",sans-serif;
+    color: #000;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 25px 0;
+}
 /* ############## LOGIN FORM ################## */
 
 .account-login {
@@ -665,6 +688,9 @@
 .cart-table thead th{
     background: none;
     border: none;
+    border-bottom: 1px solid #dacde1;
+    padding-bottom: 10px;
+    color: #000000;
 }
 .data-table tr.first th {
     padding-bottom: 10px;
@@ -775,23 +801,55 @@
     width: 170px;
 }
 .total-button {
-    text-align: right;
+    width: 205px;
+    float: right;
+    margin-bottom: 15px;
 }
 .total-button .btn-proceed-checkout {
     background-image: url("../images/btn-cart.jpg");
     font: 17px "ProximaNova-Semibold",sans-serif;
-    padding: 15px 0;
+    padding: 17px 15px;
     letter-spacing: 1px;
+    color: #ffffff;
     background-position: 50%;
+    margin: 0 0 15px 0;
 }
 .total-button .btn-proceed-checkout:hover {
     background-image: url("../images/btn-cart--hover.jpg");
 }
-.total-button .btn-proceed-checkout span {
+.divider {
+    margin: 0 0 15px 0;
     background: none;
+    width: 204px;
+    height: 18px;
+    color: #909090;
+    font: 13px/1.3em "ProximaNova-Bold",sans-serif;
 }
-.total-button .btn-proceed-checkout span span {
-    background: none;
+.divider .sep {
+    height: 1px;
+    width: 90px;
+    background-color: #dbdbdb;
+    float: left;
+    margin-top: 6px;
+}
+.divider .or {
+    margin: 0 5px;
+    float: left;
+    text-indent: 0;
+}
+.paypal-checkout {
+    width: 204px;
+    text-align: center;
+}
+.right-column {
+    width: 230px;
+    float: right;
+}
+.customer-service {
+    width: 165px;
+    background-image: url("../images/bg_widget.png");
+    padding: 20px;
+    margin-top: 20px;
 }
 .cart-empty {
     font: 18px/24px "ProximaNova-Regular",sans-serif;
@@ -819,9 +877,110 @@
 .btn-proceed-checkout  span {
     border: none !important;
 }
+.checkout-cart-index .rand-prod {
+    border-top: 1px solid #dacce2;
+}
+.second-column {
+    width: 150px;
+}
+.wrap {
+    display: none;
+    position:absolute;
+    left:50%;
+    top:50%;
+    width: 800px;
+    margin: -200px 0 0 -400px;
+    font-family:'Raleway',sans-serif;
+    z-index: 10100;
+    overflow: hidden;
+    max-height: none !important;
+    height: 400px;
+}
+.right_four_items{
+    width: 204px;
+}
 
-
-/* ############ POPUP FORM ForgotPass #################### */
+.right_four_items .product-image {
+    float: left;
+    padding-right: 15px;
+}
+.right_four_items .item a {
+    font: 13px/1.2em "ProximaNova-Bold",sans-serif;
+    text-transform: uppercase;
+    color: #46166b;
+    text-decoration: none;
+}
+.right_four_items .item {
+    min-height: 70px;
+    margin-bottom: 10px;
+    position: relative;
+}
+.right-items-title {
+    font: 30px/1.2em "ProximaNova-Bold",sans-serif;
+    color: #000;
+    text-transform: uppercase;
+    font-size: 14px;
+    text-align: left;
+    margin: 25px 0;
+}
+.right_four_items .product-name {
+    padding-top: 10px;
+}
+.right_four_items .small-button {
+    background-color: #ffffff;
+    color: #46166b;
+    border: 1px solid #dbdbdb;
+    opacity: 0.8;
+    padding: 3px 5px 2px 5px;
+    left: 0;
+    top: 20px;
+    position: absolute;
+    font: 13px "ProximaNova-Bold",sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+.right_four_items .small-button:hover {
+    background-color: #46166b;
+    color: #ffffff;
+    border: 1px solid #46166b;
+}
+.right_four_items .small-button-wrapper {
+    display: none;
+}
+.right_four_items .item:hover .small-button-wrapper{
+    display: block;
+}
+.checkout-cart-index #edit-cart-modal {
+    display: none;
+    width: 800px;
+    height: 600px;
+    background-color: #ffffff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -200px 0 0 -400px;
+    z-index: 10001;
+}
+.checkout-cart-configure .add-to-cart .qty{
+    float: right;
+    padding: 0 0 0 15px;
+    margin: 0 0 15px 0;
+    width: 50px !important;
+    height: 38px;
+    border: solid 1px #b69fc5;
+    color: #000;
+    text-transform: uppercase !important;
+    font: 13px/38px "ProximaNova-Semibold",sans-serif;
+}
+.checkout-cart-configure .add-to-cart label {
+    color: #000;
+    text-transform: uppercase !important;
+    font: 13px/38px "ProximaNova-Semibold",sans-serif;
+}
+.checkout-cart-configure .product-select-options {
+    display: none;
+}
+/* ############ ForgotPass modal window #################### */
 div #popup {
     width:100%;
     height:100%;
@@ -842,7 +1001,7 @@ div #popup {
     width: 24px;
     height: 24px;
     padding: 4px 1px 0 3px;
-    transition-duration: 150ms;
+    transition-duration: 300ms;
     line-height: 24px;
 }
 .close-popup-wrapper:hover {
@@ -851,7 +1010,7 @@ div #popup {
 .close-popup {
     font-size: 46px;
     color: #46166b;
-    transition-duration: 150ms;
+    transition-duration: 300ms;
 }
 .close-popup:hover {
     color: #ffffff;
@@ -1164,4 +1323,289 @@ margin: 0 0 12px;
 }
 .wishlist-index-index .buttons-set {
     border: none;
+}
+.my-wishlist .product-image {
+    width: 215px;
+    height: 215px;
+    overflow: hidden;
+}
+.fav-list {
+    float: left;
+    text-align: center;
+    font: 12px/1.2em "ProximaNova-Regular",sans-serif;
+    margin-bottom: 20px;
+    padding-right: 20px;
+}
+.my-wishlist  .product-name a {
+    text-decoration: none;
+    color: #46166b;
+    margin-bottom: 3px;
+    transition-duration: 300ms;
+    font: 18px/24px "ProximaNova-Regular",sans-serif;
+    font-weight: bold;
+}
+.my-wishlist  .product-name a:hover {
+    color: #611c97;
+}
+.price-box .price {
+    font: 14px/18px "ProximaNova-Regular",sans-serif;
+    color: #000;
+}
+.my-wishlist .remove-favorite {
+    color: #46166b;
+    transition-duration: 300ms;
+}
+.my-wishlist .remove-favorite:hover {
+    text-decoration: none;
+    color: #000000;
+}
+.my-wishlist .buttons-set {
+    position: absolute;
+    right: 0;
+    margin: 0;
+    padding: 0;
+}
+.fav-title {
+    float: left;
+}
+
+/* ################## Adresses ##################### */
+
+.customer-address-index .button {
+    font: 13px/1.2em "ProximaNova-Bold",sans-serif;
+    transition-duration: 150ms;
+    border: 0;
+    cursor: pointer;
+    display: inline-block;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    padding: 9px 25px;
+    margin: 0;
+    background: #46166b;
+}
+.customer-address-index .button:hover {
+    background: #b69fc5;
+}
+.addresses-list h2 {
+    color: #46166b;
+}
+.addresses-list li.item {
+    border: none;
+    background: none;
+    padding: 10px 0;
+}
+.addresses-list a {
+    text-decoration: none;
+    color: #46166b;
+    transition-duration: 300ms;
+    font: 12px/14px "ProximaNova-Regular",sans-serif;
+    font-weight: bold;
+}
+.addresses-list a:hover {
+    color: #000000;
+    text-decoration: underline;
+}
+
+/* ############### Address edit modal window ################### */
+
+.customer-address-index #modal-window-address-bg {
+    width:100%;
+    height:100%;
+    opacity:0.7;
+    top:0;
+    left:0;
+    display:none;
+    position:fixed;
+    background-color:#000;
+    overflow:auto;
+    z-index: 10000;
+}
+.customer-address-index  #modal-window-address {
+    display: none;
+    position:absolute;
+    left:50%;
+    top: 0;
+    max-width: 420px;
+    margin: 0 0 0 -210px;
+    font-family:'Raleway',sans-serif;
+    z-index: 10100;
+    overflow: hidden;
+    max-height: none !important;
+}
+.add-address-wrapper {
+    background-color: white;
+}
+.customer-address-index .fields-div {
+    background: #fff;
+    padding: 80px 60px 60px 60px;
+    overflow: hidden;
+    max-height: none;
+    height: auto;
+}
+.customer-address-index h1 {
+    font: 20px/1em "ProximaNova-Bold",sans-serif;
+    color: #000;
+    padding: 5px 0;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+}
+.customer-address-index .customer-name {
+    margin-top: 8px;
+}
+.customer-address-index fieldset {
+    width: 300px;
+}
+.customer-address-index .form-list {
+    width: 300px;
+}
+.customer-address-index .form-list input.input-text {
+    width: 274px;
+}
+.customer-address-index .form-list li.wide input.input-text {
+    width: 274px;
+}
+.customer-address-index .form-list li.wide .input-box {
+    width: 300px;
+}
+.customer-address-index #zip {
+    width: 124px;
+}
+.customer-address-index .input-box {
+    height: 30px;
+}
+.customer-address-index .first-name-account-edit {
+    margin-bottom: 18px;
+}
+.customer-address-index .field-phone {
+    margin-bottom: 18px;
+}
+.customer-address-index .field-city {
+    margin-bottom: 18px;
+}
+.customer-address-index .form-list select {
+    width: 300px;
+    height: 30px;
+    border-color: #dacce2;
+}
+.customer-address-index .close-popup-wrapper {
+    padding: 1px 0 1px 2px;
+}
+
+.customer-address-index .close-popup {
+    font-size: 40px;
+}
+.customer-address-form .button {
+    font: 13px/1.2em "ProximaNova-Bold",sans-serif;
+    padding: 9px 25px;
+    background-color: #46166b;
+    color: #ffffff;
+}
+.customer-address-form .button:hover {
+    background: #b69fc5;
+}
+.customer-address-index .addresses-additional {
+    margin-bottom: 20px;
+}
+
+#up-div {
+    display: none;
+    position: fixed;
+    width: 65px;
+    height: 65px;
+    right: 0;
+    bottom: 20px;
+    background-color: #46166b;
+    color: #fff;
+    font-size: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    cursor: pointer;
+}
+.to_top_arrow {
+    width: 15px;
+    height: 15px;
+    background-image: url("../images/to_top.png");
+    background-size:  cover;
+    margin: 15px auto 0 auto;
+}
+
+/* ############ SELECT ######################### */
+
+
+.slct {
+    display: block;
+    border-radius: 0;
+    border: 1px solid #dacce2;
+    background-color: #ffffff;
+    width: 45px;
+    padding: 0 9px 0 9px;
+    color: #444;
+    font: 13px/28px "ProximaNova-Regular",sans-serif;
+    overflow: hidden;
+    white-space:nowrap;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+
+}
+div.select:hover .slct {
+    border-color: #b69fc5;
+}
+div.select:hover .drop {
+    border-color: #b69fc5;
+}
+.slct.active {
+    border-radius: 0;
+    border-bottom: none;
+}
+.drop {
+    margin: 0;
+    padding: 0;
+    width: 63px;
+    border: 1px solid #dacce2;
+    border-top: none;
+    display: none;
+    position: absolute;
+    background: #fff;
+}
+.first_li {
+    border-top: 1px solid #dacce2;
+}
+.drop li {
+    list-style: none;
+    cursor: pointer;
+    display: block;
+    color: #444;
+    padding: 0 0 0 9px;
+    font: 13px/28px "ProximaNova-Regular",sans-serif;
+}
+.drop li:hover {
+    background-color: #f4f0f6;
+    color: #222;
+}
+div.select {
+    position: relative;
+    z-index: 100;
+}
+div.select a {
+    text-decoration: none;
+}
+#slct_arrow {
+    position: absolute;
+    border: 4px solid transparent;
+    border-top-color: #46166b;
+    top: 13px;
+    left: 49px;
+    width: 0;
+    height: 0;
+    padding: 0;
+    cursor: pointer;
+}
+
+.customer-account-edit .page-title h1 {
+    width: 100%;
+}
+.sales-order-history .page-title h1 {
+    width: 100%;
 }

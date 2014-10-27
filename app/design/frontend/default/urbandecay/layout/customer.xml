@@ -274,6 +274,7 @@ Customer account address book
         <update handle="customer_account"/>
         <reference name="my.account.wrapper">
             <block type="customer/address_book" name="address_book" template="customer/address/book.phtml"/>
+            <block type="customer/address_edit" name="customer_address_edit" template="customer/address/edit.phtml"/>
         </reference>
     </customer_address_index>
 

@@ -67,13 +67,6 @@ $canApplyMsrp = Mage::helper('catalog')->canApplyMsrp($_item->getProduct(), Mage
             <?php echo $addInfoBlock->setItem($_item)->toHtml() ?>
         <?php endif;?>
     </td>
-    <?php if ($this->helper('wishlist')->isAllowInCart()) : ?>
-    <td class="a-center">
-        <?php if ($isVisibleProduct): ?>
-            <a href="<?php echo $this->helper('wishlist')->getMoveFromCartUrl($_item->getId()); ?>" class="link-wishlist use-ajax"><?php echo $this->__('Move'); ?></a>
-        <?php endif ?>
-    </td>
-    <?php endif ?>
 
     <?php if ($canApplyMsrp): ?>
         <td class="a-right"<?php if ($this->helper('tax')->displayCartBothPrices()): ?> colspan="2"<?php endif; ?>>
@@ -173,7 +166,19 @@ $canApplyMsrp = Mage::helper('catalog')->canApplyMsrp($_item->getProduct(), Mage
         <?php endif; ?>
     <?php endif; ?>
     <td class="a-center" rowspan="2">
-        <input name="cart[<?php echo $_item->getId() ?>][qty]" value="<?php echo $this->getQty() ?>" size="4" title="<?php echo $this->__('Qty') ?>" class="input-text qty" maxlength="12" />
+
+        <div class="select">
+            <div id="slct_arrow" class="slct"></div>
+            <a href="#" class="slct"><?php echo $this->getQty() ?></a>
+            <ul class="drop">
+                <li class="first_li">1</li>
+                <li>2</li>
+                <li>3</li>
+                <li>4</li>
+                <li>5</li>
+            </ul>
+        <input type="hidden" id="select" name="cart[<?php echo $_item->getId() ?>][qty]" value="<?php echo $this->getQty() ?>" size="4" title="<?php echo $this->__('Qty') ?>" class="input-text qty" maxlength="12"/>
+        </div>
     </td>
 
     <!--Sub total starts here -->
@@ -273,8 +278,7 @@ $canApplyMsrp = Mage::helper('catalog')->canApplyMsrp($_item->getProduct(), Mage
 
 </tr>
 <tr>
-
-    <td>
+    <td class="second-column">
         <div class="cart-item-options">
         <?php if ($isVisibleProduct): ?>
             <div class="cart-item-edit"><a href="<?php echo $this->getConfigureUrl() ?>" class="item-option" title="<?php echo $this->__('Edit item parameters') ?>"><?php echo $this->__('Edit') ?></a></div>

@@ -8,22 +8,32 @@
  * @author      Oleksandr Kostynian
  */
 ?>
-
+<?php if(Mage::getSingleton('cms/page')->getIdentifier() == 'home' and Mage::app()->getFrontController()->getRequest()->getRouteName() == 'cms') { ?>
 <div class="slideshow-container">
     <ul class="slideshow">
-        <li><a href="#"><img class="bg_img" src="<?php echo $this->getSkinUrl('images/Blog_Carousel.jpg') ?>"
+        <li>
+            <a href="#"><img class="bg_img" src="<?php echo $this->getSkinUrl('images/Blog_Carousel.jpg') ?>"
                              alt="We're Tumbling! The Violet Underground. Check It Out >" />
                 <img class="front_img" src="<?php echo $this->getSkinUrl('images/Blog_Carousel_100714.png') ?>">
             </a></li>
-        <li><a href="#"><img img class="bg_img" src="<?php echo $this->getSkinUrl('images/ShadowBox_Carousel.jpg') ?>"
+        <li>
+            <?php $my_product = Mage::getModel('catalog/product')->load(167);
+            $my_product_url = $my_product->getProductUrl() ;?>
+            <a href="<?php echo $my_product_url ?>"><img class="bg_img" src="<?php echo $this->getSkinUrl('images/ShadowBox_Carousel.jpg') ?>"
                              alt="The Perfect All-In-One Pallet. Shadow Box. 12 Shades of Eyeshadow-From Pale to Deep. Matte to Sparkly. Get It Now >" />
                 <img class="front_img" src="<?php echo $this->getSkinUrl('images/ShadowBox_Carousel_092814.png') ?>">
             </a></li>
-        <li><a href="#"><img img class="bg_img" src="<?php echo $this->getSkinUrl('images/Perv_Carousel.jpg') ?>"
+        <li>
+            <?php $my_product = Mage::getModel('catalog/product')->load(173);
+            $my_product_url = $my_product->getProductUrl() ;?>
+            <a href="<?php echo $my_product_url ?>"><img class="bg_img" src="<?php echo $this->getSkinUrl('images/Perv_Carousel.jpg') ?>"
                              alt="Perversion Mascara. Bigger. Blacker. Badder lashes. Get it now  >" />
                 <img class="front_img" src="<?php echo $this->getSkinUrl('images/Perv_Carousel_081914.png') ?>">
             </a></li>
-        <li><a href="#"><img img class="bg_img" src="<?php echo $this->getSkinUrl('images/Naked2Baiscs_Carousel.jpg') ?>"
+        <li>
+            <?php $my_product = Mage::getModel('catalog/product')->load(171);
+            $my_product_url = $my_product->getProductUrl() ;?>
+            <a href="<?php echo $my_product_url ?>"><img class="bg_img" src="<?php echo $this->getSkinUrl('images/Naked2Baiscs_Carousel.jpg') ?>"
                              alt="Naked2 Basics. The Cooler Side Of Naked Basics. Get it here first >" />
                 <img class="front_img" src="<?php echo $this->getSkinUrl('images/Naked2Baiscs_Carousel_081914d.png') ?>">
             </a></li>
@@ -32,7 +42,13 @@
     <span class="slideshow-prev">&nbsp;</span>
     <span class="slideshow-next">&nbsp;</span>
 </div>
-<div class="inner"><a href="#"> <img class="block_bacground" src="<?php echo $this->getSkinUrl('images/001.jpg') ?>"
+<div class="rand-prod">
+    <h2 class="recommendation_title bg_title_box"><span>We Know You'll Love</span></h2>
+    <?php echo $this->getChildHtml('random_four') ?>
+</div>
+<?php $my_product = Mage::getModel('catalog/product')->load(168);
+      $my_product_url = $my_product->getProductUrl() ;?>
+<div class="inner"><a href="<?php echo $my_product_url ?> "> <img class="block_bacground" src="<?php echo $this->getSkinUrl('images/001.jpg') ?>"
                                      alt="Too Much Vice Is Never Enough. 20 All-New Shades. Slimmer Case.
                                      Matching Bag.  Get It Now &gt;" /> </a></div>
 <div class="content_medium_items">
@@ -62,3 +78,4 @@
             <a class="button" href="#">sign up now</a></div>
     </div>
 </div>
+<?php }
