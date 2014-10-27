@@ -21,7 +21,7 @@
     <div class="cart">
         <?php echo $this->getMessagesBlock()->getGroupedHtml() ?>
         <?php echo $this->getChildHtml('form_before') ?>
-        <form action="<?php echo $this->getUrl('checkout/cart/updatePost') ?>" method="post">
+        <form action="<?php echo $this->getUrl('checkout/cart/updatePost') ?>" method="post" id="update-cart">
                 <div class="dymanic-cart-content">
                     <?php echo $this->getBlockHtml('formkey'); ?>
                     <fieldset>
@@ -157,10 +157,14 @@ $j(document).ready(function(){
 
                 /* Передаем значение переменной selectResult в ссылку которая
                  открывает наш выпадающий список и удаляем активность */
-                $j('.slct').removeClass('active').html(selectResult);
+                  $j('.slct').removeClass('active');
+//                $j('.slct').removeClass('active').html(selectResult);
 
                 /* Скрываем выпадающий блок */
                 dropBlock.slideUp();
+
+                /* Отправка формы */
+                document.getElementById('update-cart').submit();
             });
 
             /* Продолжаем проверку: Если выпадающий блок не скрыт то скрываем его */

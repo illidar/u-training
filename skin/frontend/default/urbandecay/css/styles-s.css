@@ -688,6 +688,9 @@
 .cart-table thead th{
     background: none;
     border: none;
+    border-bottom: 1px solid #dacde1;
+    padding-bottom: 10px;
+    color: #000000;
 }
 .data-table tr.first th {
     padding-bottom: 10px;
@@ -1598,4 +1601,11 @@ div.select a {
     height: 0;
     padding: 0;
     cursor: pointer;
+}
+
+.customer-account-edit .page-title h1 {
+    width: 100%;
+}
+.sales-order-history .page-title h1 {
+    width: 100%;
 }
