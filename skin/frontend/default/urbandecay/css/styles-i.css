@@ -135,7 +135,8 @@ ul#nav > li { display: inline-block; float: none; position: relative; }
 .product-view .product-img-box .product-image-zoom img { padding-top: 48px; position:absolute; left:0; top:0; cursor:pointer; }
 .product-view .product-img-box .more-views ul { margin: 0 auto; text-align: center; }
 .product-view .product-img-box .more-views li { float: none; margin: 0; display: inline-block; margin-right: 5px; }
-.product-view .product-img-box .more-views li a { float: left; width: 56px; height: 56px; border: 3px solid #B69FC5; overflow: hidden; }
+.product-view .product-img-box .more-views li a { float: left; width: 56px; height: 56px; border: 1px solid #B69FC5; overflow: hidden; }
+.product-img-box .more-views li.slide-current a { border: 3px solid #B69FC5;  }
 .product-view .product-img-box .zoom { display: none; }
 
 /* product-shop */
