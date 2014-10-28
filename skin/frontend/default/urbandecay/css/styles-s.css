@@ -977,9 +977,9 @@
     text-transform: uppercase !important;
     font: 13px/38px "ProximaNova-Semibold",sans-serif;
 }
-.checkout-cart-configure .product-select-options {
-    display: none;
-}
+/*.checkout-cart-configure .product-select-options {*/
+    /*display: none;*/
+/*}*/
 /* ############ ForgotPass modal window #################### */
 div #popup {
     width:100%;
