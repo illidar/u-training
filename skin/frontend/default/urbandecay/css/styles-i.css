@@ -23,8 +23,8 @@
 .header-top-box .quick-access .header-customer-info { float: right; }
 .header-top-box .quick-access .header-customer-info ul.top-links  {margin: 15px 40px 0 0; list-style: none; }
 .header-top-box .quick-access .header-customer-info ul.top-links li { padding-left: 40px; float: left; color: #b69fc5; font: 11px/12px "ProximaNova-Semibold",sans-serif; }
-.header-top-box .quick-access .header-customer-info ul.top-links li a { text-decoration: underline; color: #b69fc5; transition-property: all; transition-duration: 150ms; }
-.header-top-box .quick-access .header-customer-info ul.top-links li a:hover { text-decoration: none; }
+.header-top-box .quick-access .header-customer-info ul.top-links li a { text-decoration: none; color: #867592; transition-property: all; transition-duration: 300ms; }
+.header-top-box .quick-access .header-customer-info ul.top-links li a:hover { text-decoration: none; color:#ffffff; }
 .header-top-box .quick-access .header-customer-info ul.top-links li a.customer-page-link { padding-right: 10px; border-right: 1px solid #b69fc5; }
 .header-top-box .quick-access .header-customer-info ul.top-links li a.login { padding-left: 10px; }
 
