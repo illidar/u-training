@@ -980,6 +980,112 @@
 .checkout-cart-configure .product-select-options {
     display: none;
 }
+.checkout-cart-configure .product-view .product-shop .availability {
+    display: none;
+}
+.checkout-cart-configure  .add-to-link {
+    display: none;
+}
+.add-to-link-edit-cart {
+    margin: 10px 0; display: inline-block; float: right; clear: right;
+}
+.add-to-link-edit-cart a:before {
+    content: '';
+    width: 14px;
+    height: 14px;
+    margin-right: 7px;
+    display: inline-block;
+    vertical-align: top;
+    background: url(../images/add_to_favorite.png) no-repeat;
+}
+.add-to-link-edit-cart a {
+    font: 12px/1.3em "ProximaNova-Semibold",sans-serif;
+    color: #46166b !important;
+    text-transform: uppercase;
+    text-decoration: none;
+    -moz-transition-property: color;
+    -webkit-transition-property: color;
+    transition-property: color;
+    -moz-transition-duration: 300ms;
+    -webkit-transition-duration: 300ms;
+    transition-duration: 300ms;
+    display: inline-block;
+}
+.add-to-link-edit-cart a:hover { color: #000000 !important; }
+.availability-edit-cart {
+    margin: 10px 0; display: inline-block;
+}
+.availability-edit-cart span {
+    color: #999; font: 12px/1.2em "ProximaNova-Regular",sans-serif;
+}
+div.select-edit-cart .slct {
+    display: block;
+    border-radius: 0;
+    border: 1px solid #dacce2;
+    background-color: #ffffff;
+    width: 334px;
+    padding: 0 9px 0 15px;
+    color: #444;
+    font: 13px/40px "ProximaNova-Semibold",sans-serif;
+    overflow: hidden;
+    white-space:nowrap;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+
+}
+div.select-edit-cart:hover .slct {
+    border-color: #b69fc5;
+}
+div.select-edit-cart:hover .drop {
+    border-color: #b69fc5;
+}
+div.select-edit-cart .slct.active {
+    border-radius: 0;
+    border-bottom: none;
+}
+div.select-edit-cart .drop {
+    margin: 0;
+    padding: 0;
+    width: 358px;
+    border: 1px solid #dacce2;
+    border-top: none;
+    display: none;
+    position: absolute;
+    background: #fff;
+}
+div.select-edit-cart .first_li {
+    border-top: 1px solid #dacce2;
+}
+div.select-edit-cart .drop li {
+    list-style: none;
+    cursor: pointer;
+    display: block;
+    color: #444;
+    padding: 0 0 0 15px;
+    font: 13px/40px "ProximaNova-Semibold",sans-serif;
+}
+div.select-edit-cart .drop li:hover {
+    background-color: #f4f0f6;
+    color: #222;
+}
+div.select-edit-cart {
+    position: relative;
+    z-index: 100;
+}
+div.select-edit-cart a {
+    text-decoration: none;
+}
+div.select-edit-cart #slct_arrow_edit {
+    position: absolute;
+    border: 4px solid transparent;
+    border-top-color: #46166b;
+    top: 18px;
+    right: 15px;
+    width: 0;
+    height: 0;
+    padding: 0;
+    cursor: pointer;
+}
 /* ############ ForgotPass modal window #################### */
 div #popup {
     width:100%;
@@ -1608,4 +1714,24 @@ div.select a {
 }
 .sales-order-history .page-title h1 {
     width: 100%;
+}
+
+/* ############# TOP LEFT LINKS ################ */
+
+.left-links-wrapper {
+    float:left;
+}
+
+.left-links-wrapper ul li {
+    display: inline-block;
+    padding: 15px 15px 0 15px;
+    font: 12px/13px "ProximaNova-Semibold",sans-serif;
+}
+.left-links-wrapper ul li a {
+    color: #867592;
+    text-decoration: none;
+    transition-duration: 300ms;
+}
+.left-links-wrapper ul li a:hover {
+    color: #ffffff;
 }

@@ -56,15 +56,6 @@
             <?php echo $this->getChildHtml('product_type_data') ?>
 
             <?php echo $this->getChildHtml('addto') ?>
-
-            <?php if ($_product->isSaleable() && $this->hasOptions()):?>
-                <div class="add-to-box">
-                    <?php if($_product->isSaleable()): ?>
-                        <?php echo $this->getChildHtml('addtocart') ?>
-                    <?php endif; ?>
-                </div>
-            <?php endif;?>
-
             <?php if (!$this->hasOptions()):?>
                 <div class="add-to-box">
                     <?php if($_product->isSaleable()): ?>
@@ -73,6 +64,15 @@
                 </div>
                 <?php echo $this->getChildHtml('extra_buttons') ?>
             <?php endif; ?>
+            <?php if ($_product->isSaleable() && $this->hasOptions()):?>
+                <div class="add-to-box">
+                    <?php if($_product->isSaleable()): ?>
+                        <?php echo $this->getChildHtml('addtocart') ?>
+                    <?php endif; ?>
+                </div>
+            <?php endif;?>
+
+
 
             <?php echo $this->getTierPriceHtml() ?>
             <?php echo $this->getChildHtml('extrahint') ?>
