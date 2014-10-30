@@ -65,11 +65,12 @@
                 </a>
             </div>
         </div>
-        </div>
+
         <?php if (Mage::helper('checkout')->isContextCheckout()): ?>
             <input name="context" type="hidden" value="checkout" />
         <?php endif; ?>
     </form>
+    </div>
     <script type="text/javascript">
     //<![CDATA[
         var dataForm = new VarienForm('login-form', true);
@@ -92,7 +93,7 @@
             <h1>
                 Forgot password
             </h1>
-            <?php echo $this->getMessagesBlock()->getGroupedHtml() ?>
+
             <p class="message">Give us the email address you use to log in to Urban Decay and we'll send you instructions for resetting your password.</p>
             <p class="b-request_password-signature">Thanks, <br><span>Team UD</span></p>
             <form action="<?php echo $this->getUrl('*/*/forgotpasswordpost') ?>" tabindex="1" method="post" id="form-validate" name="dwfrm_requestpassword">

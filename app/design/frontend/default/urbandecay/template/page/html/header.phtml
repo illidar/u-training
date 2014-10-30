@@ -30,11 +30,22 @@
     <div class="header-top-box">
         <div class="left-links-wrapper">
             <ul>
+                <li class="first-li">
+                    <?php echo $this->__('1.800.784.8722') ?>
+                </li>
                 <li>
                     <a href="#"><?php echo $this->__('Store Locator') ?></a>
                 </li>
-                <li>
+                <li class="header-subscribe-li">
                     <a href="#"><?php echo $this->__('Sign Up for Email Newsletter') ?></a>
+                    <div class="header-sign-up-div-wrapper">
+                        <div class="header-sign-up-div">
+                            <div class="top-arrow"></div>
+                            <div class="subscribe_text"><?php echo $this->__('Receive exclusive offers, special promotions, expert beauty tips and tricks and more!') ?></div>
+                            <?php echo $this->getChildHtml('subscribe') ?>
+
+                        </div>
+                    </div>
                 </li>
             </ul>
         </div>
@@ -53,3 +64,43 @@
         </div>
         <?php echo $this->getChildHtml('topMenu') ?>
     </div>
+
+<script type="text/javascript">
+    //<![CDATA[
+
+    //]]>
+</script>
+
+<div id="popup"></div>
+<div id="popupContent">
+    <!-- Contact Us Form -->
+    <div class="forgotpass-wrapper">
+        <a href="#" onclick ="div_hide()">
+            <div class="close-popup-wrapper">
+                <div class="close-popup">
+                    &times;
+                </div>
+            </div>
+        </a>
+        <div class="request_password_page">
+            <h1>
+                Forgot password
+            </h1>
+            <p class="message">Give us the email address you use to log in to Urban Decay and we'll send you instructions for resetting your password.</p>
+            <p class="b-request_password-signature">Thanks, <br><span>Team UD</span></p>
+            <form action="<?php echo $this->getUrl('*/*/forgotpasswordpost') ?>" tabindex="1" method="post" id="form-validate" name="dwfrm_requestpassword">
+                <fieldset>
+                    <div class="f_field f_field_email" data-required-text="Please enter your email address">
+                        <input type="text" name="email" alt="email" id="email_address"  class="textinput f_email   required" placeholder="Email" maxlength="50" value="<?php echo $this->escapeHtml($this->getEmailValue()) ?>">
+                        <?php echo $this->getChildHtml('form.additional.info'); ?>
+                    </div>
+                    <div class="formfield formfield_button">
+                        <button type="submit" title="<?php echo $this->__('Submit') ?>" class="button submit_button" value="Submit" name="dwfrm_requestpassword_send">
+                            Submit
+                        </button>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+</div>

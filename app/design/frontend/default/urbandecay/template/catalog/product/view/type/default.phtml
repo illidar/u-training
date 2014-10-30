@@ -47,8 +47,32 @@ $_attributes = Mage::helper('core')->decorateArray($this->getAllowAttributes());
     </script>
 <?php endif;?>
 
+    <?php $stocks = $_product->getStockItem()->getQty(); ?>
     <?php if(!$_product->isGrouped()): ?>
-        <input type="text" name="qty" id="qty" maxlength="12" value="<?php echo $this->getProductDefaultQty() * 1 ?>" title="<?php echo $this->__('Qty') ?>" class="input-text qty" />
+        <?php if(!count($_attributes)): ?>
+            <div class="select_wrapper select_wrapper_full">
+                <div id="slct_decor_arrow"></div>
+                <a href="#" class="slct_count slct_count_full"><span>1</span></a>
+                <ul class="slct_drop_list slct_drop_list_full">
+        <?php else: ?>
+            <div class="select_wrapper">
+                <div id="slct_decor_arrow"></div>
+                <a href="#" class="slct_count"><span>1</span></a>
+                <ul class="slct_drop_list">
+        <?php endif; ?>
+                <li class="first_select_li">1</li>
+                <?php if ($stocks < 5): ?>
+                    <?php for($i = 2; $i <= $stocks; $i++): ?>
+                        <li><?php echo $i; ?></li>
+                    <?php endfor; ?>
+                <?php else: ?>
+                    <?php for($i = 2; $i <= 5; $i++): ?>
+                        <li><?php echo $i; ?></li>
+                    <?php endfor; ?>
+                <?php endif; ?>
+            </ul>
+            <input type="hidden" name="qty" id="qty" maxlength="12" value="<?php echo $this->getProductDefaultQty() * 1 ?>" class="input-text qty" />
+        </div>
     <?php endif; ?>
 </div>
 
@@ -59,3 +83,40 @@ $_attributes = Mage::helper('core')->decorateArray($this->getAllowAttributes());
         <p class="availability out-of-stock"><span><?php echo $this->__('Out of Stock') ?></span></p>
     <?php endif; ?>
 <?php endif; ?>
+
+
+<script type="text/javascript">
+    var $j = jQuery.noConflict();
+
+    $j(document).ready(function(){
+        $j('.slct_count').click(function(){
+            var dropBlock = $j(this).parent().find('.slct_drop_list');
+
+            if( dropBlock.is(':hidden') ) {
+                dropBlock.slideDown();
+
+                $j(this).addClass('active');
+                $j('#slct_decor_arrow').addClass('active_arrow');
+
+                $j('.slct_drop_list').find('li').click(function(){
+
+                    var selectResult = $j(this).html();
+
+                    $j(this).parent().parent().find('#qty').val(selectResult);
+
+                    $j('.slct_count').removeClass('active');
+                    $j('.slct_count span').html(selectResult);
+                    $j('#slct_decor_arrow').removeClass('active_arrow');
+
+                    dropBlock.slideUp();
+                });
+            } else {
+                $j(this).removeClass('active');
+                $j('#slct_decor_arrow').removeClass('active_arrow');
+                dropBlock.slideUp();
+            }
+            return false;
+        });
+
+    });
+</script>

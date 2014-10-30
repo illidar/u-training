@@ -31,46 +31,75 @@
  */
 ?>
 <?php
-    $_product = $this->getProduct();
-    $_helper = $this->helper('catalog/output');
+$_product = $this->getProduct();
+$_helper = $this->helper('catalog/output');
+$_gallery = $this->getGalleryImages();
+
+$_resize = 570;
 ?>
-<?php if ($_product->getImage() != 'no_selection' && $_product->getImage()): ?>
-<p class="product-image product-image-zoom">
-    <?php
-        $_img = '<img id="image" src="'.$this->helper('catalog/image')->init($_product, 'image').'" alt="'.$this->escapeHtml($this->getImageLabel()).'" title="'.$this->escapeHtml($this->getImageLabel()).'" />';
-        echo $_helper->productAttribute($_product, $_img, 'image');
-    ?>
-</p>
-<div class="zoom">
-    <img id="zoom_out" src="<?php echo $this->getSkinUrl('images/slider_btn_zoom_out.gif') ?>" alt="<?php echo $this->__('Zoom Out') ?>" title="<?php echo $this->__('Zoom Out') ?>" class="btn-zoom-out" />
-    <div id="track">
-        <div id="handle"></div>
-    </div>
-    <img id="zoom_in" src="<?php echo $this->getSkinUrl('images/slider_btn_zoom_in.gif') ?>" alt="<?php echo $this->__('Zoom In') ?>" title="<?php echo $this->__('Zoom In') ?>" class="btn-zoom-in" />
-</div>
+
+<style type="text/css">
+    .product-img-box .product-image-zoom img { cursor: pointer; }
+    #slide-loader{ visibility:hidden; position:absolute; top:auto; left:auto; right:2px; bottom:2px; }
+</style>
+
 <script type="text/javascript">
-//<![CDATA[
-    Event.observe(window, 'load', function() {
-        product_zoom = new Product.Zoom('image', 'track', 'handle', 'zoom_in', 'zoom_out', 'track_hint');
-    });
-//]]>
+    function slide(url,num,gallery){
+        if (typeof slide.loading == 'undefined') slide.loading = false;
+        if(slide.loading) return false;
+
+        var loader = new Image();
+        $(loader).observe('load', function(){
+
+            $('slide-loader').setStyle({'visibility':'hidden'});
+
+            $$('div.more-views li').each(function(el,i){
+                (i==num) ? el.addClassName('slide-current') : el.removeClassName('slide-current');
+            });
+
+            var dummy = new Element('img', { src: url }).setOpacity(0);
+            new Insertion.After('image', dummy);
+            new Effect.Opacity(dummy, { duration:.5, from:0, to:1.0 });
+            new Effect.Opacity($('image'), { duration:.5, from:1.0, to:0,
+                afterFinish: function(){
+                    $('image').writeAttribute('src',url).setOpacity(1).observe('click',function(e){
+                        Event.stop(e);
+                        popWin(gallery, 'gallery', 'width=300,height=300,left=50,top=50,location=no,status=yes,scrollbars=yes,resizable=yes');
+                        return false;
+                    })
+                    dummy.remove();
+                    slide.loading = false;
+                }
+            });
+        });
+
+        $('slide-loader').setStyle({'visibility':'visible'});
+        loader.src=url;
+        slide.loading = true;
+        return false;
+    }
 </script>
-<?php else: ?>
-<p class="product-image">
+
+
+<p class="product-image-zoom">
     <?php
-        $_img = '<img src="'.$this->helper('catalog/image')->init($_product, 'image')->resize(265).'" alt="'.$this->escapeHtml($this->getImageLabel()).'" title="'.$this->escapeHtml($this->getImageLabel()).'" />';
-        echo $_helper->productAttribute($_product, $_img, 'image');
+    $_img = '<img id="image" src="'.$this->helper('catalog/image')->init($_product, 'image')->resize($_resize).'" alt="'.$this->htmlEscape($this->getImageLabel()).'" title="'.$this->htmlEscape($this->getImageLabel()).'" onclick="popWin(\''.$this->getGalleryUrl().'.\', \'gallery\', \'width=300,height=300,left=50,top=50,location=no,status=yes,scrollbars=yes,resizable=yes\'); return false;" />';
+    echo $_helper->productAttribute($_product, $_img, 'image')
     ?>
+    <img id="slide-loader" src="<?php echo $this->getSkinUrl('images/opc-ajax-loader.gif') ?>" />
 </p>
-<?php endif; ?>
-<?php if (count($this->getGalleryImages()) > 0): ?>
-<div class="more-views">
-    <ul>
-    <?php foreach ($this->getGalleryImages() as $_image): ?>
-        <li>
-            <a href="#" onclick="popWin('<?php echo $this->getGalleryUrl($_image) ?>', 'gallery', 'width=300,height=300,left=0,top=0,location=no,status=yes,scrollbars=yes,resizable=yes'); return false;" title="<?php echo $this->escapeHtml($_image->getLabel()) ?>"><img src="<?php echo $this->helper('catalog/image')->init($this->getProduct(), 'thumbnail', $_image->getFile())->resize(56); ?>" width="56" height="56" alt="<?php echo $this->escapeHtml($_image->getLabel()) ?>" /></a>
-        </li>
-    <?php endforeach; ?>
-    </ul>
-</div>
+
+<?php if (count($_gallery) > 0): ?>
+    <div class="more-views">
+        <ul>
+            <?php foreach ($_gallery as $_image): ?>
+                <li>
+                    <a href="<?php echo $this->helper('catalog/image')->init($this->getProduct(), 'image', $_image->getFile()); ?>"
+                       onclick="slide('<?php echo $this->helper('catalog/image')->init($this->getProduct(), 'image', $_image->getFile())->resize($_resize) ?>',<?php echo ($s = isset($s) ? ++$s : 0) ?>,'<?php echo $this->getGalleryUrl($_image) ?>'); return false;">
+                        <img src="<?php echo $this->helper('catalog/image')->init($this->getProduct(), 'thumbnail', $_image->getFile())->resize(56); ?>" alt="<?php echo $this->htmlEscape($_image->getLabel()) ?>" title="<?php echo $this->htmlEscape($_image->getLabel()) ?>" />
+                    </a>
+                </li>
+            <?php endforeach; ?>
+        </ul>
+    </div>
 <?php endif; ?>

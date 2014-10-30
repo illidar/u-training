@@ -29,45 +29,6 @@
 <?php $buttonTitle = $this->__('Update Cart'); ?>
 <?php if ($_product->isSaleable()): ?>
     <div class="add-to-cart">
-        <div class="edit-cart-qty">
-            <?php if (!$_product->isGrouped()): ?>
-
-                <div class="select-edit-cart">
-                    <div id="slct_arrow_edit" class="slct"></div>
-                    <a href="#" class="slct">1</a>
-                    <ul class="drop">
-                        <li class="first_li">1</li>
-                        <li>2</li>
-                        <li>3</li>
-                        <li>4</li>
-                        <li>5</li>
-                    </ul>
-
-                    <input type="hidden" name="qty" id="select" maxlength="12" value="<?php echo $this->getProductDefaultQty() * 1 ?>" title="<?php echo $this->__('Qty') ?>" />
-
-                </div>
-
-            <?php endif; ?>
-        </div>
-        <div class="clear"></div>
-
-        <?php $_product = $this->getProduct(); ?>
-        <?php $_wishlistSubmitUrl = $this->helper('wishlist')->getAddUrl($_product); ?>
-
-        <div class="add-to-link-edit-cart">
-            <?php if ($this->helper('wishlist')->isAllow()) : ?>
-                <a href="<?php echo $_wishlistSubmitUrl ?>" onclick="productAddToCartForm.submitLight(this, this.href); return false;" class="link-wishlist"><?php echo $this->__('Favorite') ?></a>
-            <?php endif; ?>
-        </div>
-
-        <?php if ($this->displayProductStockStatus()): ?>
-            <?php if ($_product->isAvailable()): ?>
-                <p class="availability-edit-cart"><span><?php echo $this->__('In Stock') ?></span></p>
-            <?php else: ?>
-                <p class="availability-edit-cart"><span><?php echo $this->__('Out of Stock') ?></span></p>
-            <?php endif; ?>
-        <?php endif; ?>
-
 
         <button type="button" title="<?php echo $buttonTitle ?>" class="button btn-cart" onclick="productAddToCartForm.submit(this)"><span><span><?php echo $buttonTitle ?></span></span></button>
         <?php echo $this->getChildHtml('', true, true) ?>
