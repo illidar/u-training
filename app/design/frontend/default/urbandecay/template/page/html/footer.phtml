@@ -24,7 +24,13 @@
     <div class="footer">
         <?php echo $this->getChildHtml('footer_about') ?>
         <div class="footer_links">
-            <?php echo $this->getChildHtml('footer_links') ?>
+            <div class="footer_links_first">
+                <?php echo $this->getLayout()->createBlock('cms/block')->setBlockId('footer_links_first')->toHtml(); ?>
+            </div>
+            <div class="footer_links_second">
+                <?php echo $this->getLayout()->createBlock('cms/block')->setBlockId('footer_links_second')->toHtml(); ?>
+            </div>
+            <div class="clear"></div>
             <div class="copyright">
                 <address><?php echo $this->getCopyright() ?></address>
             </div>

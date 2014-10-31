@@ -32,19 +32,42 @@
 <ul class="top-links">
     <li>
         <?php if (! Mage::getSingleton('customer/session')->isLoggedIn()): ?>
-            <a class="login" href="<?php echo Mage::helper('customer')->getLoginUrl(); ?>" title="Sign in / Register">Sign in / Register</a>
+            <div class="header-sign-in-wrapper">
+            <a class="login" href="<?php echo Mage::helper('customer')->getLoginUrl(); ?>" title="Sign in / Register"><?php echo $this->__('Sign in / Register') ?> </a>
+            <div class="header-sign-in-div">
+                <div class="header-sign-in">
+                    <div class="top-arrow"></div>
+                    <?php echo $this->getChildHtml('sign_in_mini_form') ?>
+                </div>
+            </div>
+            </div>
         <?php else: ?>
             <?php $customer = Mage::getSingleton('customer/session')->getCustomer(); ?>
             <?php $name = $customer->getFirstname(); ?>
-            <span>Hi, </span>
+            <span><?php echo $this->__('Hi, ') ?></span>
             <a class="customer-page-link" href="<?php echo Mage::getUrl('customer/account/edit'); ?>" title="Account"><?php echo $name; ?></a>
-            <a class="login" href="<?php echo Mage::helper('customer')->getLogoutUrl(); ?>" title="Sign Out">Sign Out</a>
+            <a class="login" href="<?php echo Mage::helper('customer')->getLogoutUrl(); ?>" title="Sign Out"><?php echo $this->__('Sign Out') ?> </a>
         <?php endif; ?>
     </li>
     <li>
         <a class="cart_link" href="<?php echo Mage::helper('checkout/cart')->getCartUrl(); ?>" title="View Cart">
-            <span class="mini_cart_label">My Bag </span>
-            <span class="mini_cart_quantity">(<?php echo Mage::helper('checkout/cart')->getItemsCount(); ?>)</span>
+            <div class="header-bag-wrapper">
+                <div class="header-bag-img"></div>
+                <span class="mini_cart_label"><?php echo $this->__('My Bag') ?> </span>
+                <span class="mini_cart_quantity" id="<?php echo Mage::helper('checkout/cart')->getItemsCount(); ?>">(<?php echo Mage::helper('checkout/cart')->getItemsCount(); ?>)</span>
+            </div>
         </a>
     </li>
 </ul>
+
+<script type="text/javascript">
+    //<![CDATA[
+    var $j = jQuery.noConflict();
+    $j(document).ready(function(){
+        var $numItems = $j('.mini_cart_quantity').attr('id');
+            if ( $numItems > 0) {
+                $j('.header-bag-wrapper').addClass('items-in-bag');
+            }
+    });
+    //]]>
+</script>
