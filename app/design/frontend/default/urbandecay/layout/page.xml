@@ -78,7 +78,9 @@ Default layout, loads most of the pages
             <block type="page/html_header" name="header" as="header">
                 <block type="newsletter/subscribe" name="subscribe" as="subscribe" template="newsletter/subscribe.phtml"/>
                 <block type="page/template_links" name="top.links" as="topLinks" template="page/html/top.links.phtml">
+                    <block type="core/template" name="right_four_items" template="checkout/right_four_items.phtml"/>
                     <block type="customer/form_login" name="sign_in_mini_form" template="persistent/customer/form/login_mini_form.phtml" />
+                    <block type="core/template" name="mini_cart_div" template="page/html/mini_cart_form.phtml" />
                 </block>
                 <block type="page/switch" name="store_language" as="store_language" template="page/switch/languages.phtml"/>
                 <block type="core/text_list" name="top.menu" as="topMenu" translate="label">
