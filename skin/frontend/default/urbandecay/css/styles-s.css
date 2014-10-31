@@ -1015,8 +1015,15 @@
     text-transform: uppercase !important;
     font: 13px/38px "ProximaNova-Semibold",sans-serif;
 }
-
-
+.checkout-cart-configure .product-select-options {
+    display: none;
+}
+.checkout-cart-configure .product-view .product-shop .availability {
+    display: none;
+}
+.checkout-cart-configure  .add-to-link {
+    display: none;
+}
 .add-to-link-edit-cart {
     margin: 10px 0; display: inline-block; float: right; clear: right;
 }
@@ -1117,8 +1124,6 @@ div.select-edit-cart #slct_arrow_edit {
     padding: 0;
     cursor: pointer;
 }
-
-
 /* ############ ForgotPass modal window #################### */
 div #popup {
     width:100%;

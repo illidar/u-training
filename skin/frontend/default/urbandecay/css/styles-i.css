@@ -724,3 +724,74 @@ button.button > span:hover {
     text-align: center;
     margin: 0 0 25px 0;
 }
+/* END Category View ========================================================================== */
+
+/* Checkout ========================================================================== */
+.opc-wrapper-opc {
+    padding-top: 20px;
+    overflow: hidden;
+    width: 960px;
+    margin: auto;
+    padding-bottom: 40px;
+}
+.opc-wrapper-opc * {
+    font-family: "ProximaNova-Regular",sans-serif;
+    color: #000000;
+}
+.opc-wrapper-opc .l-back_to_bag {
+    width: 100%;
+    float: left;
+}
+.opc-wrapper-opc .b-back_to_bag {
+    font: 14px/1 "ProximaNova-Regular",sans-serif;
+    background: url(../images/arrow_left.png) no-repeat 0 center;
+    padding: 0 0 0 10px;
+    margin: 0 0 20px 0;
+    display: inline-block;
+    border: 0;
+    color: #46166b;
+    cursor: pointer;
+    text-decoration: none;
+}
+.opc-wrapper-opc .b-back_to_bag:hover {
+    color: #000000;
+    text-decoration: underline;
+}
+.opc-wrapper-opc .l-checkout-head {
+    width: 66.66667%;
+    float: left;
+    margin-bottom: 40px;
+}
+.opc-wrapper-opc .l-checkout-head h2.b-checkout-title {
+    font: 30px/1.2em "ProximaNova-Bold",sans-serif;
+    display: inline-block;
+    text-transform: uppercase;
+    margin-right: 15px;
+    color: #000000;
+}
+.opc-wrapper-opc .l-checkout-head span.b-checkout-message {
+    font: 12px/1.2em "ProximaNova-Regular",sans-serif;
+    color: #000000;
+}
+
+.opc-wrapper-opc .opc-col-left #co-billing-form {
+    border-bottom: 1px solid #dacde1;
+    margin: 0 0 15px;
+    padding: 0 0 5px;
+}
+.opc-wrapper-opc .opc-col-left #co-billing-form legend {
+    display: block;
+    border-bottom: 1px solid #dacde1;
+    width: 100%;
+    margin-bottom: 17px;
+}
+.opc-wrapper-opc .opc-col-left #co-billing-form legend h3 {
+    margin: 5px 0;
+    font: 20px/1em "ProximaNova-Bold",sans-serif;
+    color: #000;
+    padding: 5px 0;
+    display: inline-block;
+    position: relative;
+    text-transform: uppercase;
+    border: none;
+}
