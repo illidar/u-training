@@ -16,48 +16,68 @@ $theme = Mage::getDesign()->getTheme('frontend');
     </div>
 
 	<div class="clear"></div>
+    <div class="checkout-main_section">
+        <div class="opc-col-left">
+            <form id="opc-address-form-billing" method="post">
+                <?php echo $this->getChildHtml('billing')?>
+            </form>
 
-    <div class="opc-col-left">
-		<form id="opc-address-form-billing" method="post">
-        	<?php echo $this->getChildHtml('billing')?>
-        </form>
-        	
-        <form id="opc-address-form-shipping" class="hidden" method="post">
-        <?php echo $this->getChildHtml('shipping')?>
-        </form>
-		
-    </div>
+            <?php if (!$this->getOnepage()->getQuote()->isVirtual()):?>
+                <div class="shipping-block">
+                    <h3><?php echo $this->__('Shipping Method')?></h3>
+                    <div id="shipping-block-methods">
+                        <?php echo $this->getChildHtml('shipping_method');//$this->_getShippingMethodsHtml();?>
+                    </div>
+                </div>
+            <?php endif;?>
+        </div>
 
-    <div class="opc-col-center">
-    	<?php if (!$this->getOnepage()->getQuote()->isVirtual()):?>
-    	<div class="shipping-block">
-        	<h3><?php echo $this->__('Shipping Method')?></h3>
-        	<div id="shipping-block-methods">
-				<?php echo $this->getChildHtml('shipping_method');//$this->_getShippingMethodsHtml();?>
-			</div>
-		</div>
-		<?php endif;?>
-		<div class="payment-block <?php if ($this->getOnepage()->getQuote()->isVirtual()):?>clear-margin<?php endif;?>">
-			<h3><?php echo $this->__('Payment Method')?></h3>
-			<?php echo $this->getChildHtml('payment')//$this->_getPaymentMethodsHtml();?>
-		</div>
-		
-		<div class="discount-block">
-			<h3><?php echo $this->__('Discount Codes')?></h3>
-			<?php echo $this->getChildhtml('coupon');?>
-		</div>
+        <div class="opc-col-center">
+            <legend>
+                <h3><?php echo $this->__('Shipping')?></h3>
+            </legend>
+            <form id="opc-address-form-shipping" class="hidden" method="post">
+                <?php echo $this->getChildHtml('shipping')?>
+            </form>
 
 		<?php if(Mage::helper('opc')->isShowComment()):?>
 			<?php echo $this->getChildhtml('customer.comment');?>
 		<?php endif;?>
 
+            <div class="payment-block <?php if ($this->getOnepage()->getQuote()->isVirtual()):?>clear-margin<?php endif;?>">
+                <legend>
+                    <h3><?php echo $this->__('Payment')?></h3>
+                </legend>
+
+                <div class="discount-block">
+                    <div class="f_legend">
+                        <span class="f_legend_value"><?php echo $this->__('E-Gift Card')?></span>
+                    </div>
+                    <?php echo $this->getChildhtml('coupon');?>
+                </div>
+
+                <?php echo $this->getChildHtml('payment')//$this->_getPaymentMethodsHtml();?>
+            </div>
+
+            <?php if(Mage::helper('opc')->isShowComment()):?>
+                <?php echo $this->getChildhtml('customer.comment');?>
+            <?php endif;?>
+
+        </div>
     </div>
 
     <div class="opc-col-right">
-        <h3><?php echo $this->__('Review Your Order')?></h3>
         <div id="opc-review-block">
 		<?php echo $this->_getReviewHtml()?>
 		</div>
+        <div class="checkout_cart_actions">
+            <div class="checkout_divider">or</div>
+            <div class="paypal-checkout">
+                <a href="#">
+                    <img src="http://urbandecay.lxc/urbandecay/skin/frontend/default/urbandecay/images/paypal.png">
+                </a>
+            </div>
+        </div>
     </div>
 </div>
 <script>
