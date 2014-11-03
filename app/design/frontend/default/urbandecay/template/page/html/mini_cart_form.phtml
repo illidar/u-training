@@ -1,0 +1,29 @@
+<?php
+/**
+ *
+ *
+ *
+ * @author  Kostynian Oleksandr
+ */
+
+$cart = Mage::getModel('checkout/cart')->getQuote();
+foreach ($cart->getAllItems() as $item) { ?>
+    <div class="mini-cart-item">
+        <div class="mini-cart-item-image">
+            <img src="<?php echo $item->getProduct()->getSmallImageUrl(100, 100); ?>">
+        </div>
+            <span class="mini-cart-item-name">
+                <a href="<?php echo $item->getProduct()->getProductUrl() ?>">
+                    <?php echo $item->getProduct()->getName(); ?>
+                </a>
+            </span>
+        <span class="mini-cart-item-price">
+            <?php
+                $qty = $item->getQty();
+                $price = $item->getProduct()->getPrice()*$qty;
+                echo Mage::helper('core')->currency($price, true, false);
+            ?>
+        </span>
+    </div>
+    <div class="clear"></div>
+<?php }

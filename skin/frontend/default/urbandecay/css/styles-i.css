@@ -5,7 +5,7 @@
 /* ============================================ *
  * Search Input
  * ============================================ */
-.header-container .form-search { float: right;  width:315px; height:30px; background: none; padding:1px 0 0 16px; margin-top: 5px; }
+.header-container .form-search { position: absolute; right: 0;  width:315px; height:30px; background: none; padding:1px 0 0 16px; margin-top: 5px; }
 .header-container .form-search label { float:left; width:24px; height:21px; text-align:left; text-indent:-999em; overflow:hidden; }
 .header-container .form-search input.input-text { float:right; width:70px; margin: 0; border: none; font: bold 12px Arial,Helvetica,Sans-serif; color: #bebebe; padding: 7px 40px 7px 10px; -webkit-transition: width 0.7s ease 0s; -moz-transition:width 0.7s ease 0s;; -o-transition: width 0.7s ease 0s;; transition: width 0.7s ease 0s;; }
 .header-container .form-search input.input-text:focus { width: 200px; color: #000000; }
@@ -18,11 +18,11 @@
 .header-container .form-search .search-autocomplete li.selected { background-color:#f7e8dd; }
 
 /* ################### HEADER ########################### */
-.header-top-box { border-bottom: 1px solid #473555; float: none; position: fixed; background: url(../images/bg_header.jpg) repeat-x 0 bottom; padding: 0 0 0 20px; width: 100%; height: 40px; z-index: 9999 }
+.header-top-box { border-bottom: 1px solid #473555; float: none; position: fixed; background: url(../images/bg_header.jpg) repeat-x; padding: 0 0 0 20px; width: 100%; height: 40px; z-index: 9999 }
 .header-top-box .quick-access { width: 100%; margin:0 auto; padding: 0; position:relative; }
 .header-top-box .quick-access .header-customer-info { float: right; }
 .header-top-box .quick-access .header-customer-info ul.top-links  {margin: 15px 40px 0 0; list-style: none; }
-.header-top-box .quick-access .header-customer-info ul.top-links li { padding-left: 40px; float: left; color: #b69fc5; font: 11px/12px "ProximaNova-Semibold",sans-serif; }
+.header-top-box .quick-access .header-customer-info ul.top-links li { margin-left: 40px; float: left; color: #b69fc5; font: 11px/12px "ProximaNova-Semibold",sans-serif; }
 .header-top-box .quick-access .header-customer-info ul.top-links li a { text-decoration: none; color: #867592; transition-property: all; transition-duration: 300ms; }
 .header-top-box .quick-access .header-customer-info ul.top-links li a:hover { text-decoration: none; color:#ffffff; }
 .header-top-box .quick-access .header-customer-info ul.top-links li a.customer-page-link { padding-right: 10px; border-right: 1px solid #b69fc5; }

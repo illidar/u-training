@@ -1,32 +1,13 @@
 <?php
 /**
- * Magento
  *
- * NOTICE OF LICENSE
  *
- * This source file is subject to the Academic Free License (AFL 3.0)
- * that is bundled with this package in the file LICENSE_AFL.txt.
- * It is also available through the world-wide-web at this URL:
- * http://opensource.org/licenses/afl-3.0.php
- * If you did not receive a copy of the license and are unable to
- * obtain it through the world-wide-web, please send an email
- * to license@magentocommerce.com so we can send you a copy immediately.
  *
- * DISCLAIMER
  *
- * Do not edit or add to this file if you wish to upgrade Magento to newer
- * versions in the future. If you wish to customize Magento for your
- * needs please refer to http://www.magentocommerce.com for more information.
  *
  * @category    design
  * @package     base_default
- * @copyright   Copyright (c) 2014 Magento Inc. (http://www.magentocommerce.com)
- * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
- */
-?>
-<?php
-/**
- * @deprecated after 1.4.0.1
+ *
  */
 ?>
 <ul class="top-links">
@@ -49,7 +30,7 @@
             <a class="login" href="<?php echo Mage::helper('customer')->getLogoutUrl(); ?>" title="Sign Out"><?php echo $this->__('Sign Out') ?> </a>
         <?php endif; ?>
     </li>
-    <li>
+    <li class="header-cart-link">
         <a class="cart_link" href="<?php echo Mage::helper('checkout/cart')->getCartUrl(); ?>" title="View Cart">
             <div class="header-bag-wrapper">
                 <div class="header-bag-img"></div>
@@ -57,6 +38,58 @@
                 <span class="mini_cart_quantity" id="<?php echo Mage::helper('checkout/cart')->getItemsCount(); ?>">(<?php echo Mage::helper('checkout/cart')->getItemsCount(); ?>)</span>
             </div>
         </a>
+        <?php
+        $request = $this->getRequest();
+        $module = $request->getModuleName();
+        $controller = $request->getControllerName();
+        $action = $request->getActionName();
+        if($module == 'checkout' && $controller == 'cart' && $action == 'index')
+        {
+
+            //if Cart Page Block not displaying
+
+        } else {
+        if (Mage::helper('checkout/cart')->getItemsCount() > 0) { ?>
+        <div class="header-cart-mini-div-wrapper">
+            <div class="top-arrow"></div>
+            <div class="mini-cart">
+                <div class="mini_cart_header_wrapper">
+                    <span class="mini_cart_title"><?php echo $this->__('My Bag') ?> </span>
+                    <span class="mini_cart_title">(<?php echo Mage::helper('checkout/cart')->getItemsCount(); ?>)</span>
+                </div>
+                <div class="mini-cart-items-in-bag-wrapper">
+                    <?php echo $this->getChildHtml('mini_cart_div'); ?>
+                </div>
+            </div>
+
+            <div class="mini-cart-right-items-wrapper">
+                <div class="mini_cart_title_right">
+                    <?php echo $this->__('We Know You\'ll Love') ?>
+                </div>
+                <?php echo $this->getChildHtml('right_four_items') ?>
+            </div>
+
+            <div class="mini-cart-button-wrapper">
+               <div class="mini-cart-subtotal">
+               <?php
+                    echo $this->__('Subtotal: ');
+                    $totals = Mage::getSingleton('checkout/cart')->getQuote()->getTotals();
+                    $totals = $totals["subtotal"]->getValue();
+                    echo Mage::helper('core')->currency($totals, true, false);
+               ?>
+               </div>
+                <a class="mini_cart_link_cart" href="<?php echo Mage::helper('checkout/cart')->getCartUrl(); ?>" title="View Cart">
+                    <span> <?php echo $this->__('Checkout') ?> </span>
+                </a>
+            </div>
+        </div>
+            <?php } else { ?>
+            <div class="mini-cart-empty">
+                <div class="top-arrow"></div>
+                <?php echo $this->__('Your bag is currently empty. START SHOPPING!') ?>
+            </div>
+            <?php }} ?>
+
     </li>
 </ul>
 
