@@ -16,48 +16,68 @@ $theme = Mage::getDesign()->getTheme('frontend');
     </div>
 
 	<div class="clear"></div>
+    <div class="checkout-main_section">
+        <div class="opc-col-left">
+            <form id="opc-address-form-billing" method="post">
+                <?php echo $this->getChildHtml('billing')?>
+            </form>
 
-    <div class="opc-col-left">
-		<form id="opc-address-form-billing" method="post">
-        	<?php echo $this->getChildHtml('billing')?>
-        </form>
-        	
-        <form id="opc-address-form-shipping" class="hidden" method="post">
-        <?php echo $this->getChildHtml('shipping')?>
-        </form>
-		
-    </div>
+            <?php if (!$this->getOnepage()->getQuote()->isVirtual()):?>
+                <div class="shipping-block">
+                    <h3><?php echo $this->__('Shipping Method')?></h3>
+                    <div id="shipping-block-methods">
+                        <?php echo $this->getChildHtml('shipping_method');//$this->_getShippingMethodsHtml();?>
+                    </div>
+                </div>
+            <?php endif;?>
+        </div>
 
-    <div class="opc-col-center">
-    	<?php if (!$this->getOnepage()->getQuote()->isVirtual()):?>
-    	<div class="shipping-block">
-        	<h3><?php echo $this->__('Shipping Method')?></h3>
-        	<div id="shipping-block-methods">
-				<?php echo $this->getChildHtml('shipping_method');//$this->_getShippingMethodsHtml();?>
-			</div>
-		</div>
-		<?php endif;?>
-		<div class="payment-block <?php if ($this->getOnepage()->getQuote()->isVirtual()):?>clear-margin<?php endif;?>">
-			<h3><?php echo $this->__('Payment Method')?></h3>
-			<?php echo $this->getChildHtml('payment')//$this->_getPaymentMethodsHtml();?>
-		</div>
-		
-		<div class="discount-block">
-			<h3><?php echo $this->__('Discount Codes')?></h3>
-			<?php echo $this->getChildhtml('coupon');?>
-		</div>
+        <div class="opc-col-center">
+            <legend>
+                <h3><?php echo $this->__('Shipping')?></h3>
+            </legend>
+            <form id="opc-address-form-shipping" class="hidden" method="post">
+                <?php echo $this->getChildHtml('shipping')?>
+            </form>
 
 		<?php if(Mage::helper('opc')->isShowComment()):?>
 			<?php echo $this->getChildhtml('customer.comment');?>
 		<?php endif;?>
 
+            <div class="payment-block <?php if ($this->getOnepage()->getQuote()->isVirtual()):?>clear-margin<?php endif;?>">
+                <legend>
+                    <h3><?php echo $this->__('Payment')?></h3>
+                </legend>
+
+                <div class="discount-block">
+                    <div class="f_legend">
+                        <span class="f_legend_value"><?php echo $this->__('E-Gift Card')?></span>
+                    </div>
+                    <?php echo $this->getChildhtml('coupon');?>
+                </div>
+
+                <?php echo $this->getChildHtml('payment')//$this->_getPaymentMethodsHtml();?>
+            </div>
+
+            <?php if(Mage::helper('opc')->isShowComment()):?>
+                <?php echo $this->getChildhtml('customer.comment');?>
+            <?php endif;?>
+
+        </div>
     </div>
 
     <div class="opc-col-right">
-        <h3><?php echo $this->__('Review Your Order')?></h3>
         <div id="opc-review-block">
 		<?php echo $this->_getReviewHtml()?>
 		</div>
+        <div class="checkout_cart_actions">
+            <div class="checkout_divider">or</div>
+            <div class="paypal-checkout">
+                <a href="#">
+                    <img src="http://urbandecay.lxc/urbandecay/skin/frontend/default/urbandecay/images/paypal.png">
+                </a>
+            </div>
+        </div>
     </div>
 </div>
 <script>
@@ -87,4 +107,40 @@ $theme = Mage::getDesign()->getTheme('frontend');
 		<div class="opc-message-container"></div>
 		<div class="opc-messages-action"><button class="button"><span><span><?php echo $this->__('Close')?></span></span></button></div>
 	</div>
+</div>
+
+<div class="b-customer_service-assets">
+    <div class="b-customer_service-item">
+        <div class=" content_asset">
+            <div class="b-widget">
+                <h3 class="b-widget-title">Customer Service</h3>
+                <p class="b-widget-info">Got questions? We've got answers!</p>
+                <ul class="b-widget-list">
+                    <li class="b-widget-list_item"><a href="tel:+18007848722">1.800.784.8722</a></li>
+                </ul>
+                <p class="b-widget-info">Mon - Fri: 7am - 5pm, PST (Excluding holidays)</p>
+            </div>
+        </div>
+    </div>
+    <div class="b-customer_service-item">
+        <div class=" content_asset">
+            <div class="b-widget">
+                <h3 class="b-widget-title">Live Chat</h3>
+                <p class="b-widget-info">Our Beauty Advisors are ready to answer your questions.</p>
+                <ul class="b-widget-list">
+                    <li id="lpchatbuttondiv" class="b-widget-list_item" style="visibility: visible;"><a href="#" class="'b-widget-list_link'" onclick="lpMTagConfig.dynButton0.actionHook();"> </a></li>
+                </ul>
+                <p class="b-widget-info">Mon - Fri: 7am - 4pm, PST (Excluding holidays)</p>
+            </div>
+        </div>
+    </div>
+    <div class="b-customer_service-item">
+        <div class="content_asset">
+            <div class="b-widget">
+                <h3 class="b-widget-title">FAQs</h3>
+                <p class="b-widget-info">Check out our <a href="https://www.urbandecay.com/faq">FAQ section</a> to see if we’ve covered your question.</p>
+            </div>
+        </div>
+    </div>
+    <div class="clear"></div>
 </div>
