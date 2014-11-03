@@ -1,0 +1,121 @@
+<?php
+/**
+ *
+ * Register FORM
+ *
+ * @category    design
+ * @package     base_default
+ * @author      Oleksandr Kostynian
+ */
+?>
+
+<div class="account-create">
+    <div class="primary">
+    <div class="page-title">
+        <h1><?php echo $this->__('Create Account') ?></h1>
+    </div>
+    <div class="left-reg-form">
+
+        <form action="<?php echo $this->getPostActionUrl() ?>" method="post" id="form-validate">
+            <div class="form_registration">
+                <input type="hidden" name="success_url" value="<?php echo $this->getSuccessUrl() ?>" />
+                <input type="hidden" name="error_url" value="<?php echo $this->getErrorUrl() ?>" />
+                <h2 class="legend"><?php echo $this->__('Use Email') ?></h2>
+                <div class="content_asset">
+                    Create an account to write a review, expedite checkouts, and receive special offers!
+                </div>
+                <fieldset>
+                <em class="required_indicator"><span>All fields required unless marked optional</span></em>
+                    <?php echo $this->getLayout()->createBlock('customer/widget_name')->setObject($this->getFormData())->setForceUseCustomerAttributes(true)->toHtml() ?>
+                        <label for="email_address"  class="required"><em>*</em><?php echo $this->__('Email Address') ?></label>
+                        <div class="input-box">
+                            <input type="text" name="email" placeholder="Email" id="email_address" value="<?php echo $this->escapeHtml($this->getFormData()->getEmail()) ?>" title="<?php echo $this->__('Email Address') ?>" class="input-text validate-email required-entry" />
+                        </div>
+                        <div class="field">
+                            <div class="input-box">
+                                <input type="password" placeholder="New Password" name="password" id="password" title="<?php echo $this->__('Password') ?>" class="input-text required-entry validate-password" />
+                            </div>
+                        </div>
+                        <div class="field">
+                            <div class="input-box">
+                                <input type="password" placeholder="Confirm Password" name="confirmation" title="<?php echo $this->__('Confirm Password') ?>" id="confirmation" class="input-text required-entry validate-cpassword" />
+                            </div>
+                        </div>
+                    <?php echo $this->getChildHtml('form.additional.info'); ?>
+                    <?php echo $this->getChildHtml('persistent.remember.me'); ?>
+            </div>
+
+
+                <?php echo $this->getChildHtml('persistent.remember.me.tooltip'); ?>
+
+            <?php if ($this->isNewsletterEnabled()): ?>
+                    <div class="check-box">
+                        <div class="check">
+                        <input type="checkbox" name="is_subscribed" title="<?php echo $this->__('Sign Up for Newsletter') ?>" value="1" id="is_subscribed"<?php if($this->getFormData()->getIsSubscribed()): ?> checked="checked"<?php endif; ?> class="checkbox" />
+                        </div>
+                        <div class="is_subscribed">
+                            <?php echo $this->__('Please add me to the Urban Decay’s email list. Urban Decay does not share or sell personal info.') ?>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+
+            <?php endif ?>
+
+       <button type="submit" title="<?php echo $this->__('Submit') ?>" class="button-color"><span><span><?php echo $this->__('Create Account') ?></span></span></button>
+
+            <?php if (Mage::helper('checkout')->isContextCheckout()): ?>
+                <input name="context" type="hidden" value="checkout" />
+            <?php endif; ?>
+        </form>
+
+    </div>
+    <div class="right-reg-form">
+        <h2>Register Socially</h2>
+        <p>Create an account using your preferred social account. Simple, easy and connected.</p>
+        <div> Social block </div>
+    </div>
+    <div class="clear"></div>
+    <script type="text/javascript">
+    //<![CDATA[
+        var dataForm = new VarienForm('form-validate', true);
+        <?php if($this->getShowAddressFields()): ?>
+        new RegionUpdater('country', 'region', 'region_id', <?php echo $this->helper('directory')->getRegionJson() ?>, undefined, 'zip');
+        <?php endif; ?>
+    //]]>
+    </script>
+    </div>
+    <div class="b-customer_service-assets">
+        <div class="b-customer_service-item">
+            <div class=" content_asset">
+                <div class="b-widget">
+                    <h3 class="b-widget-title">Customer Service</h3>
+                    <p class="b-widget-info">Got questions? We've got answers!</p>
+                    <ul class="b-widget-list">
+                        <li class="b-widget-list_item"><a href="tel:+18007848722">1.800.784.8722</a></li>
+                    </ul>
+                    <p class="b-widget-info">Mon - Fri: 7am - 5pm, PST (Excluding holidays)</p>
+                </div>
+            </div>
+        </div>
+        <div class="b-customer_service-item">
+            <div class=" content_asset">
+                <div class="b-widget">
+                    <h3 class="b-widget-title">Live Chat</h3>
+                    <p class="b-widget-info">Our Beauty Advisors are ready to answer your questions.</p>
+                    <ul class="b-widget-list">
+                        <li id="lpchatbuttondiv" class="b-widget-list_item" style="visibility: visible;"><a href="#" class="'b-widget-list_link'" onclick="lpMTagConfig.dynButton0.actionHook();"> </a></li>
+                    </ul>
+                    <p class="b-widget-info">Mon - Fri: 7am - 4pm, PST (Excluding holidays)</p>
+                </div>
+            </div>
+        </div>
+        <div class="b-customer_service-item">
+            <div class="content_asset">
+                <div class="b-widget">
+                    <h3 class="b-widget-title">FAQs</h3>
+                    <p class="b-widget-info">Check out our <a href="https://www.urbandecay.com/faq">FAQ section</a> to see if we’ve covered your question.</p>
+                </div>
+            </div>
+        </div>
+        <div class="clear"></div>
+</div>
