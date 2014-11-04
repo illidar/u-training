@@ -13,46 +13,50 @@ $products = Mage::getSingleton('Mage_Reports_Block_Product_Viewed')->getItemsCol
     ->setPageSize(4)
     ->setCurPage(1);
 ?>
+<?php if(count($products) > 0): ?>
+    <div class="recently-viewed-block ">
+        <h2 class="recently-viewed-title"><span>Recently Viewed</span></h2>
+        <div class="recently-viewed">
+            <ul class="products-grid">
+                <?php foreach ($products as $product)  : ?>
+                    <li class="item">
+                        <a class="product-image" href="<?php echo $product->getProductUrl()?>">
+                            <img src="<?php echo Mage::helper('catalog/image')->init($product, 'small_image')
+                                ->constrainOnly(false)
+                                ->keepAspectRatio(true)
+                                ->keepFrame(true)
+                                ->keepTransparency(true)
+                                ->backgroundColor(array(255,255,255))
+                                ->resize(135, 135); ?>" alt="">
+                        </a>
+                        <h2 class="product-name"><a href="<?php echo $product->getProductUrl()?>"><?php echo $product->getName()?></a></h2>
 
-<div class="recently-viewed">
-    <ul class="products-grid">
-        <?php foreach ($products as $product)  : ?>
-            <li class="item">
-                <a class="product-image" href="<?php echo $product->getProductUrl()?>">
-                    <img src="<?php echo Mage::helper('catalog/image')->init($product, 'small_image')
-                        ->constrainOnly(false)
-                        ->keepAspectRatio(true)
-                        ->keepFrame(true)
-                        ->keepTransparency(true)
-                        ->backgroundColor(array(255,255,255))
-                        ->resize(135, 135); ?>" alt="">
-                </a>
-                <h2 class="product-name"><a href="<?php echo $product->getProductUrl()?>"><?php echo $product->getName()?></a></h2>
+                        <?php
+                        $storeId = Mage::app()->getStore()->getId();
+                        $summaryData = Mage::getModel('review/review_summary')
+                            ->setStoreId($storeId)
+                            ->load($product->getId());
 
-                <?php
-                $storeId = Mage::app()->getStore()->getId();
-                $summaryData = Mage::getModel('review/review_summary')
-                    ->setStoreId($storeId)
-                    ->load($product->getId());
+                        if ($summaryData['rating_summary']): ?>
+                            <div class="ratings">
+                                <div class="rating-box">
+                                    <div class="rating" style="width:<?php echo $summaryData['rating_summary']; ?>%"></div>
+                                </div>
+                            </div>
+                        <?php endif; ?>
 
-                if ($summaryData['rating_summary']): ?>
-                    <div class="ratings">
-                        <div class="rating-box">
-                            <div class="rating" style="width:<?php echo $summaryData['rating_summary']; ?>%"></div>
+                        <div class="price-box">
+                            <span class="regular-price">
+                                <?php echo Mage::app()->getStore()->getCurrentCurrency()->format($product->getFinalPrice());?>
+                            </span>
                         </div>
-                    </div>
-                <?php endif; ?>
-
-                <div class="price-box">
-                    <span class="regular-price">
-                        <?php echo Mage::app()->getStore()->getCurrentCurrency()->format($product->getFinalPrice());?>
-                    </span>
-                </div>
-                <div class="actions">
-                    <button type="button" title="Shop Now" class="button btn-cart" onclick="setLocation('<?php echo $product->getProductUrl()?>')"><span><?php echo $this->__('Shop now') ?></span></button>
-                </div>
-            </li>
-        <?php
-        endforeach; ?>
-    </ul>
+                        <div class="actions">
+                            <button type="button" title="Shop Now" class="button btn-cart" onclick="setLocation('<?php echo $product->getProductUrl()?>')"><span><?php echo $this->__('Shop now') ?></span></button>
+                        </div>
+                    </li>
+                <?php
+                endforeach; ?>
+            </ul>
+    </div>
 </div>
+<?php endif; ?>

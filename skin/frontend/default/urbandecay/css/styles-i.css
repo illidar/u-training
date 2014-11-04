@@ -1038,3 +1038,4 @@ button.button > span:hover {
     padding: 0 30px 20px 30px;
     text-align: center;
 }
+.opc-col-right .checkout_cart_actions .paypal-checkout { width: auto; margin: 0; padding: 0; }
