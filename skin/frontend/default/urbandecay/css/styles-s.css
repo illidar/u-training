@@ -798,8 +798,8 @@
     width: 185px;
     margin: 0 !important;
 }
-.buttons-set .button {
-    width: 100px;
+.checkout-cart-index .buttons-set .button {
+    /*width: 100px;*/
     font: 13px/1 "ProximaNova-Bold",sans-serif;
     background: #46166b;
     border: 0;
@@ -807,7 +807,7 @@
     cursor: pointer;
     display: inline-block;
     margin: 0;
-    padding: 11px 6px;
+    padding: 10px 18px;
     text-transform: uppercase;
     text-align: center;
     text-decoration: none;
@@ -1553,6 +1553,24 @@ margin: 0 0 12px;
     margin: 0;
     padding: 0;
 }
+.my-wishlist .buttons-set .button {
+    font: 13px/1 "ProximaNova-Bold",sans-serif;
+    background: #46166b;
+    border: 0;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    margin: 0;
+    padding: 11px 18px;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    transition-property: all;
+    transition-duration: 150ms;
+}
+.my-wishlist .buttons-set .button:hover {
+    background: #b69fc5;
+}
 .fav-title {
     float: left;
 }
@@ -2036,6 +2054,7 @@ div.select a {
 }
 .header-cart-link:hover .header-cart-mini-div-wrapper {
     display: block;
+
 }
 .header-cart-link:hover .mini-cart-empty {
     display: block;
@@ -2154,6 +2173,8 @@ div.select a {
 }
 .mini-cart-right-items-wrapper .item .product-name {
     padding-top: 25px;
+    max-height: 56px;
+    overflow: hidden;
 }
 .mini-cart-right-items-wrapper .item .product-name a {
     font: 13px/1.2em "ProximaNova-Bold",sans-serif;
@@ -2202,4 +2223,142 @@ div.select a {
     text-align: center;
 }
 
+.opc-index-index .form-list li.wide select {
+    width: 100%;
+}
+.opc-index-index .opc-btn-checkout {
+    color: #ffffff;
+}
+.customer-account-index .box-recent {
+    display: none;
+}
+.dashboard .box-info .box-head h2 {
+    background-image: none;
+}
+.dashboard .box-head h2 {
+    color: #000000;
+    padding: 0 !important;
+    font: 18px "ProximaNova-Bold",sans-serif;
+}
+.customer-account-index .box-account .box-head {
+    border-bottom: 1px solid #dacce2;
+}
+.customer-account-index .box-account .box-title {
+    background: none;
+    border-bottom: 1px solid #dacce2;
+}
+.customer-account-index  .box-account a {
+    color: #46166b;
+    cursor: pointer;
+    text-decoration: none;
+    transition-duration: 300ms;
+}
 
+/* ################# CMS Pages ################## */
+.cms-page-view .main {
+    width: 960px;
+    margin: auto;
+    padding-top: 32px;
+    padding-bottom: 80px;
+}
+.cms-page-view .main .cms-page-left-nav {
+    float: left;
+    width: 137px;
+    padding-right: 45px;
+    border-right: 2px solid #dacde1;
+}
+.cms-page-view .main .cms-page-content  {
+    float: right;
+    width: 716px;
+    padding-left: 60px;
+    margin-left: -2px;
+    border-left: 2px solid #dacde1;
+}
+.cms-page-view .main .cms-page-left-nav ul li {
+    text-transform: uppercase;
+    margin: 0 0 12px;
+    border: 0;
+    font: 11px/1.2em "ProximaNova-Semibold",sans-serif;
+    list-style: none;
+    width: 137px;
+    padding: 0;
+}
+.cms-page-view .main .cms-page-left-nav ul li a {
+    transition-duration: 300ms;
+    border: 0;
+    color: #46166b;
+    cursor: pointer;
+    text-decoration: none;
+}
+.cms-page-view .main .cms-page-left-nav ul {
+    margin-bottom: 35px;
+    list-style: none;
+    padding: 0;
+}
+.cms-page-view .main .cms-page-title {
+    font: 30px/1.2em "ProximaNova-Bold",sans-serif;
+    color: #000;
+    text-transform: uppercase;
+    padding: 0 0 12px;
+    border-bottom: 1px solid #dacce2;
+    margin-bottom: 35px;
+}
+.cms-page-view .main .cms-page-content p {
+    font: 14px/1.33em "ProximaNova-Regular",sans-serif;
+    color: #000000;
+}
+.cms-page-view .main .content_asset {
+    width: 300px;
+}
+.b-widget {
+    min-height: 110px;
+}
+.b-widget .b-widget-info {
+    font: 12px "ProximaNova-Semibold",sans-serif;
+    margin: 0 0 10px 0;
+    letter-spacing: -0.01em;
+}
+.cms-page-view .bottom-banners {
+    clear: both;
+    min-height: 110px;
+    padding-top: 80px;
+}
+.cms-page-view .main h2 {
+    font: 24px/1em "ProximaNova-Bold",sans-serif;
+    color: #000;
+    text-transform: capitalize;
+}
+.cms-page-view .main h3 {
+    font: 16px/1.2em "ProximaNova-Bold",sans-serif;
+    color: #000;
+    text-transform: uppercase;
+}
+.cms-page-view .main .cms-page-content a {
+    color: #46166b;
+    cursor: pointer;
+    text-decoration: none;
+    transition-duration: 300ms;
+}
+.cms-page-view .main .cms-page-content a:hover {
+    color: #000000;
+    text-decoration: underline;
+}
+/* ######## Price ########### */
+
+.catalog-category-view .price-box .old-price {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    color: #000000;
+}
+.catalog-category-view .price-box .special-price {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    color: #ec008c;
+}
+.catalog-category-view .price-box .special-price-wrapper {
+    margin: auto;
+    max-height: 20px;
+    overflow: hidden;
+}

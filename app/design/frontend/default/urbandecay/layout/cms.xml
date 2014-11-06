@@ -60,6 +60,16 @@ Default layout, loads most of the pages
         <label>CMS Home Page</label>
     </cms_index_index>
 
+
+    <!--<cms_page_view>-->
+        <!--<reference name="left">-->
+            <!--<block type="cms/block" name="left.permanent.callout">-->
+                <!--<action method="setBlockId"><block_id>cms_left_nav</block_id></action>-->
+            <!--</block>-->
+        <!--</reference>-->
+    <!--</cms_page_view>-->
+
+
     <cms_index_defaultindex>
         <remove name="right"/>
         <remove name="left"/>

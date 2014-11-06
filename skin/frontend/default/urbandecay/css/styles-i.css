@@ -380,7 +380,7 @@ div.select_wrapper {
 }
 .products-grid .product-image {
     display: block;
-    height: 135px;
+    height: 220px;
     width: auto;
     margin: 0 0 15px;
 }
@@ -622,7 +622,7 @@ div.select_wrapper {
 }
 
 .col1-layout .products-grid {
-    width: 790px;
+    width: 960px;
     margin: 0 auto;
     background: none;
     border: none;

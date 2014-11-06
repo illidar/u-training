@@ -72,6 +72,9 @@ Category default layout
 
     <catalog_category_default translate="label">
         <label>Catalog Category (Non-Anchor)</label>
+        <reference name="head">
+            <action method="setForcedTitle"><title>Free Shipping $50+ on Urban Decay Eye Makeup</title></action>
+        </reference>
         <reference name="left">
             <block type="catalog/navigation" name="catalog.leftnav" after="currency" template="catalog/navigation/left.phtml"/>
         </reference>
