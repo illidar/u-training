@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<config>
+    <modules>
+        <Urbandecay_Cms>
+            <version>1.6.0.0.4</version>
+        </Urbandecay_Cms>
+    </modules>
+    <global>
+        <resources>
+            <cms_setup>
+                <setup>
+                    <module>Urbandecay_Cms</module>
+                </setup>
+            </cms_setup>
+        </resources>
+    </global>
+</config>
