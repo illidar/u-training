@@ -1015,9 +1015,9 @@
     text-transform: uppercase !important;
     font: 13px/38px "ProximaNova-Semibold",sans-serif;
 }
-.checkout-cart-configure .product-select-options {
-    display: none;
-}
+/*.checkout-cart-configure .product-select-options {*/
+    /*display: none;*/
+/*}*/
 .checkout-cart-configure .product-view .product-shop .availability {
     display: none;
 }

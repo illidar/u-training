@@ -555,7 +555,7 @@ div.select_wrapper {
     font-weight: normal;
 }
 .review-rating-box {
-    width: 100px;
+    width: 105px;
     height: 13px;
     font-size: 0;
     line-height: 0;
@@ -595,7 +595,7 @@ div.select_wrapper {
     padding-top: 30px;
     overflow: hidden;
 }
-.page-title h1 {
+.category-view .page-title h1 {
     width: 25%;
     float: left;
     font: 30px/normal "ProximaNova-Bold",sans-serif;
@@ -1039,3 +1039,23 @@ button.button > span:hover {
     text-align: center;
 }
 .opc-col-right .checkout_cart_actions .paypal-checkout { width: auto; margin: 0; padding: 0; }
+
+/**** payment_success_block ****/
+.payment_success_block, .payment_error_block {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 960px;
+    margin: auto;
+}
+.payment_success_block .page-title h1, .payment_error_block .page-title h1 {
+    color: #000;
+    text-transform: uppercase;
+    font: 26px "ProximaNova-Bold",sans-serif;
+}
+.payment_success_block .sub-title {
+    color: #000000;
+    font: 18px/24px "ProximaNova-Regular",sans-serif;
+}
+.payment_success_block p, .payment_error_block p {
+    font: 14px/20px "ProximaNova-Regular",sans-serif;
+}
