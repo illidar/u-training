@@ -189,6 +189,20 @@ ul#nav > li { display: inline-block; float: none; position: relative; }
     text-indent: -999em;
     overflow: hidden;
 }
+.ind-rating-box {
+    width: 90px;
+    height: 18px;
+    font-size: 0;
+    line-height: 0;
+    background: url(../images/prcs_rating.gif) 0 0 repeat-x;
+    text-indent: -999em;
+    overflow: hidden;
+}
+.ind-rating-box .rating {
+    float: left;
+    height: 18px;
+    background: url(../images/prcs_rating.gif) 0 100% repeat-x;
+}
 
 .regular-price .price { font: 20px/1em "ProximaNova-Bold",sans-serif; color: #000; text-transform: capitalize; padding: 0; }
 
@@ -545,14 +559,58 @@ div.select_wrapper {
     font-size:0;
     line-height:0;
 }
+.box-reviews .review:last-child { border: none; }
 .box-reviews .review .review-right-block { display: inline-block; width: 20%; vertical-align: top }
 .box-reviews .review .review-left-block { display: inline-block; width: 75%; text-align: justify; vertical-align: top }
 .box-reviews .review .review-left-block .review-title {
+    padding: 10px 0 0;
     text-transform: none;
     font-size: 24px;
     color: #0e0e0e;
     font-family: ProximaNova-Bold,sans-serif;
     font-weight: normal;
+}
+.review-right-block .review-social-links-container { position: relative; text-align: right; }
+.review-right-block .review-social-links-container a.review-social-facebook { margin-right: 2px; }
+.review-right-block .review-social-links-container a.review-social-facebook, .review-right-block .review-social-links-container a.review-social-twitter { text-decoration: none; }
+.review-right-block .date {
+    font-weight: normal;
+    font-family: Helvetica,Arial,sans-serif;
+    line-height: 1.5em;
+    color: #0e0e0e;
+    font-size: 12px;
+    text-transform: none;
+    padding: 10px 0;
+    border-bottom: 1px solid #e7e7e7;
+}
+.review-right-block a.review-profile-link {
+    text-decoration: none;
+    color: #5D3479;
+}
+.review-right-block a.review-profile-link > span {
+    font-size: 14px;
+    color: #542A60;
+    font-style: normal;
+    font-weight: normal;
+    text-transform: none;
+}
+.review-right-block .review-right-small-box {
+    padding-top: 15px;
+}
+.review-right-small-box  .review-customer-info {
+    margin: 5px 0 15px 0;
+    padding: 0 0 15px;
+    border-bottom: 1px solid #e7e7e7;
+}
+.review-right-block .review-right-small-box .data-value-container {
+    color: #838080;
+    font-size: 12px;
+    font-weight: normal;
+    text-transform: none;
+}
+.data-value-container .data-label {
+    display: inline-block;
+    width: 70px;
 }
 .review-rating-box {
     width: 105px;
