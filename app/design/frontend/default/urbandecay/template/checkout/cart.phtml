@@ -17,7 +17,7 @@
 ?>
 
 <div class="cart-wrapper">
-    <div><a href="#" class="continue_shopping_link">Back to Shopping </a></div>
+    <div><a href="<?php echo Mage::getBaseUrl(); ?>" class="continue_shopping_link"> <?php echo $this->__('Back to Shopping') ?> </a></div>
     <div class="cart">
         <?php echo $this->getMessagesBlock()->getGroupedHtml() ?>
         <?php echo $this->getChildHtml('form_before') ?>

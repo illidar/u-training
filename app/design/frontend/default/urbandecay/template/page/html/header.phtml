@@ -84,11 +84,11 @@
         </a>
         <div class="request_password_page">
             <h1>
-                Forgot password
+                <?php echo $this->__('Forgot password')?>
             </h1>
-            <p class="message">Give us the email address you use to log in to Urban Decay and we'll send you instructions for resetting your password.</p>
-            <p class="b-request_password-signature">Thanks, <br><span>Team UD</span></p>
-            <form action="<?php echo $this->getUrl('*/*/forgotpasswordpost') ?>" tabindex="1" method="post" id="form-validate" name="dwfrm_requestpassword">
+            <p class="message"><?php echo $this->__('Give us the email address you use to log in to Urban Decay and we\'ll send you instructions for resetting your password.') ?></p>
+            <p class="b-request_password-signature"><?php echo $this->__('Thanks, ')?><br><span><?php echo $this->__('Team UD')?></span></p>
+            <form action="<?php echo $this->getUrl('customer/account/forgotpasswordpost') ?>" tabindex="1" method="post" id="form-validate" name="dwfrm_requestpassword">
                 <fieldset>
                     <div class="f_field f_field_email" data-required-text="Please enter your email address">
                         <input type="text" name="email" alt="email" id="email_address"  class="textinput f_email   required" placeholder="Email" maxlength="50" value="<?php echo $this->escapeHtml($this->getEmailValue()) ?>">

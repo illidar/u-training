@@ -595,8 +595,8 @@ div.select_wrapper {
     padding-top: 30px;
     overflow: hidden;
 }
-.page-title h1 {
-    width: 25%;
+.category-title h1 {
+    width: 25% !important;
     float: left;
     font: 30px/normal "ProximaNova-Bold",sans-serif;
     color: #000000;

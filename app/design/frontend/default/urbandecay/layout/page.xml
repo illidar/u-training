@@ -120,8 +120,6 @@ Default layout, loads most of the pages
             <block type="page/html_footer" name="footer" as="footer" template="page/html/footer.phtml">
                 <block type="newsletter/subscribe" name="subscribe" as="subscribe" template="newsletter/subscribe.phtml"/>
                 <block type="page/template_links" name="footer_links" as="footer_links" template="page/template/links.phtml"/>
-                <block type="core/template" name="footer_about" as="footer_about" template="page/template/about.phtml"/>
-                <block type="core/template" name="social" as="social" template="page/template/social.phtml"/>
             </block>
 
             <block type="core/text_list" name="before_body_end" as="before_body_end" translate="label">
