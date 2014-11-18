@@ -150,6 +150,58 @@
     </script>
     </div>
     <?php echo $this->getChildHtml('upsell_products') ?>
+
+    <?php
+        $storeId = Mage::app()->getStore()->getId();
+        $productId = $_product->getId();
+        $summaryData = Mage::getModel('review/review_summary')->setStoreId($storeId)->load($productId);
+        $mark = number_format((($summaryData['rating_summary'] * 5) / 100), 1, '.', '');
+
+        $ratings = $this->getDetailedRating($productId, $storeId);
+    ?>
+
+    <div class="reviews-info-block">
+        <div class="reviews-info-block-title">
+            <?php echo $this->__('Reviews') ?>
+        </div>
+        <?php if ($summaryData['reviews_count'] > 0): ?>
+            <div class="reviews-info-block-content">
+                <div class="reviews-count-custom">
+                    <span class="reviews-count"><?php echo $this->__('Reviews') ?> (<?php echo number_format($summaryData['reviews_count']); ?>)</span>
+                    <span class="add-review-url-container"><a class="add-review-url" href="<?php echo $this->getReviewPageUrl($productId) ?>"><?php echo $this->__('Write a review') ?></a></span>
+                </div>
+                <div class="product-rating-container">
+                    <?php if ($summaryData['rating_summary']): ?>
+                        <div class="big-rating">
+                            <div class="big-rating-box">
+                                <div class="rating" style="width:<?php echo $summaryData['rating_summary']; ?>%"></div>
+                            </div>
+                            <div class="rating-value"><?php echo $mark; ?></div>
+                        </div>
+                        <div class="detailed-rating-container">
+                            <?php foreach ($ratings as $key => $value): ?>
+                                <div class="detailed-rating-box">
+                                    <div class="rating-normal-label">
+                                        <?php echo $this->__($key); ?>
+                                    </div>
+                                    <div class="detailed-rating-scale">
+                                        <div class="rating" style="width:<?php echo $value ?>%;"></div>
+                                    </div>
+                                </div>
+                            <?php endforeach; ?>
+                        </div>
+                    <?php endif ?>
+                </div>
+            </div>
+        <?php else: ?>
+            <div class="reviews-info-block-content">
+                <div class="reviews-count-custom">
+                    <span class="add-review-url-container"><a class="add-review-url" href="<?php echo $this->getReviewPageUrl($productId) ?>"><?php echo $this->__('Be the first to review this product') ?></a></span>
+                </div>
+            </div>
+        <?php endif; ?>
+    </div>
+
     <?php echo $this->getChildHtml('product_additional_data') ?>
     <?php echo $this->getChildHtml('product_review_list') ?>
 

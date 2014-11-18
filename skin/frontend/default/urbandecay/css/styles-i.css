@@ -502,10 +502,9 @@ div.select_wrapper {
 
 .box-like-list, .box-collateral-tags {
     display: block !important;
-    border-top: 1px solid #dacce2 !important;
-    /*margin: 0 -500% !important;*/
-    /*padding: 0 500% !important;*/
-    padding-top: 30px !important;
+    border: none !important;
+    margin: 20px 0 !important;
+    padding: 0 !important;
     overflow: hidden !important;
 }
 /**** tags ****/
@@ -542,6 +541,99 @@ div.select_wrapper {
     padding-left: 5px;
 }
 /**** reviews ****/
+.product-view .reviews-info-block {
+    padding: 55px 0 0;
+    border-top: 1px solid #dacce2;
+}
+.product-view .reviews-info-block .reviews-info-block-title {
+    font: 30px/1.2em "ProximaNova-Bold",sans-serif;
+    color: #000;
+    text-transform: uppercase;
+    text-align: center;
+}
+.reviews-info-block-content .reviews-count-custom {
+    padding-bottom: 20px;
+}
+.reviews-info-block-content .reviews-count-custom .reviews-count {
+    font: 30px/1.2em "ProximaNova-Bold",sans-serif;
+    text-transform: uppercase;
+}
+.reviews-info-block-content .reviews-count-custom .add-review-url-container {
+    width: auto;
+    height: 40px;
+    float: right;
+}
+.reviews-info-block-content .reviews-count-custom a.add-review-url {
+    display: inline-block;
+    background-color: #470E6C;
+    border: none;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-decoration: none;
+    font: 14px/40px "ProximaNova-Bold",sans-serif;
+    font-weight: normal;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding: 0 10px;
+}
+.product-rating-container .big-rating {
+    display: inline-block;
+    margin-right: 20px;
+}
+.product-rating-container .big-rating .rating-value {
+    color: #55307d;
+    font-style: normal;
+    text-transform: capitalize;
+    letter-spacing: .02em;
+    font-family: ProximaNova-Bold,sans-serif;
+    font-weight: normal;
+    font-size: 24px;
+    vertical-align: 5px;
+    display: inline-block;
+}
+.product-rating-container .big-rating .big-rating-box {
+    width: 135px;
+    height: 27px;
+    font-size: 0;
+    line-height: 0;
+    background: url(../images/ratingLarge.gif) 0 0 repeat-x;
+    text-indent: -999em;
+    overflow: hidden;
+    display: inline-block;
+}
+.product-rating-container .big-rating .big-rating-box .rating {
+    float: left;
+    height: 27px;
+    background: url(../images/ratingLarge.gif) 0 100% repeat-x;
+}
+.detailed-rating-container { display: inline-block; }
+.detailed-rating-container .detailed-rating-box {
+    float: left;
+    margin-left: 20px;
+}
+.detailed-rating-container .detailed-rating-box .rating-normal-label {
+    font-weight: normal;
+    line-height: 1em;
+    color: #0e0e0e;
+    text-transform: uppercase;
+    font-size: 11px;
+}
+.detailed-rating-container .detailed-rating-box .detailed-rating-scale {
+    width: 105px;
+    height: 13px;
+    font-size: 0;
+    line-height: 0;
+    background: url(../images/bkg_rating_2.gif) 0 0 repeat-x;
+    text-indent: -999em;
+    overflow: hidden;
+}
+.detailed-rating-container .detailed-rating-box .detailed-rating-scale .rating {
+    float: left;
+    height: 13px;
+    background: url(../images/bkg_rating_2.gif) 0 100% repeat-x;
+}
+
 .box-reviews .review {
     background-color: #ffffff;
     border-style: solid;
