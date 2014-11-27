@@ -55,9 +55,11 @@ Default layout, loads most of the pages
                 <action method="addItem"><type>skin_js</type><name>js/lib/jquery.cycle2.min.js</name></action>
                 <action method="addItem"><type>skin_js</type><name>js/slideshow.js</name></action>
                 <action method="addItem"><type>skin_js</type><name>js/popup.js</name></action>
+                <action method="addItem"><type>skin_js</type><name>js/script.js</name></action>
                 <action method="addItem"><type>skin_js</type><name>js/jquery-ias.min.js</name></action>
                 <action method="addItem"><type>skin_js</type><name>js/infinite_scroll.js</name></action>
                 <action method="addItem"><type>skin_js</type><name>js/jquery.selectbox-0.2.js</name></action>
+                <action method="addItem"><type>skin_js</type><name>js/jquery.rating.js</name></action>
 
                 <block type="page/js_cookie" name="js_cookies" template="page/js/cookie.phtml"/>
 
@@ -69,6 +71,7 @@ Default layout, loads most of the pages
                 <action method="addCss"><stylesheet>css/print.css</stylesheet><params>media="print"</params></action>
                 <action method="addCss"><stylesheet>css/jquery.ias.css</stylesheet></action>
                 <action method="addCss"><stylesheet>css/jquery.selectbox.css</stylesheet></action>
+                <action method="addCss"><stylesheet>css/jquery.rating.css</stylesheet></action>
 
                 <action method="addItem"><type>js</type><name>lib/ds-sleight.js</name><params/><if>lt IE 7</if></action>
                 <action method="addItem"><type>skin_js</type><name>js/ie6.js</name><params/><if>lt IE 7</if></action>
