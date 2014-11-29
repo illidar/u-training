@@ -1,0 +1,146 @@
+<?php
+/**
+ * Magento
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Academic Free License (AFL 3.0)
+ * that is bundled with this package in the file LICENSE_AFL.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/afl-3.0.php
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to license@magentocommerce.com so we can send you a copy immediately.
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade Magento to newer
+ * versions in the future. If you wish to customize Magento for your
+ * needs please refer to http://www.magentocommerce.com for more information.
+ *
+ * @category    design
+ * @package     base_default
+ * @copyright   Copyright (c) 2014 Magento Inc. (http://www.magentocommerce.com)
+ * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+ */
+?>
+<?php echo $this->getLayout()->createBlock('cms/block')->setBlockId('cms_left_nav')->toHtml(); ?>
+<div class="contacts-content">
+<div id="messages_product_view"><?php echo $this->getMessagesBlock()->getGroupedHtml() ?></div>
+<div class="page-title">
+    <h1><?php echo Mage::helper('contacts')->__('Contact Us') ?></h1>
+    <p class="contact-us-description"><?php echo Mage::helper('contacts')->__('Have a question? We can help. Just complete the form below and we’ll get back to you.')?></p>
+</div>
+<form action="<?php echo $this->getFormAction(); ?>" id="contactForm" method="post">
+        <div class="contact-us-form-description"><?php echo Mage::helper('contacts')->__('All fields required unless marked optional')?></div>
+        <ul class="form-list">
+            <li class="fields">
+                <div class="field">
+                        <input name="name" id="name" placeholder="First name" title="<?php echo Mage::helper('contacts')->__('Name') ?>" value="<?php echo $this->escapeHtml($this->helper('contacts')->getUserName()) ?>" class="input-text required-entry" type="text" />
+                        <input name="last name" id="last_name" placeholder="Last name" title="<?php echo Mage::helper('contacts')->__('last_name') ?>" value="<?php echo $this->escapeHtml($this->helper('contacts')->getUserName()) ?>" class="input-text required-entry" type="text" />
+                    <div class="clear"></div>
+                </div>
+                <div class="field">
+                    <div class="input-box">
+                        <input name="email" id="email" placeholder="Email" title="<?php echo Mage::helper('contacts')->__('Email') ?>" value="<?php echo $this->escapeHtml($this->helper('contacts')->getUserEmail()) ?>" class="input-text required-entry validate-email" type="text" />
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="select">
+                    <div id="slct_arrow" class="slct"></div>
+                    <a href="#" class="slct"><?php echo $this->__('Product Questions') ?></a>
+                    <ul class="drop">
+                        <li class="first_li"><?php echo $this->__('Product Questions') ?></li>
+                        <li><?php echo $this->__('Order Placement') ?></li>
+                        <li><?php echo $this->__('Where is my order/return?') ?></li>
+                        <li><?php echo $this->__('Website feedback') ?></li>
+                        <li><?php echo $this->__('General comments/questions') ?></li>
+                        <li><?php echo $this->__('International Inquiries') ?></li>
+                        <li><?php echo $this->__('UD Pro') ?></li>
+                    </ul>
+                    <input type="hidden" id="select" name="dwfrm_contactus_myquestion" value="<?php echo $this->__('Product Questions') ?>" title="<?php echo $this->__('Qty') ?>" class="input-text" maxlength="12"/>
+                </div>
+                    <input name="Order" placeholder="Order # (optional)" id="Order" title="<?php echo Mage::helper('contacts')->__('Order') ?>" value="" class="input-text" type="text" />
+            <div class="clear"></div>
+            </li>
+            <li class="wide">
+                <div class="input-box">
+                    <textarea name="comment" placeholder="Your Message" id="comment" title="<?php echo Mage::helper('contacts')->__('Comment') ?>" class="required-entry input-text" maxlength="3500"></textarea>
+                </div>
+            </li>
+        </ul>
+        <input type="text" name="hideit" id="hideit" value="" style="display:none !important;" />
+        <button type="submit" title="<?php echo Mage::helper('contacts')->__('Submit') ?>" class="button"><?php echo Mage::helper('contacts')->__('Send message') ?></button>
+
+</form>
+</div>
+<div class="clear"></div>
+<div class="b-customer_service-assets">
+    <div class="bottom-banners">
+        <?php echo $this->getLayout()->createBlock('cms/block')->setBlockId('customer_service_bottom')->toHtml(); ?>
+        <?php echo $this->getLayout()->createBlock('cms/block')->setBlockId('live_chat_bottom')->toHtml(); ?>
+        <?php echo $this->getLayout()->createBlock('cms/block')->setBlockId('faqs_bottom')->toHtml(); ?>
+    </div>
+</div>
+<script type="text/javascript">
+//<![CDATA[
+    var contactForm = new VarienForm('contactForm', true);
+//]]>
+</script>
+
+<script type="text/javascript">
+    //<![CDATA[
+
+    var $j = jQuery.noConflict();
+    $j(document).ready(function(){
+
+        // Select
+        $j('.slct').click(function(){
+            /* Заносим выпадающий список в переменную */
+            var dropBlock = $j(this).parent().find('.drop');
+
+            /* Делаем проверку: Если выпадающий блок скрыт то делаем его видимым*/
+            if( dropBlock.is(':hidden') ) {
+                dropBlock.slideDown();
+
+                /* Выделяем ссылку открывающую select */
+                $j(this).addClass('active');
+
+                /* Работаем с событием клика по элементам выпадающего списка */
+                $j('.drop').find('li').click(function(){
+
+                    /* Заносим в переменную HTML код элемента
+                     списка по которому кликнули */
+                    var selectResult = $j(this).html();
+
+                    /* Находим наш скрытый инпут и передаем в него
+                     значение из переменной selectResult */
+                    $j(this).parent().parent().find('input').val(selectResult);
+
+                    /* Передаем значение переменной selectResult в ссылку которая
+                     открывает наш выпадающий список и удаляем активность */
+
+                    $j('.slct').removeClass('active').html(selectResult);
+
+                    /* Скрываем выпадающий блок */
+                    dropBlock.slideUp();
+
+                    /* Отправка формы */
+//                    document.getElementById('update-cart').submit();
+                });
+
+                /* Продолжаем проверку: Если выпадающий блок не скрыт то скрываем его */
+            } else {
+                $j(this).removeClass('active');
+                dropBlock.slideUp();
+            }
+
+            /* Предотвращаем обычное поведение ссылки при клике */
+            return false;
+        });
+
+    });
+
+    //]]>
+</script>
