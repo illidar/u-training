@@ -4,6 +4,7 @@
             <catalog>
                 <rewrite>
                     <category_view>Urbandecay_Catalog_Block_Category_View</category_view>
+                    <product_view>Urbandecay_Catalog_Block_Product_View</product_view>
                 </rewrite>
             </catalog>
         </blocks>

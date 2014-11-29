@@ -24,17 +24,11 @@
  * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
  */
 ?>
-<?php if ($this->getReviewsCount()): ?>
-    <div class="ratings">
-        <?php if ($this->getRatingSummary()):?>
-            <div class="rating-box">
-                <div class="rating" style="width:<?php echo $this->getRatingSummary() ?>%"></div>
-            </div>
-        <?php endif;?>
-        <p class="rating-links">
-            <a href="#customer-reviews"><?php echo $this->__('%d review(s)', $this->getReviewsCount()) ?></a>
-        </p>
+<div class="payment_error_block">
+    <div class="page-title">
+        <h1><?php echo $this->__('An error occurred in the process of payment') ?></h1>
     </div>
-<?php elseif ($this->getDisplayIfEmpty()): ?>
-    <p class="no-rating"><a href="<?php echo $this->getReviewsUrl() ?>#review-form"><?php echo $this->__('Be the first to review this product') ?></a></p>
-<?php endif; ?>
+    <?php if ($this->getRealOrderId()) : ?><p><?php echo $this->__('Order #') . $this->getRealOrderId() ?></p><?php endif ?>
+    <?php if ($error = $this->getErrorMessage()) : ?><p><?php echo $error ?></p><?php endif ?>
+    <p><?php echo $this->__('Click <a href="%s">here</a> to continue shopping.', $this->getContinueShoppingUrl()) ?></p>
+</div>
