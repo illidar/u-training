@@ -210,6 +210,44 @@ ul#nav > li { display: inline-block; float: none; position: relative; }
 .product-select-options .input-box { float: left; height: 100%; padding: 0; margin: 0; width: 268px; }
 .product-select-options .input-box select, .product-select-options input.qty { height: 100%; border: solid 1px #dacce2; color: #000; text-transform: uppercase !important; font: 13px/38px "ProximaNova-Semibold",sans-serif; }
 .product-select-options .input-box select { padding: 1px; width: 100%; }
+
+.product-select-options .input-box .sbToggle {
+    top: 3px;
+}
+.product-select-options .input-box .sbHolder {
+    float: left;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    width: 268px;
+    background-color: #ffffff;
+    border: solid 1px #dacce2;
+}
+.product-select-options .input-box .sbSelector {
+    width: 90%;
+    height: 100%;
+    color: #000;
+    font: 13px/42px "ProximaNova-Semibold",sans-serif;
+    text-transform: uppercase;
+    text-indent: 15px;
+}
+.product-select-options .input-box .sbOptions {
+    width: 100%;
+    color: #000;
+    font: 13px "ProximaNova-Semibold",sans-serif;
+    text-transform: uppercase;
+    background-color: #ffffff;
+    border: solid 1px #dacce2;
+}
+.product-select-options .input-box .sbOptions li { padding: 0; }
+.product-select-options .input-box .sbOptions a {
+    color: #000;
+    font: 13px "ProximaNova-Semibold",sans-serif;
+    border: none;
+    line-height: 38px;
+    text-transform: uppercase;
+    padding: 0 15px 0 15px;
+}
 /*.product-select-options input.qty { float: right; padding: 0 0 0 15px; margin: 0; width: 50px !important; height: 38px; line-height: 5px; }*/
 
 /*** product count select begin ***/
@@ -1141,6 +1179,11 @@ button.button > span:hover {
 #checkout-review-submit .buttons-set button:hover {
     background-image: url(../images/btn-cart--hover.jpg);
 }
+
+.disabled_button {
+    opacity: 0.5;
+    background-image: url(../images/btn-cart--hover.jpg);
+}
 .opc-wrapper-opc .payment-block {
     margin-top: 30px;
     position: relative;
@@ -1410,4 +1453,10 @@ h4.product-review-titles {
 }
 .review-block-wrapper {
     position: relative;
+}
+.rating-stars-legend-value {
+    font-weight: normal;
+    text-transform: none;
+    font-style: italic;
+    color: #B1B1B1;
 }
