@@ -205,25 +205,6 @@
     <?php echo $this->getChildHtml('product_additional_data') ?>
     <?php echo $this->getChildHtml('product_review_list') ?>
 
-    <script type="text/javascript">
-        var $j = jQuery.noConflict();
-
-        $j('.box-collateral h2').append( "<span>+</span>" );
-
-        $j(document).ready(function(){
-            $j('.box-collateral h2').click(function() {
-                var txt = $j(this).text();
-                $j("h2:contains('"+txt+"')").siblings('.box-collateral div').slideToggle("fast");
-
-                if ($j(".box-collateral h2:contains('"+txt+"') span").text() == "+") {
-                    $j(".box-collateral h2:contains('"+txt+"') span").text("-");
-                } else {
-                    $j(".box-collateral h2:contains('"+txt+"') span").text("+");
-                }
-            });
-        });
-    </script>
-
     <?php echo $this->getChildHtml('recently_viewed') ?>
 
 </div>
