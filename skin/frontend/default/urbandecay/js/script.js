@@ -11,7 +11,16 @@ $j(document).ready(function(){
 
     $j('.box-collateral h2').click(function() {
         var txt = $j(this).text();
-        $j("h2:contains('"+txt+"')").siblings('.box-collateral div').slideToggle("fast");
+        $j("h2:contains('"+txt+"')").siblings('.box-collateral div').slideToggle("fast", function() {
+            if ($j(this).is(':visible')) {
+                $j(this).jScrollPane(
+                    {
+                        verticalDragMinHeight: 114,
+                        verticalDragMaxHeight: 114
+                    }
+                )
+            }
+        });
 
         if ($j(".box-collateral h2:contains('"+txt+"') span").text() == "+") {
             $j(".box-collateral h2:contains('"+txt+"') span").text("-");
@@ -94,3 +103,18 @@ $j(document).ready(function() {
 
 });
 
+
+// ==============================================
+// Animate scroll on pvoduct view page
+// ==============================================
+
+$j(document).ready(function() {
+    function scrollToAnchor(aid) {
+        var aTag = $j("div[class='" + aid + "']");
+        $j('html,body').animate({scrollTop: aTag.offset().top}, 'slow');
+    }
+
+    $j("#review-count-id").click(function () {
+        scrollToAnchor('reviews-info-block');
+    });
+});

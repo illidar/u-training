@@ -32,7 +32,7 @@
             </div>
         <?php endif;?>
         <p class="rating-links">
-            <a href="#customer-reviews"><?php echo $this->__('%d review(s)', $this->getReviewsCount()) ?></a>
+            <a href="#" id="review-count-id"><?php echo $this->__('%d review(s)', $this->getReviewsCount()) ?></a>
         </p>
     </div>
 <?php elseif ($this->getDisplayIfEmpty()): ?>

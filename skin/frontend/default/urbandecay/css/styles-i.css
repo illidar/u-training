@@ -392,8 +392,8 @@ div.select_wrapper {
 
 .box-collateral .std {
     margin: 0 0 20px;
-    overflow-y: auto;
-    max-height: 300px;
+    overflow: auto;
+    max-height: 360px;
 }
 
 .product-pricing, .tier-prices {

@@ -50,7 +50,8 @@ $_attributes = Mage::helper('core')->decorateArray($this->getAllowAttributes());
     <script type="text/javascript">
         var spConfig = new Product.Config(<?php echo json_encode($jsonConfig); ?>);
         $j(document).ready(function(){
-            $j('#product-addtocart-button').attr("disabled", true);$j('#product-addtocart-button').addClass('disabled_button');
+            $j('#product-addtocart-button').attr("disabled", true);
+            $j('#product-addtocart-button').addClass('disabled_button');
 
             $j("#attribute<?php echo $_attribute->getAttributeId() ?>").selectbox({
                 onChange: function () {
