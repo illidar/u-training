@@ -117,7 +117,7 @@
 			}; // first element of group
 			
 			// insert rating star (thanks Jan Fanslau rev125 for blind support https://code.google.com/p/jquery-star-rating-plugin/issues/detail?id=125)
-			var star = $('<div role="text" aria-label="'+ this.title +'" class="star-rating rater-'+ control.serial +'"><a title="' + (this.title || this.value) + '">' + this.value + '</a></div>');
+			var star = $('<div role="text" aria-label="'+ this.title +'" name="'+ this.name +'" class="star-rating rater-'+ control.serial +'"><a title="' + (this.title || this.value) + '">' + this.value + '</a></div>');
 			rater.append(star);
 			
 			// inherit attributes from input element
@@ -211,7 +211,7 @@
 		// Used to append a unique serial number to internal control ID
 		// each time the plugin is invoked so same name controls can co-exist
 		calls: 0,
-		
+
 		focus: function(){
 			var control = this.data('rating'); if(!control) return this;
 			if(!control.focus) return this; // quick fail if not required

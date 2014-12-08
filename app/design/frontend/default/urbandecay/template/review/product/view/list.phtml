@@ -49,10 +49,10 @@
                 <div class="review-right-block">
                     <div class="review-social-links-container">
                         <a class="review-social-facebook" href="https://www.facebook.com/" target="_blank">
-                            <img width="19" height="19" class="review-social-facebook-image" src="http://urbandecay.lxc/urbandecay/skin/frontend/default/urbandecay/images/link-facebook.gif" alt="Facebook" title="Add to Facebook" />
+                            <img width="19" height="19" class="review-social-facebook-image" src="<?php echo $this->getSkinUrl('images/link-facebook.gif') ?>" alt="Facebook" title="Add to Facebook" />
                         </a>
                         <a class="review-social-twitter" href="https://twitter.com/" target="_blank">
-                            <img width="19" height="19" class="review-social-twitter-image" src="http://urbandecay.lxc/urbandecay/skin/frontend/default/urbandecay/images/link-twitter.gif" alt="Twitter" title="Tweet this" />
+                            <img width="19" height="19" class="review-social-twitter-image" src="<?php echo $this->getSkinUrl('images/link-twitter.gif') ?>" alt="Twitter" title="Tweet this" />
                         </a>
                     </div>
                     <div class="date"><?php echo $this->formatDate($_review->getCreatedAt(), 'long', false) ?></div>

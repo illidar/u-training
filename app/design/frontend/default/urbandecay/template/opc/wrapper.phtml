@@ -110,37 +110,9 @@ $theme = Mage::getDesign()->getTheme('frontend');
 </div>
 
 <div class="b-customer_service-assets">
-    <div class="b-customer_service-item">
-        <div class=" content_asset">
-            <div class="b-widget">
-                <h3 class="b-widget-title">Customer Service</h3>
-                <p class="b-widget-info">Got questions? We've got answers!</p>
-                <ul class="b-widget-list">
-                    <li class="b-widget-list_item"><a href="tel:+18007848722">1.800.784.8722</a></li>
-                </ul>
-                <p class="b-widget-info">Mon - Fri: 7am - 5pm, PST (Excluding holidays)</p>
-            </div>
-        </div>
+    <div class="bottom-banners">
+        <?php echo $this->getLayout()->createBlock('cms/block')->setBlockId('customer_service_bottom')->toHtml(); ?>
+        <?php echo $this->getLayout()->createBlock('cms/block')->setBlockId('live_chat_bottom')->toHtml(); ?>
+        <?php echo $this->getLayout()->createBlock('cms/block')->setBlockId('faqs_bottom')->toHtml(); ?>
     </div>
-    <div class="b-customer_service-item">
-        <div class=" content_asset">
-            <div class="b-widget">
-                <h3 class="b-widget-title">Live Chat</h3>
-                <p class="b-widget-info">Our Beauty Advisors are ready to answer your questions.</p>
-                <ul class="b-widget-list">
-                    <li id="lpchatbuttondiv" class="b-widget-list_item" style="visibility: visible;"><a href="#" class="'b-widget-list_link'" onclick="lpMTagConfig.dynButton0.actionHook();"> </a></li>
-                </ul>
-                <p class="b-widget-info">Mon - Fri: 7am - 4pm, PST (Excluding holidays)</p>
-            </div>
-        </div>
-    </div>
-    <div class="b-customer_service-item">
-        <div class="content_asset">
-            <div class="b-widget">
-                <h3 class="b-widget-title">FAQs</h3>
-                <p class="b-widget-info">Check out our <a href="https://www.urbandecay.com/faq">FAQ section</a> to see if we’ve covered your question.</p>
-            </div>
-        </div>
-    </div>
-    <div class="clear"></div>
 </div>

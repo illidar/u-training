@@ -56,10 +56,6 @@ $j(document).ready(function(){
     });
 });
 
-$j(function () {
-    $j(".input-box select").selectbox();
-});
-
 // ==============================================
 // Review Rating Lines
 // ==============================================
@@ -83,18 +79,18 @@ $j(document).ready(function() {
             default:  $this.attr('title', '');
         }
     });
-//                            for (var i = 1; i <= <?php //echo count($this->getRatings()) ?>//; i++) {
-//                                $j('.ratings['+ i +']').rating({
-//                                    focus: function (value, link) {
-//                                        var tip = $('#hover-radio['+ i +']');
-//                                        tip[0].data = tip[0].data || tip.html();
-//                                        tip.html(link.title || 'value: ' + value);
-//                                    },
-//                                    blur: function (value, link) {
-//                                        var tip = $j('#hover-radio['+ i +']');
-//                                        $j('#hover-radio['+ i +']').html(tip[0].data || '');
-//                                    }
-//                                });
-//                            }
+
+    $j('.hover-star').rating({
+        focus: function(value, link){
+            var tip = $j("#hover_" + $j(this).context.name);
+            tip[0].data = tip[0].data || tip.html();
+            tip.html(link.title || 'value: '+value);
+        },
+        blur: function(value, link){
+            var tip = $j("#hover_" + $j(this).context.name);
+            $j("#hover_" + $j(this).context.name).html(tip[0].data || '');
+        }
+    });
+
 });
 

@@ -673,7 +673,14 @@ input:focus {
 }
 .cart-item-title {
     min-height: 40px;
-    padding: 8px 0 10px 0;
+    padding: 8px 0 0 0;
+}
+.item-options dd {
+    color: #b69fc5;
+    font: 12px/16px "ProximaNova-Semibold",sans-serif;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
 }
 .cart-item-edit {
     padding: 0 10px 10px 0;

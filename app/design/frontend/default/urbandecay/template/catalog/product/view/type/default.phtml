@@ -42,8 +42,31 @@ $_attributes = Mage::helper('core')->decorateArray($this->getAllowAttributes());
                 </select>
             </div>
         <?php endforeach; ?>
+        <?php
+            $jsonConfig = json_decode($this->getJsonConfig());
+            $jsonConfig->chooseText = $_attribute->getLabel();
+        ?>
+
     <script type="text/javascript">
-        var spConfig = new Product.Config(<?php echo $this->getJsonConfig() ?>);
+        var spConfig = new Product.Config(<?php echo json_encode($jsonConfig); ?>);
+        $j(document).ready(function(){
+            $j('#product-addtocart-button').attr("disabled", true);$j('#product-addtocart-button').addClass('disabled_button');
+
+            $j("#attribute<?php echo $_attribute->getAttributeId() ?>").selectbox({
+                onChange: function () {
+                    var selectVal = $j(".product-select-options .input-box .sbSelector").text();
+                    if (selectVal == <?php echo json_encode($jsonConfig->chooseText); ?>) {
+                        $j('#product-addtocart-button').attr("disabled", true);
+                        $j('#product-addtocart-button').addClass('disabled_button');
+                    } else {
+                        $j('#product-addtocart-button').attr("disabled", false);
+                        $j('#product-addtocart-button').removeClass('disabled_button');
+                    }
+                },
+                effect: "slide",
+                speed: 400
+            });
+        });
     </script>
 <?php endif;?>
 
