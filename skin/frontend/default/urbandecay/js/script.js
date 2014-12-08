@@ -12,6 +12,8 @@ $j(document).ready(function(){
     $j('.box-collateral h2').click(function() {
         var txt = $j(this).text();
         $j("h2:contains('"+txt+"')").siblings('.box-collateral div').slideToggle("fast", function() {
+
+            // js scroll plugin
             if ($j(this).is(':visible')) {
                 $j(this).jScrollPane(
                     {
@@ -105,7 +107,7 @@ $j(document).ready(function() {
 
 
 // ==============================================
-// Animate scroll on pvoduct view page
+// Animate scroll on product view page
 // ==============================================
 
 $j(document).ready(function() {
@@ -117,4 +119,15 @@ $j(document).ready(function() {
     $j("#review-count-id").click(function () {
         scrollToAnchor('reviews-info-block');
     });
+});
+
+$j(document).mousemove(function() {
+    if($j('.header-cart-link').is(':hover') || $j('.header-cart-mini-div-wrapper').is(':visible')) {
+        $j('.mini-cart-items-in-bag-wrapper').jScrollPane(
+            {
+                verticalDragMinHeight: 114,
+                verticalDragMaxHeight: 114
+            }
+        )
+    }
 });

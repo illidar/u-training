@@ -2162,10 +2162,10 @@ div.select a {
     float: right;
 }
 .mini-cart-items-in-bag-wrapper {
-    padding: 0 20px 0 35px;
     height: 240px;
-    overflow-y: scroll;
+    overflow: auto;
     margin-right: 10px;
+    width: 480px;
 }
 .mini-cart-item-image {
     width: 100px;
@@ -2174,7 +2174,7 @@ div.select a {
 }
 .mini-cart-item {
     height: 100px;
-    padding-bottom: 40px;
+    padding: 0 20px 40px 35px;
 }
 .header-top-box .quick-access .header-customer-info ul.top-links li .mini-cart-item-name a {
     font: 14px/16px "ProximaNova-Bold",sans-serif;
