@@ -25,21 +25,15 @@
  */
 ?>
 <div class="block block-account">
+
+
+
     <div class="block-user-avatar-wrapper">
-    <div class="block-user-avatar">
-        <img src="<?php echo $this->getSkinUrl('images/photo.png') ?>" alt="avatar" width="114">
+        <?php $_avatar = $this->getLayout()->createBlock('avatar/widget_avatar') ?>
+        <?php if ($_avatar->isEnabled()): ?>
+            <?php echo $_avatar->setAvatar(Mage::getSingleton('customer/session')->getCustomer()->getAvatar())->toHtml() ?>
+        <?php endif ?>
     </div>
-        <a href="#">
-            <div class="edit-avatar"></div>
-        </a>
-    </div>
-    <div class="accountPhoto"><?php echo Mage::helper('avatar')->getCustomerAvatar(50,true);?></div>
-
-    <?php $_avatar = $this->getLayout()->createBlock('avatar/widget_avatar') ?>
-    <?php if ($_avatar->isEnabled()): ?>
-        <li><?php echo $_avatar->setAvatar(Mage::getSingleton('customer/session')->getCustomer()->getAvatar())->toHtml() ?></li>
-    <?php endif ?>
-
     <div class="block-title">
         <strong><span><?php echo $this->__('Hi!,<a href="#"> %s </a>', Mage::helper('customer')->getCustomerName()) ?></span></strong>
     </div>

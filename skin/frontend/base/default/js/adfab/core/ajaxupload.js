@@ -317,20 +317,20 @@
         setData: function(data){
             this._settings.data = data;
         },
-        disable: function(){            
+        disable: function(){
             addClass(this._button, this._settings.disabledClass);
             this._disabled = true;
-            
-            var nodeName = this._button.nodeName.toUpperCase();            
+
+            var nodeName = this._button.nodeName.toUpperCase();
             if (nodeName == 'INPUT' || nodeName == 'BUTTON'){
                 this._button.setAttribute('disabled', 'disabled');
-            }            
-            
+            }
+
             // hide input
             if (this._input){
                 // We use visibility instead of display to fix problem with Safari 4
-                // The problem is that the value of input doesn't change if it 
-                // has display none when user selects a file           
+                // The problem is that the value of input doesn't change if it
+                // has display none when user selects a file
                 this._input.parentNode.style.visibility = 'hidden';
             }
         },
@@ -338,7 +338,7 @@
             removeClass(this._button, this._settings.disabledClass);
             this._button.removeAttribute('disabled');
             this._disabled = false;
-            
+
         },
         /**
          * Creates invisible file input 
@@ -386,7 +386,7 @@
                     throw new Error('Opacity not supported by the browser');
                 }
                 div.style.filter = "alpha(opacity=0)";
-            }            
+            }
             
             addEvent(input, 'change', function(){
                  
