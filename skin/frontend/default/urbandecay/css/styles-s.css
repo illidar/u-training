@@ -1304,11 +1304,6 @@ div #popupContent {
     border-radius: 57px;
     overflow: hidden;
 }
-#uploadPhoto {
-    background-image: url("../images/edit_logo.png");
-    width: 20px;
-    height: 20px;
-}
 
 .edit-avatar {
     border: none;
