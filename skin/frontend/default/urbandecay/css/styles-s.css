@@ -1301,13 +1301,8 @@ div #popupContent {
 }
 .block-user-avatar {
     width: 114px;
-    border-radius: 57px;
+    border-radius: 50%;
     overflow: hidden;
-}
-#uploadPhoto {
-    background-image: url("../images/edit_logo.png");
-    width: 20px;
-    height: 20px;
 }
 
 .edit-avatar {
@@ -2629,3 +2624,24 @@ div.select a {
 .contacts-index-index .main {
     padding-bottom: 30px;
 }
+
+/* #################### SEARCH RESULT ################## */
+
+.catalogsearch-result-index .main {
+    width: 100%;
+    max-width: 960px;
+    background: none;
+    background-color: #ffffff;
+    padding: 30px 0 0 0;
+    margin: 0 auto;
+}
+.catalogsearch-result-index  .category-view  {
+    width: 100%;
+    max-width: 960px;
+    background: none;
+    background-color: #ffffff;
+    padding: 0;
+    margin: 0 auto;
+    padding-bottom: 40px;
+}
+
