@@ -27,13 +27,14 @@
 <div class="block block-account">
 
 
-
-    <div class="block-user-avatar-wrapper">
-        <?php $_avatar = $this->getLayout()->createBlock('avatar/widget_avatar') ?>
-        <?php if ($_avatar->isEnabled()): ?>
+    <form action="<?php echo $this->getUrl('customer/account/editPost') ?>" method="post" id="uploadCustomerImageForm">
+        <?php echo $this->getBlockHtml('formkey')?>
+        <div class="block-user-avatar-wrapper">
+            <?php $_avatar = $this->getLayout()->createBlock('avatar/widget_avatar') ?>
             <?php echo $_avatar->setAvatar(Mage::getSingleton('customer/session')->getCustomer()->getAvatar())->toHtml() ?>
-        <?php endif ?>
-    </div>
+        </div>
+
+    </form>
     <div class="block-title">
         <strong><span><?php echo $this->__('Hi!,<a href="#"> %s </a>', Mage::helper('customer')->getCustomerName()) ?></span></strong>
     </div>

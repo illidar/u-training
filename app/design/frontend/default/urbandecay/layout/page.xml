@@ -62,6 +62,7 @@ Default layout, loads most of the pages
                 <action method="addItem"><type>skin_js</type><name>js/jquery.rating.js</name></action>
                 <action method="addItem"><type>skin_js</type><name>js/jquery.jscrollpane.js</name></action>
                 <action method="addItem"><type>skin_js</type><name>js/jquery.mousewheel.js</name></action>
+                <action method="addItem"><type>skin_js</type><name>js/adfab/core/ajaxupload.js</name></action>
 
                 <block type="page/js_cookie" name="js_cookies" template="page/js/cookie.phtml"/>
 
@@ -76,6 +77,7 @@ Default layout, loads most of the pages
                 <action method="addCss"><stylesheet>css/jquery.selectbox.css</stylesheet></action>
                 <action method="addCss"><stylesheet>css/jquery.rating.css</stylesheet></action>
                 <action method="addCss"><stylesheet>css/jquery.jscrollpane.css</stylesheet></action>
+                <action method="addCss"><stylesheet>css/avatar/avatar.css</stylesheet></action>
 
                 <action method="addItem"><type>js</type><name>lib/ds-sleight.js</name><params/><if>lt IE 7</if></action>
                 <action method="addItem"><type>skin_js</type><name>js/ie6.js</name><params/><if>lt IE 7</if></action>
