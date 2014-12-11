@@ -1301,7 +1301,7 @@ div #popupContent {
 }
 .block-user-avatar {
     width: 114px;
-    border-radius: 57px;
+    border-radius: 50%;
     overflow: hidden;
 }
 
@@ -1987,7 +1987,7 @@ div.select a {
     border: 1px solid #d9d9d9;
 }
 .header-bag-wrapper .header-bag-img {
-    margin: -10px 4px 0 0;
+    margin: -3px 4px 0 0;
     width: 22px;
     height: 30px;
     background-image: url("../images/bag1.png");
@@ -2122,7 +2122,7 @@ div.select a {
     width: 735px;
     height: 475px;
     background-color: #ffffff;
-    margin: 14px 0 0 -629px;
+    margin: 6px 0 0 -629px;
     border: 1px solid #d9d9d9;
     text-align: left;
     display: none;
@@ -2157,10 +2157,10 @@ div.select a {
     float: right;
 }
 .mini-cart-items-in-bag-wrapper {
-    padding: 0 20px 0 35px;
     height: 240px;
-    overflow-y: scroll;
+    overflow: auto;
     margin-right: 10px;
+    width: 480px;
 }
 .mini-cart-item-image {
     width: 100px;
@@ -2169,7 +2169,7 @@ div.select a {
 }
 .mini-cart-item {
     height: 100px;
-    padding-bottom: 40px;
+    padding: 0 20px 40px 35px;
 }
 .header-top-box .quick-access .header-customer-info ul.top-links li .mini-cart-item-name a {
     font: 14px/16px "ProximaNova-Bold",sans-serif;

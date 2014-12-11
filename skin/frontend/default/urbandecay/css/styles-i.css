@@ -21,12 +21,26 @@
 .header-top-box { border-bottom: 1px solid #473555; float: none; position: fixed; background: url(../images/bg_header.jpg) repeat-x; padding: 0 0 0 20px; width: 100%; height: 40px; z-index: 9999 }
 .header-top-box .quick-access { width: 100%; margin:0 auto; padding: 0; position:relative; }
 .header-top-box .quick-access .header-customer-info { float: right; }
-.header-top-box .quick-access .header-customer-info ul.top-links  {margin: 15px 40px 0 0; list-style: none; }
-.header-top-box .quick-access .header-customer-info ul.top-links li { margin-left: 40px; float: left; color: #b69fc5; font: 11px/12px "ProximaNova-Semibold",sans-serif; }
+.header-top-box .quick-access .header-customer-info ul.top-links  {margin: 8px 40px 0 0; list-style: none; }
+.header-top-box .quick-access .header-customer-info ul.top-links li {
+    margin-left: 40px;
+    float: left;
+    color: #b69fc5;
+    font: 11px/12px "ProximaNova-Semibold",sans-serif;
+    line-height: 2.5em;
+}
 .header-top-box .quick-access .header-customer-info ul.top-links li a { text-decoration: none; color: #867592; transition-property: all; transition-duration: 300ms; }
 .header-top-box .quick-access .header-customer-info ul.top-links li a:hover { text-decoration: none; color:#ffffff; }
 .header-top-box .quick-access .header-customer-info ul.top-links li a.customer-page-link { padding-right: 10px; border-right: 1px solid #b69fc5; }
 .header-top-box .quick-access .header-customer-info ul.top-links li a.login { padding-left: 10px; }
+
+.customer-mini-avatar {
+    border: 0;
+    vertical-align: middle;
+    background-color: #ffffff;
+    border-radius: 50%;
+    margin-right: 5px;
+}
 
 .header-container { border: 0; position: relative; z-index: 999; padding: 35px 0 0; background:url(../images/bg_header.jpg) repeat-x scroll 0 0 #1b0a25;}
 
@@ -392,8 +406,8 @@ div.select_wrapper {
 
 .box-collateral .std {
     margin: 0 0 20px;
-    overflow-y: auto;
-    max-height: 300px;
+    overflow: auto;
+    max-height: 360px;
 }
 
 .product-pricing, .tier-prices {
