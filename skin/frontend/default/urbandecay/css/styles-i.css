@@ -41,6 +41,9 @@
     border-radius: 50%;
     margin-right: 5px;
 }
+.edit-avatar-img {
+    background-image: url("../images/edit_logo.png");
+}
 
 .header-container { border: 0; position: relative; z-index: 999; padding: 35px 0 0; background:url(../images/bg_header.jpg) repeat-x scroll 0 0 #1b0a25;}
 

@@ -375,8 +375,7 @@
                 // in Internet Explorer
                 'direction' : 'ltr',
                 //Max zIndex supported by Opera 9.0-9.2
-                'zIndex': 2147483583,
-                'background-image': 'url("/urbandecay/skin/frontend/default/urbandecay/images/edit_logo.png")'
+                'zIndex': 2147483583
             });
             
             addEvent(input, 'change', function(){
@@ -402,10 +401,12 @@
 
             addEvent(input, 'mouseover', function(){
                 addClass(self._button, self._settings.hoverClass);
+                addClass(div, 'edit-avatar-img');
             });
             
             addEvent(input, 'mouseout', function(){
                 removeClass(self._button, self._settings.hoverClass);
+                removeClass(div, 'edit-avatar-img');
                 
                 // We use visibility instead of display to fix problem with Safari 4
                 // The problem is that the value of input doesn't change if it 
