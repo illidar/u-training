@@ -2645,3 +2645,13 @@ div.select a {
     padding-bottom: 40px;
 }
 
+/*******************************/
+
+.customer-address-form .form-list .input-box .input-text {
+    width: 315px;
+}
+.customer-address-form .form-list .input-box .validate-select{
+    width: 340px;
+    height: 32px;
+}
+
