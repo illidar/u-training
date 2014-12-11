@@ -2648,7 +2648,7 @@ div.select a {
 /*******************************/
 
 .customer-address-form .form-list .input-box .input-text {
-    width: 315px;
+    width: 315px !important;
 }
 .customer-address-form .form-list .input-box .validate-select{
     width: 340px;
