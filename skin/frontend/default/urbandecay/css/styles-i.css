@@ -82,7 +82,7 @@ ul#nav > li { display: inline-block; float: none; position: relative; }
     position: absolute;
     bottom: 100%;
     left: 50%;
-    margin-left: -60px;
+    margin-left: -80px;
     width: 0; height: 0;
     border-bottom: 8px solid #FFFFFF;
     border-right: 8px solid transparent;
