@@ -1,6 +1,12 @@
 input:focus {
     background-color: #ffffff !important;
 }
+body {
+    background: none !important;
+}
+.wrapper {
+    background-color: #ffffff;
+}
 
 /* ################### FOOTER ########################### */
 .footer-container {

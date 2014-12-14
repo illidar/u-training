@@ -19,7 +19,7 @@ New customer registration with Avatar upload
 			<action method="addItem"><type>skin_js</type><name>js/adfab/core/ajaxupload.js</name></action>
         </reference>
         <reference name="customer_form_register">
-            <action method="setTemplate"><template>adfab/avatar/persistent/customer/form/register.phtml</template></action>
+            <!--<action method="setTemplate"><template>adfab/avatar/persistent/customer/form/register.phtml</template></action>-->
         </reference>
     </customer_account_create>
 
