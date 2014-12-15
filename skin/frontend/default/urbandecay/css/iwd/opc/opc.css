@@ -238,32 +238,3 @@
 
 
 
-@media (max-width: 1250px) {
-	.opc-wrapper-opc .opc-col-left .fields .field:first-child {
-    	margin-right: 20px;
-	}
-}
-
-@media (max-width: 1180px) {
-	.opc-wrapper-opc .opc-col-left .fields .field:first-child {
-    	margin-right: 15px;
-	}
-}
-
-@media (max-width: 980px) {
-	.opc-wrapper-opc .opc-col-left{width:100%;float:none;margin-bottom:30px;margin-left:0}
-	.opc-wrapper-opc .opc-col-center{width:100%;float:none;margin-bottom:30px;margin-left:0}
-	.opc-wrapper-opc .opc-col-right{width:100%;float:none;margin-bottom:30px;margin-left:0}
-	
-	.opc-wrapper-opc .opc-col-left .fields .field{float:right;}
-	.opc-wrapper-opc .opc-col-left .fields .field:first-child{float:left;}
-	.opc-wrapper-opc .opc-data-table{width:100%;}
-}
-
-
-@media (min-width: 768px) {
-	.modal-dialog {width: 305px;    margin: 30px auto;  }
-	#agreement-dialog .modal-dialog{width:600px}
-	.modal-content {-webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, .5);            box-shadow: 0 5px 15px rgba(0, 0, 0, .5);  }
-	.modal-sm {   width: 300px;}
-}

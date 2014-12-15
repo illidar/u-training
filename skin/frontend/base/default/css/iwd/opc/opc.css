@@ -254,7 +254,7 @@
 	.opc-wrapper-opc .opc-col-left{width:100%;float:none;margin-bottom:30px;margin-left:0}
 	.opc-wrapper-opc .opc-col-center{width:100%;float:none;margin-bottom:30px;margin-left:0}
 	.opc-wrapper-opc .opc-col-right{width:100%;float:none;margin-bottom:30px;margin-left:0}
-	
+
 	.opc-wrapper-opc .opc-col-left .fields .field{float:right;}
 	.opc-wrapper-opc .opc-col-left .fields .field:first-child{float:left;}
 	.opc-wrapper-opc .opc-data-table{width:100%;}
