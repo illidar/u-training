@@ -1123,26 +1123,25 @@ button.button > span:hover {
     position: relative;
     cursor: pointer;
 }
-
 .opc-wrapper-opc .opc-col-left .control > input[type='checkbox'] + label {
     padding-left: 24px;
-    background: url('../images/checkout_checkbox.png') transparent no-repeat 4px 6px;
+    background: url('../images/checkout_checkbox.png') transparent no-repeat 4px 2px;
     position: relative;
     left: -21px;
     cursor: pointer;
 }
 .form-list li.wide .input-box, #checkout-payment-method-load .input-box { height: auto; }
 .opc-wrapper-opc .opc-col-left .control > input[type='checkbox']:checked + label {
-    background: url('../images/checkout_checkbox_checked.png') transparent no-repeat 4px 2px
+    background: url('../images/checkout_checkbox_checked.png') transparent no-repeat 4px -2px;
 }
-
 .opc-wrapper-opc .shipping-block h3 {
     font: 16px/1.2em "ProximaNova-Bold",sans-serif;
     text-transform: none;
-    margin: 0;
-    border: none;
+    border-top: 1px solid #dacde1;
+    border-bottom: none;
+    padding-top: 20px;
+    margin: 20px 0 0 0;
 }
-
 .discount-block .f_legend .f_legend_value {
     text-transform: uppercase;
     color: #350958;
@@ -1277,6 +1276,33 @@ button.button > span:hover {
     text-align: center;
 }
 .opc-col-right .checkout_cart_actions .paypal-checkout { width: auto; margin: 0; padding: 0; }
+.opc-wrapper-opc .opc-col-left .wide select {
+    height: 30px !important;
+}
+.save_in_address_book input[type='checkbox'] {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    width: 17px;
+    height: 17px;
+    z-index: 99999;
+    position: relative;
+    cursor: pointer;
+}
+.save_in_address_book input[type='checkbox'] + label {
+    float: none;
+    padding-left: 24px;
+    background: url('../images/checkout_checkbox.png') transparent no-repeat 4px 2px;
+    position: relative;
+    left: -21px;
+    font-family: "ProximaNova-Regular",sans-serif;
+    font-size: 13px;
+    color: #000000;
+    cursor: pointer;
+    height: 17px;
+}
+.save_in_address_book input[type='checkbox']:checked + label {
+    background: url('../images/checkout_checkbox_checked.png') transparent no-repeat 4px -2px;
+}
 
 /**** payment_success_block ****/
 .payment_success_block, .payment_error_block {

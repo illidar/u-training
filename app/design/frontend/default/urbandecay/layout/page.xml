@@ -56,7 +56,6 @@ Default layout, loads most of the pages
                 <action method="addItem"><type>skin_js</type><name>js/popup.js</name></action>
                 <action method="addItem"><type>skin_js</type><name>js/script.js</name></action>
                 <action method="addItem"><type>skin_js</type><name>js/jquery-ias.min.js</name></action>
-                <action method="addItem"><type>skin_js</type><name>js/infinite_scroll.js</name></action>
                 <action method="addItem"><type>skin_js</type><name>js/jquery.selectbox-0.2.js</name></action>
                 <action method="addItem"><type>skin_js</type><name>js/jquery.rating.js</name></action>
                 <action method="addItem"><type>skin_js</type><name>js/jquery.jscrollpane.js</name></action>
