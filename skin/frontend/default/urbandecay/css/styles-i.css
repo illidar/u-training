@@ -327,7 +327,7 @@ div.select_wrapper {
 }
 .product-select-options #slct_decor_arrow {
     position: absolute;
-    border: 6px solid transparent;
+    border: 5px solid transparent;
     border-top-color: #46166b;
     top: 16px;
     right: 15px;
@@ -338,7 +338,7 @@ div.select_wrapper {
 }
 .product-select-options #slct_decor_arrow.active_arrow {
     border-bottom-color: #46166b;
-    top: 9px;
+    top: 10px;
     border-top-color: transparent;
 }
 
@@ -959,6 +959,34 @@ button.button > span:hover {
     text-transform: uppercase;
     text-align: center;
     margin: 0 0 25px 0;
+}
+.sorter .sort-by .sbHolder {
+    padding: 0 9px 0 9px;
+    border: 1px solid #b69fc5;
+    cursor: pointer;
+    width: 180px;
+    height: 30px;
+    display: inline-block;
+    vertical-align: middle;
+    background: none;
+}
+.sorter .sort-by .sbHolder .sbSelector {
+    font: 13px/30px "ProximaNova-Regular",sans-serif;
+    color: #919191;
+    text-transform: capitalize;
+}
+.sorter .sort-by .sbOptions {
+    top: 31px !important;
+    left: -1px;
+    width: 198px;
+    border: 1px solid #b69fc5;
+    background: #ffffff;
+}
+.sorter .sort-by .sbOptions a {
+    border: none;
+    cursor: pointer;
+    font-family: "ProximaNova-Semibold",sans-serif;
+    color: #000000;
 }
 /* END Category View ========================================================================== */
 
