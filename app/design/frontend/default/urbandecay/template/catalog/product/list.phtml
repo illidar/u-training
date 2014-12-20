@@ -67,7 +67,20 @@
         </ul>
         <?php endif ?>
         <?php endforeach ?>
-        <script type="text/javascript">decorateGeneric($$('ul.products-grid'), ['odd','even','first','last'])</script>
+        <script type="text/javascript">
+            decorateGeneric($$('ul.products-grid'), ['odd','even','first','last']);
+
+            $j(document).ready(function() {
+                $j.ias({
+                    container : ".category-products",
+                    item : "ul.products-grid",
+                    next : "a.next",
+                    pagination : '.pages',
+                    loader : "<img src='<?php echo $this->getSkinUrl('images/loading-small.gif')?>' />",
+                    triggerPageThreshold : 9999
+                });
+            });
+        </script>
     <?php endif; ?>
 </div>
 

@@ -41,6 +41,9 @@
     border-radius: 50%;
     margin-right: 5px;
 }
+.edit-avatar-img {
+    background-image: url("../images/edit_logo.png");
+}
 
 .header-container { border: 0; position: relative; z-index: 999; padding: 35px 0 0; background:url(../images/bg_header.jpg) repeat-x scroll 0 0 #1b0a25;}
 
@@ -79,7 +82,7 @@ ul#nav > li { display: inline-block; float: none; position: relative; }
     position: absolute;
     bottom: 100%;
     left: 50%;
-    margin-left: -60px;
+    margin-left: -80px;
     width: 0; height: 0;
     border-bottom: 8px solid #FFFFFF;
     border-right: 8px solid transparent;
@@ -324,7 +327,7 @@ div.select_wrapper {
 }
 .product-select-options #slct_decor_arrow {
     position: absolute;
-    border: 6px solid transparent;
+    border: 5px solid transparent;
     border-top-color: #46166b;
     top: 16px;
     right: 15px;
@@ -335,7 +338,7 @@ div.select_wrapper {
 }
 .product-select-options #slct_decor_arrow.active_arrow {
     border-bottom-color: #46166b;
-    top: 9px;
+    top: 10px;
     border-top-color: transparent;
 }
 
@@ -957,6 +960,34 @@ button.button > span:hover {
     text-align: center;
     margin: 0 0 25px 0;
 }
+.sorter .sort-by .sbHolder {
+    padding: 0 9px 0 9px;
+    border: 1px solid #b69fc5;
+    cursor: pointer;
+    width: 180px;
+    height: 30px;
+    display: inline-block;
+    vertical-align: middle;
+    background: none;
+}
+.sorter .sort-by .sbHolder .sbSelector {
+    font: 13px/30px "ProximaNova-Regular",sans-serif;
+    color: #919191;
+    text-transform: capitalize;
+}
+.sorter .sort-by .sbOptions {
+    top: 31px !important;
+    left: -1px;
+    width: 198px;
+    border: 1px solid #b69fc5;
+    background: #ffffff;
+}
+.sorter .sort-by .sbOptions a {
+    border: none;
+    cursor: pointer;
+    font-family: "ProximaNova-Semibold",sans-serif;
+    color: #000000;
+}
 /* END Category View ========================================================================== */
 
 /* Checkout ========================================================================== */
@@ -1092,26 +1123,25 @@ button.button > span:hover {
     position: relative;
     cursor: pointer;
 }
-
 .opc-wrapper-opc .opc-col-left .control > input[type='checkbox'] + label {
     padding-left: 24px;
-    background: url('../images/checkout_checkbox.png') transparent no-repeat 4px 6px;
+    background: url('../images/checkout_checkbox.png') transparent no-repeat 4px 2px;
     position: relative;
     left: -21px;
     cursor: pointer;
 }
 .form-list li.wide .input-box, #checkout-payment-method-load .input-box { height: auto; }
 .opc-wrapper-opc .opc-col-left .control > input[type='checkbox']:checked + label {
-    background: url('../images/checkout_checkbox_checked.png') transparent no-repeat 4px 2px
+    background: url('../images/checkout_checkbox_checked.png') transparent no-repeat 4px -2px;
 }
-
 .opc-wrapper-opc .shipping-block h3 {
     font: 16px/1.2em "ProximaNova-Bold",sans-serif;
     text-transform: none;
-    margin: 0;
-    border: none;
+    border-top: 1px solid #dacde1;
+    border-bottom: none;
+    padding-top: 20px;
+    margin: 20px 0 0 0;
 }
-
 .discount-block .f_legend .f_legend_value {
     text-transform: uppercase;
     color: #350958;
@@ -1246,6 +1276,33 @@ button.button > span:hover {
     text-align: center;
 }
 .opc-col-right .checkout_cart_actions .paypal-checkout { width: auto; margin: 0; padding: 0; }
+.opc-wrapper-opc .opc-col-left .wide select {
+    height: 30px !important;
+}
+.save_in_address_book input[type='checkbox'] {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    width: 17px;
+    height: 17px;
+    z-index: 99999;
+    position: relative;
+    cursor: pointer;
+}
+.save_in_address_book input[type='checkbox'] + label {
+    float: none;
+    padding-left: 24px;
+    background: url('../images/checkout_checkbox.png') transparent no-repeat 4px 2px;
+    position: relative;
+    left: -21px;
+    font-family: "ProximaNova-Regular",sans-serif;
+    font-size: 13px;
+    color: #000000;
+    cursor: pointer;
+    height: 17px;
+}
+.save_in_address_book input[type='checkbox']:checked + label {
+    background: url('../images/checkout_checkbox_checked.png') transparent no-repeat 4px -2px;
+}
 
 /**** payment_success_block ****/
 .payment_success_block, .payment_error_block {

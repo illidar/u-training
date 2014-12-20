@@ -67,9 +67,9 @@ $j(document).ready(function(){
     });
 });
 
-// ==============================================
-// Review Rating Lines
-// ==============================================
+    // ==============================================
+    // Review Rating Lines
+    // ==============================================
 
 $j(document).ready(function() {
     $j("input:radio[class^=radio]").each(function() {
@@ -106,9 +106,9 @@ $j(document).ready(function() {
 });
 
 
-// ==============================================
-// Animate scroll on product view page
-// ==============================================
+    // ==============================================
+    // Animate scroll
+    // ==============================================
 
 $j(document).ready(function() {
     function scrollToAnchor(aid) {
@@ -130,4 +130,14 @@ $j(document).mousemove(function() {
             }
         )
     }
+});
+
+    // ==============================================
+    // Sort By Select Box
+    // ==============================================
+
+$j(document).ready(function() {
+    $j(function () {
+        $j("#sort_by_select").selectbox();
+    });
 });

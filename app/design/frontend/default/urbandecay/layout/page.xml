@@ -49,7 +49,6 @@ Default layout, loads most of the pages
                 <action method="addJs"><script>varien/menu.js</script></action>
                 <action method="addJs"><script>mage/translate.js</script></action>
                 <action method="addJs"><script>mage/cookies.js</script></action>
-                <action method="addItem"><type>skin_js</type><name>js/lib/jquery-1.10.2.min.js</name></action>
                 <action method="addItem"><type>skin_js</type><name>js/lib/enquire.js</name></action>
                 <action method="addItem"><type>skin_js</type><name>js/app.js</name></action>
                 <action method="addItem"><type>skin_js</type><name>js/lib/jquery.cycle2.min.js</name></action>
@@ -57,16 +56,13 @@ Default layout, loads most of the pages
                 <action method="addItem"><type>skin_js</type><name>js/popup.js</name></action>
                 <action method="addItem"><type>skin_js</type><name>js/script.js</name></action>
                 <action method="addItem"><type>skin_js</type><name>js/jquery-ias.min.js</name></action>
-                <action method="addItem"><type>skin_js</type><name>js/infinite_scroll.js</name></action>
                 <action method="addItem"><type>skin_js</type><name>js/jquery.selectbox-0.2.js</name></action>
                 <action method="addItem"><type>skin_js</type><name>js/jquery.rating.js</name></action>
                 <action method="addItem"><type>skin_js</type><name>js/jquery.jscrollpane.js</name></action>
                 <action method="addItem"><type>skin_js</type><name>js/jquery.mousewheel.js</name></action>
-                <action method="addItem"><type>skin_js</type><name>js/adfab/core/ajaxupload.js</name></action>
 
                 <block type="page/js_cookie" name="js_cookies" template="page/js/cookie.phtml"/>
 
-                <!--<action method="addItem"><type>skin_js</type><name>js/adfab/core/ajaxupload.js</name></action>-->
                 <action method="addCss"><stylesheet>css/styles.css</stylesheet></action>
                 <action method="addCss"><stylesheet>css/styles-urban.css</stylesheet></action>
                 <action method="addCss"><stylesheet>css/fonts.css</stylesheet></action>
@@ -78,7 +74,6 @@ Default layout, loads most of the pages
                 <action method="addCss"><stylesheet>css/jquery.selectbox.css</stylesheet></action>
                 <action method="addCss"><stylesheet>css/jquery.rating.css</stylesheet></action>
                 <action method="addCss"><stylesheet>css/jquery.jscrollpane.css</stylesheet></action>
-                <action method="addCss"><stylesheet>css/avatar/avatar.css</stylesheet></action>
 
                 <action method="addItem"><type>js</type><name>lib/ds-sleight.js</name><params/><if>lt IE 7</if></action>
                 <action method="addItem"><type>skin_js</type><name>js/ie6.js</name><params/><if>lt IE 7</if></action>
