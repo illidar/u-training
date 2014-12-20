@@ -27,8 +27,8 @@ body {
 }
 .social_footer {
     float: left;
-    width: 425px;
-    padding: 50px 0 0 30px;
+    width: 440px;
+    padding: 50px 0 0 0;
 }
 .social_footer img:hover {
     width: 40px;
@@ -196,12 +196,14 @@ body {
 .b-footer-column {
     width:460px
 }
-
-.g-fright {
-    float:right;
-    width:460px
+.footer-like_buttons {
+    position: relative;
+    margin-top: 10px;
 }
-
+.g-fright {
+    float:left;
+    width:280px
+}
 .l-cta-socialBtn-large {
     font-size:35px
 }
