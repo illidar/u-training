@@ -42,7 +42,7 @@
                         <div class="rating-label"><?php echo $this->escapeHtml($_rating->getRatingCode()) ?> </div>
                         <div class="rating-line">
                             <?php foreach ($_rating->getOptions() as $_option): ?>
-                                <input type="radio" name="ratings_<?php echo $_rating->getId() ?>" place="<?php echo $_option->getValue() ?>" id="<?php echo $this->escapeHtml($_rating->getRatingCode()) ?>_<?php echo $_option->getValue() ?>" value="<?php echo $_option->getId() ?>" class="radio ratings_<?php echo $_rating->getId() ?> hover-star required" />
+                                <input type="radio" name="ratings[<?php echo $_rating->getId() ?>]" place="<?php echo $_option->getValue() ?>" id="<?php echo $this->escapeHtml($_rating->getRatingCode()) ?>_<?php echo $_option->getValue() ?>" value="<?php echo $_option->getId() ?>" class="radio ratings_<?php echo $_rating->getId() ?> hover-star required" />
                             <?php endforeach; ?>
                         </div>
                         <span class="rating-stars-legend-value" id="hover_ratings_<?php echo $_rating->getId() ?>" style="margin:0 0 0 10px;"></span>

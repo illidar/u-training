@@ -93,13 +93,17 @@ $j(document).ready(function() {
 
     $j('.hover-star').rating({
         focus: function(value, link){
-            var tip = $j("#hover_" + $j(this).context.name);
+            var str = $j(this).context.name;
+            str = str.replace('[', '_').replace(']', '');
+            var tip = $j("#hover_" + str);
             tip[0].data = tip[0].data || tip.html();
             tip.html(link.title || 'value: '+value);
         },
         blur: function(value, link){
-            var tip = $j("#hover_" + $j(this).context.name);
-            $j("#hover_" + $j(this).context.name).html(tip[0].data || '');
+            var str = $j(this).context.name;
+            str = str.replace('[', '_').replace(']', '');
+            var tip = $j("#hover_" + str);
+            $j("#hover_" + str).html(tip[0].data || '');
         }
     });
 
